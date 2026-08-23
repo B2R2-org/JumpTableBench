@@ -30,10 +30,16 @@
         "tableAddress": { "$ref": "#/$defs/addr" },
         "jumpBase": { "$ref": "#/$defs/addr" },
         "entrySize": { "enum": [ 1, 2, 4, 8 ] },
-        "numEntries": { "type": "integer", "minimum": 1 },
+        "numEntries": {
+          "description": "How many entries the table holds. This is an upper bound on the number of targets, not the count of them: several entries commonly select the same block, so numEntries >= the length of targets.",
+          "type": "integer",
+          "minimum": 1
+        },
         "targets": {
+          "description": "The distinct blocks the table can reach, as a set. Entry order is not recorded and duplicates are a defect. JSON Schema cannot compare two properties, so the bound against numEntries is not enforced here.",
           "type": "array",
           "minItems": 1,
+          "uniqueItems": true,
           "items": { "$ref": "#/$defs/addr" }
         },
         "kind": {

@@ -20,7 +20,7 @@ SHA256SUMS                      one line per binary; the integrity anchor
 exclusions.json                 cases left out of scoring, and why
 ground-truth/<arch>/<case>.json one file per binary
 schema/jumptable.schema.json    JSON Schema for the above
-scripts/                        build, extract, validate
+scripts/                        generate shasums, pack tarballs
 ```
 
 `binaries/` is where a local build lands; it is gitignored.
