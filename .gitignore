@@ -1,0 +1,25 @@
+# Binaries never enter git; they ship as release tarballs. Committing one
+# would sit in history forever and cannot be removed without a rewrite.
+binaries/
+binaries-*.tar
+binaries-*.tar.gz
+
+# Build workspace: upstream source tarballs and unpacked trees.
+sources/
+build/
+
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+
+.DS_Store
+
+.vscode
+.idea
+*.swp
+
+.claude
+.codex
+tmp/

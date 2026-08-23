@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64/coreutils-8.30-gcc-pie-o2-paste",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2b01",
+      "tableAddress": "0x5720",
+      "jumpBase": "0x5720",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2b03",
+        "0x36d4",
+        "0x3730",
+        "0x3785",
+        "0x37ca",
+        "0x3804",
+        "0x38aa",
+        "0x38e4",
+        "0x3ad8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2c5e",
+      "tableAddress": "0x574c",
+      "jumpBase": "0x574c",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x2c63",
+        "0x2d33",
+        "0x2d63",
+        "0x2d88",
+        "0x2dc8",
+        "0x2dd8",
+        "0x2e80",
+        "0x2ea8",
+        "0x2ec0",
+        "0x2ed0",
+        "0x2f00",
+        "0x2f10",
+        "0x2f20",
+        "0x2f30",
+        "0x2f40",
+        "0x2f50",
+        "0x2f68"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2fea",
+      "tableAddress": "0x5948",
+      "jumpBase": "0x5948",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x2c60",
+        "0x2d30",
+        "0x2d60",
+        "0x2f60",
+        "0x2ff0",
+        "0x3010",
+        "0x3028",
+        "0x3040",
+        "0x3050",
+        "0x30f0",
+        "0x3108",
+        "0x3120",
+        "0x3138",
+        "0x3150",
+        "0x3168",
+        "0x3178",
+        "0x3190"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4664",
+      "tableAddress": "0x5e88",
+      "jumpBase": "0x5e88",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4690",
+        "0x4718",
+        "0x4770",
+        "0x47b0",
+        "0x47f0",
+        "0x4840",
+        "0x4898",
+        "0x48c8",
+        "0x4930",
+        "0x49c7"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

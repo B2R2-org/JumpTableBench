@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x86/coreutils-8.30-gcc-pie-o2-sha256sum",
+  "arch": "x86",
+  "compiler": "gcc",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x6090",
+      "tableAddress": "0x99e0",
+      "jumpBase": "0xdee4",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x6092",
+        "0x65ea",
+        "0x6650",
+        "0x66a8",
+        "0x66f1",
+        "0x6729",
+        "0x67cd",
+        "0x6805",
+        "0x6f68"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x61c6",
+      "tableAddress": "0x9a0c",
+      "jumpBase": "0xdee4",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x61d5",
+        "0x62ad",
+        "0x62ed",
+        "0x6318",
+        "0x6360",
+        "0x6370",
+        "0x6420",
+        "0x6448",
+        "0x6460",
+        "0x6478",
+        "0x6520",
+        "0x6538",
+        "0x6550",
+        "0x6560",
+        "0x6570",
+        "0x6580",
+        "0x6598"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6850",
+      "tableAddress": "0x9c08",
+      "jumpBase": "0xdee4",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x61d0",
+        "0x62a8",
+        "0x62e8",
+        "0x6590",
+        "0x6858",
+        "0x6880",
+        "0x6898",
+        "0x68b0",
+        "0x68c0",
+        "0x6970",
+        "0x6988",
+        "0x6998",
+        "0x69b0",
+        "0x69d0",
+        "0x69f0",
+        "0x6a00",
+        "0x6a28"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6e4b",
+      "tableAddress": "0x9e04",
+      "jumpBase": "0xdee4",
+      "entrySize": 4,
+      "numEntries": 34,
+      "targets": [
+        "0x6e50",
+        "0x6e60"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7e80",
+      "tableAddress": "0xa1ac",
+      "jumpBase": "0xdee4",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x7e98",
+        "0x7f10",
+        "0x7f90",
+        "0x7fc0",
+        "0x7ff0",
+        "0x8020",
+        "0x8060",
+        "0x80b8",
+        "0x8110",
+        "0x81b6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JumpTableBench ground truth",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [ "id", "arch", "jumpTables" ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string" },
+    "arch": { "enum": [ "x86", "x64", "armv7", "aarch64" ] },
+    "compiler": { "type": "string" },
+    "optLevel": { "enum": [ "O0", "O1", "O2", "O3", "Os" ] },
+    "imageBase": { "$ref": "#/$defs/addr" },
+    "jumpTables": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/table" }
+    }
+  },
+  "$defs": {
+    "addr": { "type": "string", "pattern": "^0x[0-9a-f]+$" },
+    "table": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "insAddr", "tableAddress", "jumpBase",
+        "entrySize", "numEntries", "targets", "kind", "confidence"
+      ],
+      "properties": {
+        "insAddr": { "$ref": "#/$defs/addr" },
+        "tableAddress": { "$ref": "#/$defs/addr" },
+        "jumpBase": { "$ref": "#/$defs/addr" },
+        "entrySize": { "enum": [ 1, 2, 4, 8 ] },
+        "numEntries": { "type": "integer", "minimum": 1 },
+        "targets": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/addr" }
+        },
+        "kind": {
+          "enum": [ "switch", "functionPointerTable", "singleEntry" ]
+        },
+        "confidence": { "enum": [ "exact", "manual" ] }
+      }
+    }
+  }
+}
