@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64/coreutils-9.9-clang-pie-o2-mktemp",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x291a",
+      "tableAddress": "0x6004",
+      "jumpBase": "0x6004",
+      "entrySize": 4,
+      "numEntries": 43,
+      "targets": [
+        "0x28e0",
+        "0x2920",
+        "0x296e",
+        "0x29ac",
+        "0x29b8",
+        "0x29c4",
+        "0x2d51",
+        "0x2db6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x295b",
+      "tableAddress": "0x60b0",
+      "jumpBase": "0x60b0",
+      "entrySize": 4,
+      "numEntries": 43,
+      "targets": [
+        "0x28d7",
+        "0x295e",
+        "0x2967",
+        "0x2989",
+        "0x2992",
+        "0x2d51",
+        "0x2db6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3674",
+      "tableAddress": "0x69c0",
+      "jumpBase": "0x69c0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3677",
+        "0x371c",
+        "0x377b",
+        "0x379a",
+        "0x37a3",
+        "0x37a5",
+        "0x37a7",
+        "0x37b5",
+        "0x3802",
+        "0x4172"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x393d",
+      "tableAddress": "0x69ec",
+      "jumpBase": "0x69ec",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x3941",
+        "0x39d1",
+        "0x39fa",
+        "0x3a08",
+        "0x3a0b",
+        "0x3a20",
+        "0x3a43",
+        "0x3a4a",
+        "0x3a4f",
+        "0x3a56",
+        "0x3a59",
+        "0x3a6c",
+        "0x3b40",
+        "0x3b73",
+        "0x3b7a",
+        "0x3c0b",
+        "0x3c84"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x502b",
+      "tableAddress": "0x6cc0",
+      "jumpBase": "0x6cc0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x502e",
+        "0x5052",
+        "0x5071",
+        "0x50a5",
+        "0x50cd",
+        "0x50f9",
+        "0x5123",
+        "0x5143",
+        "0x519a",
+        "0x51d7"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
