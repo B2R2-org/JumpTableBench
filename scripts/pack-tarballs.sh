@@ -1,32 +1,32 @@
 #!/bin/bash
-# Packs binaries/<arch> into one deterministic tarball per architecture.
-# Run from the repository root. Architectures are whatever directories
-# binaries/ holds, so adding one needs no change here. Pass names to
-# restrict: ./scripts/pack-tarballs.sh x64 riscv64
+# Packs binaries/<arch>-<compiler> into one deterministic tarball per
+# configuration. Run from the repository root. Configurations are whatever
+# directories binaries/ holds, so adding one needs no change here. Pass names
+# to restrict: ./scripts/pack-tarballs.sh x64-gcc x64-clang
 set -euo pipefail
 export LC_ALL=C
 
 [ -d binaries ] || { echo "no binaries/ here; run from the root" >&2; exit 1; }
 
 if [ "$#" -gt 0 ]; then
-  archs=( "$@" )
+  configs=( "$@" )
 else
-  archs=()
+  configs=()
   for dir in binaries/*/; do
     [ -d "$dir" ] || continue
-    archs+=( "$(basename "$dir")" )
+    configs+=( "$(basename "$dir")" )
   done
 fi
 
-[ "${#archs[@]}" -gt 0 ] || { echo "binaries/ has no architecture" >&2; exit 1; }
+[ "${#configs[@]}" -gt 0 ] || { echo "binaries/ has no configuration" >&2; exit 1; }
 
-for arch in "${archs[@]}"; do
-  dir=binaries/$arch
-  [ -d "$dir" ] || { echo "no such architecture: $arch" >&2; exit 1; }
+for config in "${configs[@]}"; do
+  dir=binaries/$config
+  [ -d "$dir" ] || { echo "no such configuration: $config" >&2; exit 1; }
   count=$(find "$dir" -type f | wc -l)
   [ "$count" -gt 0 ] || { echo "$dir is empty" >&2; exit 1; }
   chmod 755 "$dir"/*
-  # Member paths must stay binaries/<arch>/... to match SHA256SUMS, so the
+  # Member paths must stay binaries/<config>/... to match SHA256SUMS, so the
   # directory is named as-is rather than entered with -C.
   tar --sort=name \
       --format=posix \
@@ -35,7 +35,7 @@ for arch in "${archs[@]}"; do
       --mtime='UTC 2020-01-01' \
       --mode='u=rwX,go=rX' \
       --no-acls --no-selinux --no-xattrs \
-      -cf "binaries-$arch.tar" "$dir"
-  gzip -n -9 -f "binaries-$arch.tar"
-  echo "packed binaries-$arch.tar.gz ($count files)"
+      -cf "binaries-$config.tar" "$dir"
+  gzip -n -9 -f "binaries-$config.tar"
+  echo "packed binaries-$config.tar.gz ($count files)"
 done

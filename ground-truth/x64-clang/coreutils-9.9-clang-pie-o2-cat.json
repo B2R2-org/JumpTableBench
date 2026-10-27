@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-clang/coreutils-9.9-clang-pie-o2-cat",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x292b",
+      "tableAddress": "0x7004",
+      "jumpBase": "0x7004",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x28f4",
+        "0x28f6",
+        "0x2900",
+        "0x292e",
+        "0x2930",
+        "0x2937",
+        "0x2940",
+        "0x294c",
+        "0x2950",
+        "0x2957",
+        "0x36ba"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3f44",
+      "tableAddress": "0x76d0",
+      "jumpBase": "0x76d0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3f47",
+        "0x3fec",
+        "0x404b",
+        "0x406a",
+        "0x4073",
+        "0x4075",
+        "0x4077",
+        "0x4085",
+        "0x40d2",
+        "0x4a42"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x420d",
+      "tableAddress": "0x76fc",
+      "jumpBase": "0x76fc",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x4211",
+        "0x42a1",
+        "0x42ca",
+        "0x42d8",
+        "0x42db",
+        "0x42f0",
+        "0x4313",
+        "0x431a",
+        "0x431f",
+        "0x4326",
+        "0x4329",
+        "0x433c",
+        "0x4410",
+        "0x4443",
+        "0x444a",
+        "0x44db",
+        "0x4554"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x566b",
+      "tableAddress": "0x7984",
+      "jumpBase": "0x7984",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x566e",
+        "0x5692",
+        "0x56b1",
+        "0x56e5",
+        "0x570d",
+        "0x5739",
+        "0x5763",
+        "0x5783",
+        "0x57da",
+        "0x5817"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

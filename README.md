@@ -14,17 +14,19 @@ rather than as a quietly worse CFG.
 
 Ground truth lives in git; binaries do not. The JSON is small, reviewable, and
 belongs in history. The binaries are large and change a few times a year, so
-they ship as per-architecture tarballs attached to a release.
+they ship as one tarball per configuration attached to a release. A
+configuration is an architecture and a compiler, `<arch>-<compiler>` (e.g.,
+`x64-gcc`), and both `ground-truth/` and `binaries/` are split by it.
 
 ```
-SHA256SUMS                      one line per binary; the integrity anchor
-exclusions.json                 cases left out of scoring, and why
-ground-truth/<arch>/<case>.json one file per binary
-schema/jumptable.schema.json    JSON Schema for the above
-scripts/                        generate shasums, pack tarballs, find redundant cases
+SHA256SUMS                        one line per binary; the integrity anchor
+exclusions.json                   cases left out of scoring, and why
+ground-truth/<config>/<case>.json one file per binary
+schema/jumptable.schema.json      JSON Schema for the above
+scripts/                          generate shasums, pack tarballs, find redundant cases
 ```
 
-`binaries/` is where a local build lands; it is gitignored.
+`binaries/<config>/` is where a local build lands; it is gitignored.
 
 ## Dataset Overview
 
