@@ -21,7 +21,7 @@ SHA256SUMS                      one line per binary; the integrity anchor
 exclusions.json                 cases left out of scoring, and why
 ground-truth/<arch>/<case>.json one file per binary
 schema/jumptable.schema.json    JSON Schema for the above
-scripts/                        generate shasums, pack tarballs
+scripts/                        generate shasums, pack tarballs, find redundant cases
 ```
 
 `binaries/` is where a local build lands; it is gitignored.
@@ -35,7 +35,7 @@ Every case is a stripped PIE built at `-O2`, named
 | -- | -- |
 | projects | GNU coreutils 9.9 and GNU binutils 2.45 |
 | compilers | gcc 16.2.0 and clang 23.0.0 |
-| architectures | `x86` and `x64`, 201 binaries (181 from coreutils and 20 from binutils) each |
-| tables | 4,940 (`x64`) and 5,793 (`x86`) |
+| architectures | `x86` and `x64`, 139 binaries (119 from coreutils and 20 from binutils) each |
+| tables | 4,662 (`x64`) and 5,383 (`x86`) |
 
-- We exclude 12 coreutils programs (e.g., dir, vdir, [, sha1sum) whose jump tables are already covered by another included program, to avoid redundant evaluation.
+- We exclude 43 coreutils programs (e.g., dir, vdir, [, sha1sum, true, yes) whose jump tables are already covered by another included program, to avoid redundant evaluation. Two tables count as the same when their kind, entry size, entry count, and targets relative to the indirect branch all match; `scripts/find-redundant.py` lists any case that adds no distinct table.
