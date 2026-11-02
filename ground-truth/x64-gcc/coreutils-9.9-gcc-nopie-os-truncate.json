@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-nopie-os-truncate",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4031a9",
+      "tableAddress": "0x405a40",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x4031b0",
+        "0x4031c6",
+        "0x4031ec",
+        "0x40327c",
+        "0x403292",
+        "0x40329f",
+        "0x4032e3",
+        "0x40330c",
+        "0x40338b"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40356b",
+      "tableAddress": "0x405a98",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x4035a9",
+        "0x4035b0",
+        "0x4035b7",
+        "0x403644",
+        "0x4037cf",
+        "0x4037d3",
+        "0x403800",
+        "0x403804",
+        "0x403812",
+        "0x403848",
+        "0x403851",
+        "0x4038c8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404422",
+      "tableAddress": "0x405f40",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x40442a",
+        "0x404445",
+        "0x404464",
+        "0x404487",
+        "0x40449d",
+        "0x4044c9",
+        "0x4044e5",
+        "0x404516",
+        "0x404538",
+        "0x404591"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404bb0",
+      "tableAddress": "0x405fe0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x404bb8",
+        "0x404bc6",
+        "0x404bd4",
+        "0x404be3",
+        "0x404bf2",
+        "0x404bfe",
+        "0x404c0a",
+        "0x404c16",
+        "0x404c22",
+        "0x404c2e",
+        "0x404c3a",
+        "0x404c69",
+        "0x404c7a",
+        "0x404c86",
+        "0x404c94"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x86-gcc/coreutils-9.9-gcc-pie-os-mknod",
+  "arch": "x86",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2106",
+      "tableAddress": "0x57e8",
+      "jumpBase": "0x9000",
+      "entrySize": 4,
+      "numEntries": 7,
+      "targets": [
+        "0x20da",
+        "0x2108",
+        "0x210c",
+        "0x2111",
+        "0x2116",
+        "0x2121"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2494",
+      "tableAddress": "0x5880",
+      "jumpBase": "0x9000",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2496",
+        "0x24b8",
+        "0x24e0",
+        "0x255f",
+        "0x2579",
+        "0x2587",
+        "0x25db",
+        "0x2605",
+        "0x2625"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x281f",
+      "tableAddress": "0x58ac",
+      "jumpBase": "0x9000",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x2850",
+        "0x2857",
+        "0x285e",
+        "0x28f3",
+        "0x2a82",
+        "0x2a86",
+        "0x2ab9",
+        "0x2abd",
+        "0x2aca",
+        "0x2afb",
+        "0x2b05",
+        "0x2b78"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x382e",
+      "tableAddress": "0x5c6c",
+      "jumpBase": "0x9000",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x3830",
+        "0x3849",
+        "0x3859",
+        "0x386b",
+        "0x387f",
+        "0x38a4",
+        "0x38c3",
+        "0x38e1",
+        "0x3901",
+        "0x394f"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3fb0",
+      "tableAddress": "0x5ce0",
+      "jumpBase": "0x9000",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x3fb2",
+        "0x4034",
+        "0x409f",
+        "0x41df",
+        "0x41f6",
+        "0x420d",
+        "0x4293",
+        "0x4375",
+        "0x43fb",
+        "0x4481",
+        "0x4647",
+        "0x4658",
+        "0x46de",
+        "0x4761",
+        "0x477f"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x86-gcc/coreutils-9.9-gcc-pie-os-echo",
+  "arch": "x86",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x17e8",
+      "tableAddress": "0x401c",
+      "jumpBase": "0x8000",
+      "entrySize": 4,
+      "numEntries": 29,
+      "targets": [
+        "0x17ea",
+        "0x17f4",
+        "0x17fe",
+        "0x1808",
+        "0x1812",
+        "0x181c",
+        "0x1826",
+        "0x1830",
+        "0x18db",
+        "0x18f6",
+        "0x18fb",
+        "0x1977"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1ae1",
+      "tableAddress": "0x4008",
+      "jumpBase": "0x8000",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x1ae3",
+        "0x1ae9",
+        "0x1aef",
+        "0x1af5",
+        "0x1afb"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2126",
+      "tableAddress": "0x4740",
+      "jumpBase": "0x8000",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2128",
+        "0x214a",
+        "0x2172",
+        "0x21f1",
+        "0x220b",
+        "0x2219",
+        "0x226d",
+        "0x2297",
+        "0x22b7"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x24b1",
+      "tableAddress": "0x476c",
+      "jumpBase": "0x8000",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x24e2",
+        "0x24e9",
+        "0x24f0",
+        "0x2585",
+        "0x2714",
+        "0x2718",
+        "0x274b",
+        "0x274f",
+        "0x275c",
+        "0x278d",
+        "0x2797",
+        "0x280a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x34c0",
+      "tableAddress": "0x4b2c",
+      "jumpBase": "0x8000",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x34c2",
+        "0x34db",
+        "0x34eb",
+        "0x34fd",
+        "0x3511",
+        "0x3536",
+        "0x3555",
+        "0x3573",
+        "0x3593",
+        "0x35e1"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-pie-os-echo",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x27ea",
+      "tableAddress": "0x5018",
+      "jumpBase": "0x5018",
+      "entrySize": 4,
+      "numEntries": 29,
+      "targets": [
+        "0x27ec",
+        "0x27f3",
+        "0x27fa",
+        "0x2801",
+        "0x2808",
+        "0x280f",
+        "0x2816",
+        "0x281d",
+        "0x28bc",
+        "0x28d0",
+        "0x28d2",
+        "0x2930"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2a60",
+      "tableAddress": "0x5004",
+      "jumpBase": "0x5004",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x2a62",
+        "0x2a68",
+        "0x2a6e",
+        "0x2a74",
+        "0x2a7a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2ff8",
+      "tableAddress": "0x5740",
+      "jumpBase": "0x5740",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2ffa",
+        "0x3010",
+        "0x3036",
+        "0x30ca",
+        "0x30e0",
+        "0x30ed",
+        "0x3131",
+        "0x315a",
+        "0x31e0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x33d7",
+      "tableAddress": "0x576c",
+      "jumpBase": "0x576c",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x3410",
+        "0x3417",
+        "0x341e",
+        "0x34ab",
+        "0x3636",
+        "0x363a",
+        "0x3667",
+        "0x366b",
+        "0x3679",
+        "0x36af",
+        "0x36b8",
+        "0x372f"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x42bd",
+      "tableAddress": "0x5b2c",
+      "jumpBase": "0x5b2c",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x42bf",
+        "0x42dc",
+        "0x42fd",
+        "0x4322",
+        "0x433a",
+        "0x4368",
+        "0x4386",
+        "0x43bc",
+        "0x43e0",
+        "0x443d"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

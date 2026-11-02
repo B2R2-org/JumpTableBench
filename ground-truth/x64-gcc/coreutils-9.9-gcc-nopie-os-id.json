@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-nopie-os-id",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4033b5",
+      "tableAddress": "0x406980",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x4033bc",
+        "0x4033d2",
+        "0x4033f8",
+        "0x403488",
+        "0x40349e",
+        "0x4034ab",
+        "0x4034ef",
+        "0x403518",
+        "0x403597"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403777",
+      "tableAddress": "0x4069d8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x4037b5",
+        "0x4037bc",
+        "0x4037c3",
+        "0x403850",
+        "0x4039db",
+        "0x4039df",
+        "0x403a0c",
+        "0x403a10",
+        "0x403a1e",
+        "0x403a54",
+        "0x403a5d",
+        "0x403ad4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404961",
+      "tableAddress": "0x406ec0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x404969",
+        "0x404984",
+        "0x4049a3",
+        "0x4049c6",
+        "0x4049dc",
+        "0x404a08",
+        "0x404a24",
+        "0x404a55",
+        "0x404a77",
+        "0x404ad0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404ff9",
+      "tableAddress": "0x406f60",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x405000",
+        "0x405031",
+        "0x405042",
+        "0x405067",
+        "0x405071",
+        "0x40507b",
+        "0x4050a5",
+        "0x4050cf",
+        "0x4050f9",
+        "0x405123",
+        "0x40517b",
+        "0x40518d",
+        "0x4051b4",
+        "0x4051dc",
+        "0x4051f4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-clang/coreutils-9.9-clang-pie-os-rm",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2a45",
+      "tableAddress": "0xa010",
+      "jumpBase": "0xa010",
+      "entrySize": 4,
+      "numEntries": 15,
+      "targets": [
+        "0x2a48",
+        "0x2aad",
+        "0x2af5",
+        "0x2b04",
+        "0x2b78",
+        "0x2bab",
+        "0x2dc0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2f94",
+      "tableAddress": "0xabfc",
+      "jumpBase": "0xabfc",
+      "entrySize": 4,
+      "numEntries": 13,
+      "targets": [
+        "0x2f97",
+        "0x300f",
+        "0x3034",
+        "0x30c1",
+        "0x3484"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5676",
+      "tableAddress": "0xb048",
+      "jumpBase": "0xb048",
+      "entrySize": 4,
+      "numEntries": 12,
+      "targets": [
+        "0x5679",
+        "0x56a6",
+        "0x56ad",
+        "0x56b1",
+        "0x56b8",
+        "0x56bf",
+        "0x56c6",
+        "0x56cb"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7273",
+      "tableAddress": "0xb150",
+      "jumpBase": "0xb150",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x7276",
+        "0x72a8",
+        "0x730e",
+        "0x7332",
+        "0x733c",
+        "0x733e",
+        "0x7340",
+        "0x734e",
+        "0x73a0",
+        "0x7c18"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x74de",
+      "tableAddress": "0xb17c",
+      "jumpBase": "0xb17c",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x74e2",
+        "0x7566",
+        "0x758f",
+        "0x759d",
+        "0x75a0",
+        "0x75b5",
+        "0x75d8",
+        "0x75df",
+        "0x75e4",
+        "0x75eb",
+        "0x75ee",
+        "0x7601",
+        "0x766a",
+        "0x769d",
+        "0x76a4",
+        "0x7727",
+        "0x7770"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x85ab",
+      "tableAddress": "0xb404",
+      "jumpBase": "0xb404",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x85ae",
+        "0x85d2",
+        "0x85f1",
+        "0x8625",
+        "0x864d",
+        "0x8679",
+        "0x86a3",
+        "0x86c3",
+        "0x871a",
+        "0x8757"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8c9f",
+      "tableAddress": "0xb7e0",
+      "jumpBase": "0xb7e0",
+      "entrySize": 4,
+      "numEntries": 12,
+      "targets": [
+        "0x8ca2",
+        "0x8caa",
+        "0x8cb1",
+        "0x8cb2",
+        "0x8cba",
+        "0x8cc2",
+        "0x8cca",
+        "0x8cd2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-clang/coreutils-9.9-clang-pie-os-uname",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x28a1",
+      "tableAddress": "0x5004",
+      "jumpBase": "0x5004",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x286d",
+        "0x28a4",
+        "0x28ad",
+        "0x28b9",
+        "0x28c2",
+        "0x28cb",
+        "0x28d4",
+        "0x28dd",
+        "0x28e6",
+        "0x2a7d"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2f5b",
+      "tableAddress": "0x5620",
+      "jumpBase": "0x5620",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2f5e",
+        "0x2f90",
+        "0x2ff6",
+        "0x301a",
+        "0x3024",
+        "0x3026",
+        "0x3028",
+        "0x3036",
+        "0x3088",
+        "0x3900"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x31c6",
+      "tableAddress": "0x564c",
+      "jumpBase": "0x564c",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x31ca",
+        "0x324e",
+        "0x3277",
+        "0x3285",
+        "0x3288",
+        "0x329d",
+        "0x32c0",
+        "0x32c7",
+        "0x32cc",
+        "0x32d3",
+        "0x32d6",
+        "0x32e9",
+        "0x3352",
+        "0x3385",
+        "0x338c",
+        "0x340f",
+        "0x3458"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x421b",
+      "tableAddress": "0x58d4",
+      "jumpBase": "0x58d4",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x421e",
+        "0x4242",
+        "0x4261",
+        "0x4295",
+        "0x42bd",
+        "0x42e9",
+        "0x4313",
+        "0x4333",
+        "0x438a",
+        "0x43c7"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

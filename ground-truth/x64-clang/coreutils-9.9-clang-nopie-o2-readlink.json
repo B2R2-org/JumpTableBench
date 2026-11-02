@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-clang/coreutils-9.9-clang-nopie-o2-readlink",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x40283f",
+      "tableAddress": "0x407010",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 22,
+      "targets": [
+        "0x402810",
+        "0x402847",
+        "0x402850",
+        "0x402859",
+        "0x402863",
+        "0x40286b",
+        "0x402870",
+        "0x402a2b"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404b8e",
+      "tableAddress": "0x407a20",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x404b96",
+        "0x404c40",
+        "0x404cac",
+        "0x404cc4",
+        "0x404ccf",
+        "0x404cd1",
+        "0x404cd3",
+        "0x404ce1",
+        "0x404d23",
+        "0x404d60"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404eb5",
+      "tableAddress": "0x407a78",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x404ebe",
+        "0x404f47",
+        "0x404f70",
+        "0x404f7d",
+        "0x404f80",
+        "0x404f94",
+        "0x404fb5",
+        "0x404fbc",
+        "0x404fc1",
+        "0x404fc8",
+        "0x404fcb",
+        "0x404fde",
+        "0x40508e",
+        "0x4050bd",
+        "0x4050c4",
+        "0x405144",
+        "0x40519c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40616c",
+      "tableAddress": "0x407f58",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x406175",
+        "0x406195",
+        "0x4061b2",
+        "0x4061e4",
+        "0x406208",
+        "0x406230",
+        "0x406258",
+        "0x406273",
+        "0x4062c6",
+        "0x406301"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

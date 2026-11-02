@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-nopie-os-dd",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4061a9",
+      "tableAddress": "0x40abe0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x4061b0",
+        "0x4061c6",
+        "0x4061ec",
+        "0x40627c",
+        "0x406292",
+        "0x40629f",
+        "0x4062e3",
+        "0x40630c",
+        "0x40638b"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40656b",
+      "tableAddress": "0x40ac38",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x4065a9",
+        "0x4065b0",
+        "0x4065b7",
+        "0x406644",
+        "0x4067cf",
+        "0x4067d3",
+        "0x406800",
+        "0x406804",
+        "0x406812",
+        "0x406848",
+        "0x406851",
+        "0x4068c8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x407422",
+      "tableAddress": "0x40b0e8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x40742a",
+        "0x407445",
+        "0x407464",
+        "0x407487",
+        "0x40749d",
+        "0x4074c9",
+        "0x4074e5",
+        "0x407516",
+        "0x407538",
+        "0x407591"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x407a9b",
+      "tableAddress": "0x40b180",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x407aa2",
+        "0x407ad3",
+        "0x407ae4",
+        "0x407b09",
+        "0x407b13",
+        "0x407b1d",
+        "0x407b47",
+        "0x407b71",
+        "0x407b9b",
+        "0x407bc5",
+        "0x407c1d",
+        "0x407c2f",
+        "0x407c56",
+        "0x407c7e",
+        "0x407c96"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

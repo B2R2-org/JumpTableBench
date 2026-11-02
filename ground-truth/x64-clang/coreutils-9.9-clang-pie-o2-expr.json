@@ -7,6 +7,23 @@
   "imageBase": "0x0",
   "jumpTables": [
     {
+      "insAddr": "0x316b",
+      "tableAddress": "0x8004",
+      "jumpBase": "0x8004",
+      "entrySize": 4,
+      "numEntries": 6,
+      "targets": [
+        "0x31ac",
+        "0x3214",
+        "0x321b",
+        "0x3222",
+        "0x3229",
+        "0x3230"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
       "insAddr": "0x31a9",
       "tableAddress": "0x8004",
       "jumpBase": "0x8004",

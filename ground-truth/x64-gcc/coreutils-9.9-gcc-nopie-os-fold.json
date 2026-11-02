@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-nopie-os-fold",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x40350c",
+      "tableAddress": "0x406620",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x403513",
+        "0x403529",
+        "0x40354f",
+        "0x4035df",
+        "0x4035f5",
+        "0x403602",
+        "0x403646",
+        "0x40366f",
+        "0x4036ee"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4038ce",
+      "tableAddress": "0x406678",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x40390c",
+        "0x403913",
+        "0x40391a",
+        "0x4039a7",
+        "0x403b32",
+        "0x403b36",
+        "0x403b63",
+        "0x403b67",
+        "0x403b75",
+        "0x403bab",
+        "0x403bb4",
+        "0x403c2b"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404785",
+      "tableAddress": "0x406b20",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x40478d",
+        "0x4047a8",
+        "0x4047c7",
+        "0x4047ea",
+        "0x404800",
+        "0x40482c",
+        "0x404848",
+        "0x404879",
+        "0x40489b",
+        "0x4048f4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404f03",
+      "tableAddress": "0x406bc0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x404f0a",
+        "0x404f3b",
+        "0x404f4c",
+        "0x404f71",
+        "0x404f7b",
+        "0x404f85",
+        "0x404faf",
+        "0x404fd9",
+        "0x405003",
+        "0x40502d",
+        "0x405085",
+        "0x405097",
+        "0x4050be",
+        "0x4050e6",
+        "0x4050fe"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

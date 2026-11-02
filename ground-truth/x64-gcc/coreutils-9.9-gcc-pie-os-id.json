@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-pie-os-id",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3470",
+      "tableAddress": "0x67a0",
+      "jumpBase": "0x67a0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3472",
+        "0x3488",
+        "0x34ae",
+        "0x3542",
+        "0x3558",
+        "0x3565",
+        "0x35a9",
+        "0x35d2",
+        "0x3658"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x384f",
+      "tableAddress": "0x67cc",
+      "jumpBase": "0x67cc",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x3888",
+        "0x388f",
+        "0x3896",
+        "0x3923",
+        "0x3aae",
+        "0x3ab2",
+        "0x3adf",
+        "0x3ae3",
+        "0x3af1",
+        "0x3b27",
+        "0x3b30",
+        "0x3ba7"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4a72",
+      "tableAddress": "0x6bcc",
+      "jumpBase": "0x6bcc",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4a74",
+        "0x4a91",
+        "0x4ab2",
+        "0x4ad7",
+        "0x4aef",
+        "0x4b1d",
+        "0x4b3b",
+        "0x4b71",
+        "0x4b95",
+        "0x4bf2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x513b",
+      "tableAddress": "0x6c40",
+      "jumpBase": "0x6c40",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x513d",
+        "0x516e",
+        "0x517f",
+        "0x51a4",
+        "0x51ae",
+        "0x51b8",
+        "0x51e2",
+        "0x520c",
+        "0x5236",
+        "0x5260",
+        "0x52b8",
+        "0x52ca",
+        "0x52f1",
+        "0x5319",
+        "0x5331"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

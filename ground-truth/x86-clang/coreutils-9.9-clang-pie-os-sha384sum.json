@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x86-clang/coreutils-9.9-clang-pie-os-sha384sum",
+  "arch": "x86",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1984",
+      "tableAddress": "0xe008",
+      "jumpBase": "0x13000",
+      "entrySize": 4,
+      "numEntries": 17,
+      "targets": [
+        "0x1987",
+        "0x19ae",
+        "0x19b7",
+        "0x19c0",
+        "0x19c9",
+        "0x19e3",
+        "0x19fd",
+        "0x1a09",
+        "0x27ae"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb36b",
+      "tableAddress": "0xed10",
+      "jumpBase": "0x13000",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0xb36e",
+        "0xb394",
+        "0xb3ec",
+        "0xb40a",
+        "0xb415",
+        "0xb417",
+        "0xb41d",
+        "0xb42d",
+        "0xb475",
+        "0xb4b2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb5f9",
+      "tableAddress": "0xed3c",
+      "jumpBase": "0x13000",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0xb5fc",
+        "0xb6a6",
+        "0xb6d9",
+        "0xb6e8",
+        "0xb6ea",
+        "0xb6fe",
+        "0xb723",
+        "0xb72a",
+        "0xb72e",
+        "0xb735",
+        "0xb737",
+        "0xb749",
+        "0xb7b8",
+        "0xb7ec",
+        "0xb7f3",
+        "0xb876",
+        "0xb8d8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xc83c",
+      "tableAddress": "0xefbc",
+      "jumpBase": "0x13000",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0xc83f",
+        "0xc847",
+        "0xc861",
+        "0xc88b",
+        "0xc89a",
+        "0xc8b5",
+        "0xc8e4",
+        "0xc901",
+        "0xc939",
+        "0xc985"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

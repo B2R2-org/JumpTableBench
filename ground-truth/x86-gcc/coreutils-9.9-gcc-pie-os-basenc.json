@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x86-gcc/coreutils-9.9-gcc-pie-os-basenc",
+  "arch": "x86",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x28a2",
+      "tableAddress": "0xfa00",
+      "jumpBase": "0x17000",
+      "entrySize": 4,
+      "numEntries": 9,
+      "targets": [
+        "0x28a4",
+        "0x2903",
+        "0x2962",
+        "0x29c1",
+        "0x2a20",
+        "0x2a67",
+        "0x2aae",
+        "0x2af2",
+        "0x2b3c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xc720",
+      "tableAddress": "0x10a60",
+      "jumpBase": "0x17000",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0xc722",
+        "0xc744",
+        "0xc76c",
+        "0xc7eb",
+        "0xc805",
+        "0xc813",
+        "0xc867",
+        "0xc891",
+        "0xc8b1"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xcaab",
+      "tableAddress": "0x10a8c",
+      "jumpBase": "0x17000",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0xcadc",
+        "0xcae3",
+        "0xcaea",
+        "0xcb7f",
+        "0xcd0e",
+        "0xcd12",
+        "0xcd45",
+        "0xcd49",
+        "0xcd56",
+        "0xcd87",
+        "0xcd91",
+        "0xce04"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xdae3",
+      "tableAddress": "0x10e4c",
+      "jumpBase": "0x17000",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0xdae5",
+        "0xdafe",
+        "0xdb0e",
+        "0xdb20",
+        "0xdb34",
+        "0xdb59",
+        "0xdb78",
+        "0xdb96",
+        "0xdbb6",
+        "0xdc04"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xe31a",
+      "tableAddress": "0x10ec0",
+      "jumpBase": "0x17000",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0xe31c",
+        "0xe395",
+        "0xe436",
+        "0xe443",
+        "0xe450",
+        "0xe45d",
+        "0xe46a",
+        "0xe477",
+        "0xe484",
+        "0xe491",
+        "0xe49e",
+        "0xe51c",
+        "0xe52b",
+        "0xe535",
+        "0xe546"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

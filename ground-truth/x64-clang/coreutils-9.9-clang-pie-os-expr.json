@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-clang/coreutils-9.9-clang-pie-os-expr",
+  "arch": "x64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2e72",
+      "tableAddress": "0x7004",
+      "jumpBase": "0x7004",
+      "entrySize": 4,
+      "numEntries": 6,
+      "targets": [
+        "0x2e9f",
+        "0x2ea4",
+        "0x2eab",
+        "0x2eb2",
+        "0x2eb9",
+        "0x2ec0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2e9c",
+      "tableAddress": "0x7004",
+      "jumpBase": "0x7004",
+      "entrySize": 4,
+      "numEntries": 6,
+      "targets": [
+        "0x2e9f",
+        "0x2ea4",
+        "0x2eab",
+        "0x2eb2",
+        "0x2eb9",
+        "0x2ec0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x44cf",
+      "tableAddress": "0x7ad0",
+      "jumpBase": "0x7ad0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x44d2",
+        "0x4504",
+        "0x456a",
+        "0x458e",
+        "0x4598",
+        "0x459a",
+        "0x459c",
+        "0x45aa",
+        "0x45fc",
+        "0x4e74"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x473a",
+      "tableAddress": "0x7afc",
+      "jumpBase": "0x7afc",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x473e",
+        "0x47c2",
+        "0x47eb",
+        "0x47f9",
+        "0x47fc",
+        "0x4811",
+        "0x4834",
+        "0x483b",
+        "0x4840",
+        "0x4847",
+        "0x484a",
+        "0x485d",
+        "0x48c6",
+        "0x48f9",
+        "0x4900",
+        "0x4983",
+        "0x49cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x596f",
+      "tableAddress": "0x7d84",
+      "jumpBase": "0x7d84",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5972",
+        "0x5996",
+        "0x59b5",
+        "0x59e9",
+        "0x5a11",
+        "0x5a3d",
+        "0x5a67",
+        "0x5a87",
+        "0x5ade",
+        "0x5b1b"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

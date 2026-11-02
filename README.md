@@ -30,14 +30,19 @@ scripts/                          generate shasums, pack tarballs, find redundan
 
 ## Dataset Overview
 
-Every case is a stripped PIE built at `-O2`, named
-`<project>-<version>-<compiler>-pie-o2-<program>`:
+Every case is a stripped binary, built both as a PIE and as a non-PIE at
+`-O2` and `-Os`, named
+`<project>-<version>-<compiler>-<pie|nopie>-<opt>-<program>`:
 
 | | |
 | -- | -- |
 | projects | GNU coreutils 9.9 and GNU binutils 2.45 |
 | compilers | gcc 16.2.0 and clang 23.0.0 |
-| architectures | `x86` and `x64`, 139 binaries (119 from coreutils and 20 from binutils) each |
-| tables | 4,662 (`x64`) and 5,383 (`x86`) |
+| architectures | `x86` and `x64`, 546 (`x86`) and 548 (`x64`) binaries, 24 of each from binutils |
+| tables | 9,582 (`x64`) and 10,458 (`x86`) |
 
-- We exclude 43 coreutils programs (e.g., dir, vdir, [, sha1sum, true, yes) whose jump tables are already covered by another included program, to avoid redundant evaluation. Two tables count as the same when their kind, entry size, entry count, and targets relative to the indirect branch all match; `scripts/find-redundant.py` lists any case that adds no distinct table.
+- We exclude 37 coreutils programs (e.g., ls, vdir, test, true, yes) whose jump tables are already covered by another included program, to avoid redundant evaluation. Two tables count as the same when their kind, entry size, entry count, and targets relative to the indirect branch all match; `scripts/find-redundant.py` lists any case that adds no distinct table.
+- We keep three binutils programs: `as-new`, `objdump` and `readelf`. The other seven link the same libbfd, so they add only about 10% of the distinct binutils tables but would take over 60% of the binutils scoring time.
+- We leave out `-O0` and `-O1` because they mostly repeat `-O2`: gcc builds almost no jump table at `-O0`, and 85-89% of the tables at `-O1` have an `-O2` counterpart of the same kind, entry size, entry count, and target count in the same program.
+- We leave out `-O3` and `-Oz` to bound the scoring time. Every jump table bug B2R2 has hit at those levels so far also showed up at `-O2` or `-Os`.
+- clang builds no `stdbuf`, and neither does gcc for the non-PIE `x86` build.

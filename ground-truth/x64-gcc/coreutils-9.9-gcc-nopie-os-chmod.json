@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "x64-gcc/coreutils-9.9-gcc-nopie-os-chmod",
+  "arch": "x64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x402d00",
+      "tableAddress": "0x409c60",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 12,
+      "targets": [
+        "0x402d07",
+        "0x402d27",
+        "0x402d51",
+        "0x402d8b",
+        "0x402dae",
+        "0x402ddd",
+        "0x402e2e",
+        "0x402e65"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405e95",
+      "tableAddress": "0x409ff8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 7,
+      "targets": [
+        "0x405e76",
+        "0x405e9d",
+        "0x405ea1",
+        "0x405ea6",
+        "0x405eab",
+        "0x405eb4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4062d9",
+      "tableAddress": "0x40a0a0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x4062e0",
+        "0x4062f6",
+        "0x40631c",
+        "0x4063ac",
+        "0x4063c2",
+        "0x4063cf",
+        "0x406413",
+        "0x40643c",
+        "0x4064bb"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40669b",
+      "tableAddress": "0x40a0f8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x4066d9",
+        "0x4066e0",
+        "0x4066e7",
+        "0x406774",
+        "0x4068ff",
+        "0x406903",
+        "0x406930",
+        "0x406934",
+        "0x406942",
+        "0x406978",
+        "0x406981",
+        "0x4069f8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4075d8",
+      "tableAddress": "0x40a5a0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x4075e0",
+        "0x4075fb",
+        "0x40761a",
+        "0x40763d",
+        "0x407653",
+        "0x40767f",
+        "0x40769b",
+        "0x4076cc",
+        "0x4076ee",
+        "0x407747"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
