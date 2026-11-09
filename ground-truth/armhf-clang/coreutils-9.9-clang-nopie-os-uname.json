@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armhf-clang/coreutils-9.9-clang-nopie-os-uname",
+  "arch": "armhf",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1144c",
+      "tableAddress": "0x11450",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x11414",
+        "0x114a8",
+        "0x114b0",
+        "0x114b8",
+        "0x114c0",
+        "0x114c8",
+        "0x114d0",
+        "0x114d8",
+        "0x114e0",
+        "0x11658"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12838",
+      "tableAddress": "0x1283c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x12868",
+        "0x12894",
+        "0x128f8",
+        "0x1290c",
+        "0x12914",
+        "0x1291c",
+        "0x12934",
+        "0x1293c",
+        "0x12960",
+        "0x13470"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12aac",
+      "tableAddress": "0x12ab0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x12cac",
+        "0x12d68",
+        "0x12d9c",
+        "0x12db0",
+        "0x12db4",
+        "0x12dc8",
+        "0x12df0",
+        "0x12df8",
+        "0x12e00",
+        "0x12e08",
+        "0x12e0c",
+        "0x12e20",
+        "0x12ef8",
+        "0x12f24",
+        "0x12f2c",
+        "0x12fbc",
+        "0x13084"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13e28",
+      "tableAddress": "0x13e2c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x13e54",
+        "0x13e64",
+        "0x13e7c",
+        "0x13ea8",
+        "0x13ec8",
+        "0x13ef4",
+        "0x13f1c",
+        "0x13f34",
+        "0x13f84",
+        "0x13fbc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

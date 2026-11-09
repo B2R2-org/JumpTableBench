@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armel-clang/coreutils-9.9-clang-pie-o0-timeout",
+  "arch": "armel",
+  "compiler": "clang",
+  "optLevel": "O0",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2fc4",
+      "tableAddress": "0x2fc8",
+      "jumpBase": "0x2fc8",
+      "entrySize": 4,
+      "numEntries": 94,
+      "targets": [
+        "0x3140",
+        "0x3150"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5a3c",
+      "tableAddress": "0x5a40",
+      "jumpBase": "0x5a40",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x5a6c",
+        "0x5a7c",
+        "0x5ae0",
+        "0x5af4",
+        "0x5bbc",
+        "0x5bc4",
+        "0x5bcc",
+        "0x5be4",
+        "0x5c48"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5dcc",
+      "tableAddress": "0x5dd0",
+      "jumpBase": "0x5dd0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x5fcc",
+        "0x61d8",
+        "0x63cc",
+        "0x63d8",
+        "0x63e4",
+        "0x63f0",
+        "0x63fc",
+        "0x6408",
+        "0x6414",
+        "0x6420",
+        "0x64b0",
+        "0x64e4",
+        "0x64f8",
+        "0x6500",
+        "0x6520",
+        "0x661c",
+        "0x6628"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x67e4",
+      "tableAddress": "0x67e8",
+      "jumpBase": "0x67e8",
+      "entrySize": 4,
+      "numEntries": 34,
+      "targets": [
+        "0x6870",
+        "0x6874"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8390",
+      "tableAddress": "0x8394",
+      "jumpBase": "0x8394",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x83bc",
+        "0x83c0",
+        "0x83dc",
+        "0x8400",
+        "0x8430",
+        "0x846c",
+        "0x84b4",
+        "0x8508",
+        "0x8568",
+        "0x85d4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

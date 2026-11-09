@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armel-clang/coreutils-9.9-clang-pie-os-uname",
+  "arch": "armel",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x162c",
+      "tableAddress": "0x1630",
+      "jumpBase": "0x1630",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x15f0",
+        "0x1688",
+        "0x1690",
+        "0x1698",
+        "0x16a0",
+        "0x16a8",
+        "0x16b0",
+        "0x16b8",
+        "0x16c0",
+        "0x1838"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2b9c",
+      "tableAddress": "0x2ba0",
+      "jumpBase": "0x2ba0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2bcc",
+        "0x2bf8",
+        "0x2c64",
+        "0x2c78",
+        "0x2c80",
+        "0x2c88",
+        "0x2c94",
+        "0x2c9c",
+        "0x2cc4",
+        "0x2d2c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2e84",
+      "tableAddress": "0x2e88",
+      "jumpBase": "0x2e88",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x3084",
+        "0x314c",
+        "0x3180",
+        "0x3198",
+        "0x319c",
+        "0x31b0",
+        "0x31d8",
+        "0x31e0",
+        "0x31e8",
+        "0x31f0",
+        "0x31f4",
+        "0x3208",
+        "0x32e8",
+        "0x3318",
+        "0x3320",
+        "0x33b4",
+        "0x3490"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x42f4",
+      "tableAddress": "0x42f8",
+      "jumpBase": "0x42f8",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4320",
+        "0x4330",
+        "0x4348",
+        "0x4378",
+        "0x4398",
+        "0x43c4",
+        "0x43ec",
+        "0x4404",
+        "0x4454",
+        "0x448c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

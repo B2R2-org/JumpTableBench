@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armel-clang/coreutils-9.9-clang-pie-os-timeout",
+  "arch": "armel",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3c98",
+      "tableAddress": "0x3c9c",
+      "jumpBase": "0x3c9c",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3cc8",
+        "0x3cf4",
+        "0x3d60",
+        "0x3d74",
+        "0x3d7c",
+        "0x3d84",
+        "0x3d90",
+        "0x3d98",
+        "0x3dc0",
+        "0x3e28"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3f80",
+      "tableAddress": "0x3f84",
+      "jumpBase": "0x3f84",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x4180",
+        "0x4248",
+        "0x427c",
+        "0x4294",
+        "0x4298",
+        "0x42ac",
+        "0x42d4",
+        "0x42dc",
+        "0x42e4",
+        "0x42ec",
+        "0x42f0",
+        "0x4304",
+        "0x43e4",
+        "0x4414",
+        "0x441c",
+        "0x44b0",
+        "0x458c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5648",
+      "tableAddress": "0x564c",
+      "jumpBase": "0x564c",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5674",
+        "0x5684",
+        "0x569c",
+        "0x56cc",
+        "0x56ec",
+        "0x5718",
+        "0x5740",
+        "0x5758",
+        "0x57a8",
+        "0x57e0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

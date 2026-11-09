@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armel-clang/coreutils-9.9-clang-nopie-os-mktemp",
+  "arch": "armel",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x13138",
+      "tableAddress": "0x1313c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x13168",
+        "0x13194",
+        "0x131f8",
+        "0x1320c",
+        "0x13214",
+        "0x1321c",
+        "0x13234",
+        "0x1323c",
+        "0x13260",
+        "0x13d70"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x133ac",
+      "tableAddress": "0x133b0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x135ac",
+        "0x13668",
+        "0x1369c",
+        "0x136b0",
+        "0x136b4",
+        "0x136c8",
+        "0x136f0",
+        "0x136f8",
+        "0x13700",
+        "0x13708",
+        "0x1370c",
+        "0x13720",
+        "0x137f8",
+        "0x13824",
+        "0x1382c",
+        "0x138bc",
+        "0x13984"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14a78",
+      "tableAddress": "0x14a7c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x14aa4",
+        "0x14ab4",
+        "0x14acc",
+        "0x14af8",
+        "0x14b18",
+        "0x14b44",
+        "0x14b6c",
+        "0x14b84",
+        "0x14bd4",
+        "0x14c0c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

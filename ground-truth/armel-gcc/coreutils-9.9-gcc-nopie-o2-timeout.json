@@ -1,0 +1,195 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armel-gcc/coreutils-9.9-gcc-nopie-o2-timeout",
+  "arch": "armel",
+  "compiler": "gcc",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x11a00",
+      "tableAddress": "0x1875c",
+      "jumpBase": "0x11a08",
+      "entrySize": 1,
+      "numEntries": 17,
+      "targets": [
+        "0x11a08",
+        "0x11a1c",
+        "0x11a40",
+        "0x11a48",
+        "0x11a5c",
+        "0x11a7c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12888",
+      "tableAddress": "0x1874c",
+      "jumpBase": "0x12890",
+      "entrySize": 1,
+      "numEntries": 16,
+      "targets": [
+        "0x12890",
+        "0x128b0",
+        "0x128fc",
+        "0x1290c",
+        "0x1291c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13ccc",
+      "tableAddress": "0x18ab8",
+      "jumpBase": "0x13cd4",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x13cd4",
+        "0x14164",
+        "0x141a4",
+        "0x141fc",
+        "0x14264",
+        "0x142ac",
+        "0x142f4",
+        "0x14340",
+        "0x14384"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13db4",
+      "tableAddress": "0x18ace",
+      "jumpBase": "0x13dbc",
+      "entrySize": 1,
+      "numEntries": 36,
+      "targets": [
+        "0x13dc8",
+        "0x13f88",
+        "0x13fd8",
+        "0x1402c",
+        "0x14060",
+        "0x14094",
+        "0x140ac",
+        "0x140ec",
+        "0x140fc",
+        "0x14114",
+        "0x14124",
+        "0x14158"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x144a0",
+      "tableAddress": "0x18af2",
+      "jumpBase": "0x144a8",
+      "entrySize": 1,
+      "numEntries": 36,
+      "targets": [
+        "0x144a8",
+        "0x14540",
+        "0x1454c",
+        "0x1455c",
+        "0x14568",
+        "0x14578",
+        "0x145b0",
+        "0x14634",
+        "0x1463c",
+        "0x146bc",
+        "0x146e4",
+        "0x146f4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14720",
+      "tableAddress": "0x18b16",
+      "jumpBase": "0x14728",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x13dc8",
+        "0x13fd8",
+        "0x140ec",
+        "0x140fc",
+        "0x14114",
+        "0x14770",
+        "0x14778",
+        "0x1478c",
+        "0x147a4",
+        "0x147bc",
+        "0x147d4",
+        "0x147e0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1485c",
+      "tableAddress": "0x18b5e",
+      "jumpBase": "0x14864",
+      "entrySize": 2,
+      "numEntries": 4,
+      "targets": [
+        "0x13f88",
+        "0x140fc",
+        "0x14864"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14a64",
+      "tableAddress": "0x18b66",
+      "jumpBase": "0x14a6c",
+      "entrySize": 2,
+      "numEntries": 4,
+      "targets": [
+        "0x140fc",
+        "0x14770",
+        "0x14864"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14ea8",
+      "tableAddress": "0x18b6e",
+      "jumpBase": "0x14eb0",
+      "entrySize": 2,
+      "numEntries": 4,
+      "targets": [
+        "0x14540",
+        "0x14634",
+        "0x14eb0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x16210",
+      "tableAddress": "0x18ed3",
+      "jumpBase": "0x16218",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x16218",
+        "0x16268",
+        "0x1628c",
+        "0x162ac",
+        "0x162d4",
+        "0x16300",
+        "0x16328",
+        "0x16360",
+        "0x1639c",
+        "0x163e0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

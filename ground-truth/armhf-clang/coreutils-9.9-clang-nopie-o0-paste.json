@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armhf-clang/coreutils-9.9-clang-nopie-o0-paste",
+  "arch": "armhf",
+  "compiler": "clang",
+  "optLevel": "O0",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x14a24",
+      "tableAddress": "0x14a28",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x14a54",
+        "0x14a64",
+        "0x14ac8",
+        "0x14adc",
+        "0x14ba4",
+        "0x14bac",
+        "0x14bb4",
+        "0x14bcc",
+        "0x14c30"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14db4",
+      "tableAddress": "0x14db8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x14fb4",
+        "0x151c0",
+        "0x153b4",
+        "0x153c0",
+        "0x153cc",
+        "0x153d8",
+        "0x153e4",
+        "0x153f0",
+        "0x153fc",
+        "0x15408",
+        "0x15498",
+        "0x154cc",
+        "0x154e0",
+        "0x154e8",
+        "0x15508",
+        "0x15604",
+        "0x15610"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x157cc",
+      "tableAddress": "0x157d0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 34,
+      "targets": [
+        "0x15858",
+        "0x1585c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x16cfc",
+      "tableAddress": "0x16d00",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x16d28",
+        "0x16d2c",
+        "0x16d48",
+        "0x16d6c",
+        "0x16d9c",
+        "0x16dd8",
+        "0x16e20",
+        "0x16e74",
+        "0x16ed4",
+        "0x16f40"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

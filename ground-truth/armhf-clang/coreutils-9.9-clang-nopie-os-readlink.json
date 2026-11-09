@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "armhf-clang/coreutils-9.9-clang-nopie-os-readlink",
+  "arch": "armhf",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x11784",
+      "tableAddress": "0x11788",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 15,
+      "targets": [
+        "0x117c4",
+        "0x117ec",
+        "0x11810",
+        "0x11818",
+        "0x11820",
+        "0x11a0c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14dec",
+      "tableAddress": "0x14df0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x14e1c",
+        "0x14e48",
+        "0x14eac",
+        "0x14ec0",
+        "0x14ec8",
+        "0x14ed0",
+        "0x14ee8",
+        "0x14ef0",
+        "0x14f14",
+        "0x15a24"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x15060",
+      "tableAddress": "0x15064",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x15260",
+        "0x1531c",
+        "0x15350",
+        "0x15364",
+        "0x15368",
+        "0x1537c",
+        "0x153a4",
+        "0x153ac",
+        "0x153b4",
+        "0x153bc",
+        "0x153c0",
+        "0x153d4",
+        "0x154ac",
+        "0x154d8",
+        "0x154e0",
+        "0x15570",
+        "0x15638"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x163dc",
+      "tableAddress": "0x163e0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x16408",
+        "0x16418",
+        "0x16430",
+        "0x1645c",
+        "0x1647c",
+        "0x164a8",
+        "0x164d0",
+        "0x164e8",
+        "0x16538",
+        "0x16570"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
