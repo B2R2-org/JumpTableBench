@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-clang/coreutils-9.9-clang-pie-o2-shred",
+  "arch": "aarch64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x6538",
+      "tableAddress": "0xbba8",
+      "jumpBase": "0x653c",
+      "entrySize": 1,
+      "numEntries": 11,
+      "targets": [
+        "0x653c",
+        "0x65c4",
+        "0x662c",
+        "0x6644",
+        "0x6648",
+        "0x6664",
+        "0x6668",
+        "0x6688",
+        "0x6698",
+        "0x6710"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6850",
+      "tableAddress": "0xbbb3",
+      "jumpBase": "0x6854",
+      "entrySize": 1,
+      "numEntries": 127,
+      "targets": [
+        "0x6854",
+        "0x6910",
+        "0x6938",
+        "0x6948",
+        "0x694c",
+        "0x6960",
+        "0x6970",
+        "0x6978",
+        "0x6980",
+        "0x6988",
+        "0x698c",
+        "0x699c",
+        "0x69c8",
+        "0x69e0",
+        "0x69e8",
+        "0x6a5c",
+        "0x6b04"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8604",
+      "tableAddress": "0xbd3c",
+      "jumpBase": "0x8608",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x8608",
+        "0x860c",
+        "0x8638",
+        "0x8648",
+        "0x8670",
+        "0x869c",
+        "0x86bc",
+        "0x86e4",
+        "0x8714",
+        "0x875c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9358",
+      "tableAddress": "0xc068",
+      "jumpBase": "0x935c",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x935c",
+        "0x9380",
+        "0x93a0",
+        "0x93b8",
+        "0x93d0",
+        "0x9498",
+        "0x94a4",
+        "0x9554",
+        "0x9580",
+        "0x958c",
+        "0x9630",
+        "0x96c4",
+        "0x9728",
+        "0x9760",
+        "0x9774"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

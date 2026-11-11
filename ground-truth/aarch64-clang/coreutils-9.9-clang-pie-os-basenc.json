@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-clang/coreutils-9.9-clang-pie-os-basenc",
+  "arch": "aarch64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0xe458",
+      "tableAddress": "0x132fc",
+      "jumpBase": "0xe45c",
+      "entrySize": 1,
+      "numEntries": 11,
+      "targets": [
+        "0xe45c",
+        "0xe488",
+        "0xe4ec",
+        "0xe504",
+        "0xe508",
+        "0xe528",
+        "0xe52c",
+        "0xe550",
+        "0xe55c",
+        "0xe5ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xe730",
+      "tableAddress": "0x13307",
+      "jumpBase": "0xe734",
+      "entrySize": 1,
+      "numEntries": 127,
+      "targets": [
+        "0xe734",
+        "0xe7d0",
+        "0xe7f8",
+        "0xe808",
+        "0xe80c",
+        "0xe820",
+        "0xe830",
+        "0xe838",
+        "0xe840",
+        "0xe848",
+        "0xe84c",
+        "0xe85c",
+        "0xe880",
+        "0xe898",
+        "0xe8a0",
+        "0xe914",
+        "0xe97c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xf790",
+      "tableAddress": "0x13408",
+      "jumpBase": "0xf794",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0xf794",
+        "0xf798",
+        "0xf7c4",
+        "0xf7d4",
+        "0xf7fc",
+        "0xf828",
+        "0xf848",
+        "0xf870",
+        "0xf8a0",
+        "0xf8e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xffb0",
+      "tableAddress": "0x13733",
+      "jumpBase": "0xffb4",
+      "entrySize": 1,
+      "numEntries": 25,
+      "targets": [
+        "0xffb4",
+        "0xfff0",
+        "0x1003c",
+        "0x100a0",
+        "0x100a8",
+        "0x100dc",
+        "0x100fc",
+        "0x10130",
+        "0x10164",
+        "0x10198",
+        "0x101cc",
+        "0x10200"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

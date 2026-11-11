@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-gcc/coreutils-9.9-gcc-nopie-o2-uniq",
+  "arch": "aarch64",
+  "compiler": "gcc",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x405020",
+      "tableAddress": "0x4096c0",
+      "jumpBase": "0x405024",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4050e0",
+        "0x405258",
+        "0x40535c",
+        "0x4053b4",
+        "0x405410",
+        "0x405440",
+        "0x405450",
+        "0x405460",
+        "0x405474",
+        "0x405484",
+        "0x405494",
+        "0x4054a4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4055cc",
+      "tableAddress": "0x409708",
+      "jumpBase": "0x4055d0",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4050e0",
+        "0x405258",
+        "0x40535c",
+        "0x405460",
+        "0x405474",
+        "0x405484",
+        "0x4055e8",
+        "0x4055f4",
+        "0x40560c",
+        "0x405680",
+        "0x405694",
+        "0x4056a0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4056d4",
+      "tableAddress": "0x409750",
+      "jumpBase": "0x4056d8",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4056e0",
+        "0x405840",
+        "0x40584c",
+        "0x4058b8",
+        "0x4058c8",
+        "0x4058d8",
+        "0x4058e8",
+        "0x4058f8",
+        "0x405908",
+        "0x405910",
+        "0x405920",
+        "0x40592c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x407cb8",
+      "tableAddress": "0x409b94",
+      "jumpBase": "0x407cbc",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x407c84",
+        "0x407cbc",
+        "0x407ce4",
+        "0x407d18",
+        "0x407d48",
+        "0x407d60",
+        "0x407d8c",
+        "0x407dc4",
+        "0x407de0",
+        "0x407e0c",
+        "0x407e28",
+        "0x407e54",
+        "0x407e84",
+        "0x407eb0",
+        "0x407ee4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-gcc/coreutils-9.9-gcc-nopie-o2-truncate",
+  "arch": "aarch64",
+  "compiler": "gcc",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x403a20",
+      "tableAddress": "0x407f50",
+      "jumpBase": "0x403a24",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x403ae0",
+        "0x403c58",
+        "0x403d5c",
+        "0x403db4",
+        "0x403e10",
+        "0x403e40",
+        "0x403e50",
+        "0x403e60",
+        "0x403e74",
+        "0x403e84",
+        "0x403e94",
+        "0x403ea4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403fcc",
+      "tableAddress": "0x407f98",
+      "jumpBase": "0x403fd0",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x403ae0",
+        "0x403c58",
+        "0x403d5c",
+        "0x403e60",
+        "0x403e74",
+        "0x403e84",
+        "0x403fe8",
+        "0x403ff4",
+        "0x40400c",
+        "0x404080",
+        "0x404094",
+        "0x4040a0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4040d4",
+      "tableAddress": "0x407fe0",
+      "jumpBase": "0x4040d8",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4040e0",
+        "0x404240",
+        "0x40424c",
+        "0x4042b8",
+        "0x4042c8",
+        "0x4042d8",
+        "0x4042e8",
+        "0x4042f8",
+        "0x404308",
+        "0x404310",
+        "0x404320",
+        "0x40432c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4067f8",
+      "tableAddress": "0x408424",
+      "jumpBase": "0x4067fc",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x4067c4",
+        "0x4067fc",
+        "0x406824",
+        "0x406858",
+        "0x406888",
+        "0x4068a0",
+        "0x4068cc",
+        "0x406904",
+        "0x406920",
+        "0x40694c",
+        "0x406968",
+        "0x406994",
+        "0x4069c4",
+        "0x4069f0",
+        "0x406a24"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

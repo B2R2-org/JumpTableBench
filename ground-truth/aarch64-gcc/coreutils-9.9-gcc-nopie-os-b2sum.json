@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-gcc/coreutils-9.9-gcc-nopie-os-b2sum",
+  "arch": "aarch64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x406240",
+      "tableAddress": "0x409d10",
+      "jumpBase": "0x406244",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x40624c",
+        "0x406270",
+        "0x4062b0",
+        "0x40643c",
+        "0x40646c",
+        "0x4064b0",
+        "0x4064c4",
+        "0x4064e0",
+        "0x406544"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x406748",
+      "tableAddress": "0x409d28",
+      "jumpBase": "0x40674c",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4066ec",
+        "0x40674c",
+        "0x406760",
+        "0x406788",
+        "0x4067a0",
+        "0x4067a4",
+        "0x4067ac",
+        "0x406980",
+        "0x406988",
+        "0x406a1c",
+        "0x406a24",
+        "0x406a2c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4076b0",
+      "tableAddress": "0x40a0dc",
+      "jumpBase": "0x4076b4",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x4076d0",
+        "0x4076f8",
+        "0x407720",
+        "0x40774c",
+        "0x407778",
+        "0x4077a8",
+        "0x4077d0",
+        "0x4077e4",
+        "0x407818",
+        "0x407854"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x407ffc",
+      "tableAddress": "0x40a128",
+      "jumpBase": "0x408000",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x407f44",
+        "0x408014",
+        "0x408048",
+        "0x408058",
+        "0x408060",
+        "0x4080a0",
+        "0x4080b0",
+        "0x4080c0",
+        "0x408104",
+        "0x40814c",
+        "0x408174",
+        "0x40819c",
+        "0x4081d0",
+        "0x4081dc",
+        "0x408204"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

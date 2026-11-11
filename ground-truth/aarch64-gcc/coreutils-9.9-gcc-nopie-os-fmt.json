@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-gcc/coreutils-9.9-gcc-nopie-os-fmt",
+  "arch": "aarch64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x404270",
+      "tableAddress": "0x4074e0",
+      "jumpBase": "0x404274",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x40427c",
+        "0x4042a0",
+        "0x4042e0",
+        "0x40446c",
+        "0x40449c",
+        "0x4044e0",
+        "0x4044f4",
+        "0x404510",
+        "0x404574"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404778",
+      "tableAddress": "0x4074f8",
+      "jumpBase": "0x40477c",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x40471c",
+        "0x40477c",
+        "0x404790",
+        "0x4047b8",
+        "0x4047d0",
+        "0x4047d4",
+        "0x4047dc",
+        "0x4049b0",
+        "0x4049b8",
+        "0x404a4c",
+        "0x404a54",
+        "0x404a5c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4056d4",
+      "tableAddress": "0x4078ac",
+      "jumpBase": "0x4056d8",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x4056f4",
+        "0x40571c",
+        "0x405744",
+        "0x405770",
+        "0x40579c",
+        "0x4057cc",
+        "0x4057f4",
+        "0x405808",
+        "0x40583c",
+        "0x405878"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x406020",
+      "tableAddress": "0x4078f8",
+      "jumpBase": "0x406024",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x405f68",
+        "0x406038",
+        "0x40606c",
+        "0x40607c",
+        "0x406084",
+        "0x4060c4",
+        "0x4060d4",
+        "0x4060e4",
+        "0x406128",
+        "0x406170",
+        "0x406198",
+        "0x4061c0",
+        "0x4061f4",
+        "0x406200",
+        "0x406228"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

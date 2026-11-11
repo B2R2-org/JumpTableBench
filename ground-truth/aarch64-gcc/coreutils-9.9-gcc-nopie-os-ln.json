@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-gcc/coreutils-9.9-gcc-nopie-os-ln",
+  "arch": "aarch64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x402550",
+      "tableAddress": "0x40a8c8",
+      "jumpBase": "0x402554",
+      "entrySize": 1,
+      "numEntries": 21,
+      "targets": [
+        "0x402530",
+        "0x402574",
+        "0x402598",
+        "0x4025a4",
+        "0x4025b4",
+        "0x4025d0",
+        "0x4025dc",
+        "0x4025e8",
+        "0x4025f4",
+        "0x402680"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x406d7c",
+      "tableAddress": "0x40aea8",
+      "jumpBase": "0x406d80",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x406d88",
+        "0x406dac",
+        "0x406dec",
+        "0x406f78",
+        "0x406fa8",
+        "0x406fec",
+        "0x407000",
+        "0x40701c",
+        "0x407080"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x407284",
+      "tableAddress": "0x40aec0",
+      "jumpBase": "0x407288",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x407228",
+        "0x407288",
+        "0x40729c",
+        "0x4072c4",
+        "0x4072dc",
+        "0x4072e0",
+        "0x4072e8",
+        "0x4074bc",
+        "0x4074c4",
+        "0x407558",
+        "0x407560",
+        "0x407568"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4087b8",
+      "tableAddress": "0x40b2cc",
+      "jumpBase": "0x4087bc",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x4087d8",
+        "0x408800",
+        "0x408828",
+        "0x408854",
+        "0x408880",
+        "0x4088b0",
+        "0x4088d8",
+        "0x4088ec",
+        "0x408920",
+        "0x40895c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

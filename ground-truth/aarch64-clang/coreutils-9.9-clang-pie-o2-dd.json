@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-clang/coreutils-9.9-clang-pie-o2-dd",
+  "arch": "aarch64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x8220",
+      "tableAddress": "0xd840",
+      "jumpBase": "0x8224",
+      "entrySize": 1,
+      "numEntries": 11,
+      "targets": [
+        "0x8224",
+        "0x82ac",
+        "0x8314",
+        "0x832c",
+        "0x8330",
+        "0x834c",
+        "0x8350",
+        "0x8370",
+        "0x8380",
+        "0x83f8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8538",
+      "tableAddress": "0xd84b",
+      "jumpBase": "0x853c",
+      "entrySize": 1,
+      "numEntries": 127,
+      "targets": [
+        "0x853c",
+        "0x85f8",
+        "0x8620",
+        "0x8630",
+        "0x8634",
+        "0x8648",
+        "0x8658",
+        "0x8660",
+        "0x8668",
+        "0x8670",
+        "0x8674",
+        "0x8684",
+        "0x86b0",
+        "0x86c8",
+        "0x86d0",
+        "0x8744",
+        "0x87ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x971c",
+      "tableAddress": "0xd94c",
+      "jumpBase": "0x9720",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x9720",
+        "0x9724",
+        "0x9750",
+        "0x9760",
+        "0x9788",
+        "0x97b4",
+        "0x97d4",
+        "0x97fc",
+        "0x982c",
+        "0x9874"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa264",
+      "tableAddress": "0xdc86",
+      "jumpBase": "0xa268",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0xa268",
+        "0xa28c",
+        "0xa2ac",
+        "0xa2c4",
+        "0xa2dc",
+        "0xa3a4",
+        "0xa3b0",
+        "0xa460",
+        "0xa48c",
+        "0xa498",
+        "0xa53c",
+        "0xa5d0",
+        "0xa634",
+        "0xa66c",
+        "0xa680"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

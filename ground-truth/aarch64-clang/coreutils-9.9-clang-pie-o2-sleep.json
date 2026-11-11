@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "aarch64-clang/coreutils-9.9-clang-pie-o2-sleep",
+  "arch": "aarch64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3534",
+      "tableAddress": "0x5f60",
+      "jumpBase": "0x3538",
+      "entrySize": 1,
+      "numEntries": 11,
+      "targets": [
+        "0x3538",
+        "0x35c0",
+        "0x3628",
+        "0x3640",
+        "0x3644",
+        "0x3660",
+        "0x3664",
+        "0x3684",
+        "0x3694",
+        "0x370c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x384c",
+      "tableAddress": "0x5f6b",
+      "jumpBase": "0x3850",
+      "entrySize": 1,
+      "numEntries": 127,
+      "targets": [
+        "0x3850",
+        "0x390c",
+        "0x3934",
+        "0x3944",
+        "0x3948",
+        "0x395c",
+        "0x396c",
+        "0x3974",
+        "0x397c",
+        "0x3984",
+        "0x3988",
+        "0x3998",
+        "0x39c4",
+        "0x39dc",
+        "0x39e4",
+        "0x3a58",
+        "0x3b00"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4a30",
+      "tableAddress": "0x606c",
+      "jumpBase": "0x4a34",
+      "entrySize": 1,
+      "numEntries": 10,
+      "targets": [
+        "0x4a34",
+        "0x4a38",
+        "0x4a64",
+        "0x4a74",
+        "0x4a9c",
+        "0x4ac8",
+        "0x4ae8",
+        "0x4b10",
+        "0x4b40",
+        "0x4b88"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
