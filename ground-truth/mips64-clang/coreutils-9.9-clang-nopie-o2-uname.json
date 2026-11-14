@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-nopie-o2-uname",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1200025e4",
+      "tableAddress": "0x120007e40",
+      "jumpBase": "0x1200220a0",
+      "entrySize": 8,
+      "numEntries": 22,
+      "targets": [
+        "0x120002590",
+        "0x120002594",
+        "0x1200025ec",
+        "0x1200025f4",
+        "0x1200025fc",
+        "0x120002604",
+        "0x12000260c",
+        "0x120002614",
+        "0x12000261c",
+        "0x120002bb0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120004498",
+      "tableAddress": "0x1200085d0",
+      "jumpBase": "0x1200220a0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x1200044a0",
+        "0x120004544",
+        "0x1200045d8",
+        "0x1200045fc",
+        "0x120004620",
+        "0x120004650",
+        "0x120004674",
+        "0x120004684",
+        "0x1200046b0",
+        "0x120004744"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1200048d0",
+      "tableAddress": "0x120008628",
+      "jumpBase": "0x1200220a0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x1200048d8",
+        "0x1200049d0",
+        "0x1200049fc",
+        "0x120004a0c",
+        "0x120004a10",
+        "0x120004a24",
+        "0x120004a5c",
+        "0x120004a64",
+        "0x120004a6c",
+        "0x120004a74",
+        "0x120004a78",
+        "0x120004a8c",
+        "0x120004bb0",
+        "0x120004be4",
+        "0x120004bec",
+        "0x120004c9c",
+        "0x120004de0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000657c",
+      "tableAddress": "0x120008aa0",
+      "jumpBase": "0x1200220a0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x120006584",
+        "0x1200065a8",
+        "0x1200065d8",
+        "0x12000662c",
+        "0x120006654",
+        "0x120006680",
+        "0x1200066c4",
+        "0x1200066f8",
+        "0x120006788",
+        "0x1200067cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

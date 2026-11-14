@@ -7,7 +7,7 @@
   "properties": {
     "$schema": { "type": "string" },
     "id": { "type": "string" },
-    "arch": { "enum": [ "x86", "x64", "armhf", "armel", "aarch64" ] },
+    "arch": { "enum": [ "x86", "x64", "armhf", "armel", "aarch64", "mips32", "mips64" ] },
     "compiler": { "type": "string" },
     "optLevel": { "enum": [ "O0", "O1", "O2", "O3", "Os" ] },
     "imageBase": { "$ref": "#/$defs/addr" },

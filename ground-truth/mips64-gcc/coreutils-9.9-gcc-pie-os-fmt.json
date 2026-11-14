@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-pie-os-fmt",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3944",
+      "tableAddress": "0xac30",
+      "jumpBase": "0x242c0",
+      "entrySize": 8,
+      "numEntries": 21,
+      "targets": [
+        "0x38e8",
+        "0x394c",
+        "0x3a6c",
+        "0x3a7c",
+        "0x3a8c",
+        "0x3a9c",
+        "0x3aa8",
+        "0x3ab4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6898",
+      "tableAddress": "0xaf20",
+      "jumpBase": "0x242c0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x68a8",
+        "0x68cc",
+        "0x6904",
+        "0x6a0c",
+        "0x6a38",
+        "0x6a40",
+        "0x6a58",
+        "0x6a9c",
+        "0x6ac0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6e3c",
+      "tableAddress": "0xaf78",
+      "jumpBase": "0x242c0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x6c54",
+        "0x6e44",
+        "0x6e58",
+        "0x6ee0",
+        "0x6f0c",
+        "0x6f14",
+        "0x6f1c",
+        "0x7194",
+        "0x71c4",
+        "0x71cc",
+        "0x71d4",
+        "0x71dc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8314",
+      "tableAddress": "0xb3f0",
+      "jumpBase": "0x242c0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x833c",
+        "0x8358",
+        "0x8374",
+        "0x839c",
+        "0x83c8",
+        "0x83f8",
+        "0x842c",
+        "0x8468",
+        "0x84ac",
+        "0x84f8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x910c",
+      "tableAddress": "0xb490",
+      "jumpBase": "0x242c0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x9034",
+        "0x9130",
+        "0x9168",
+        "0x9188",
+        "0x91c4",
+        "0x91d0",
+        "0x91dc",
+        "0x922c",
+        "0x9298",
+        "0x92d0",
+        "0x9308",
+        "0x9350",
+        "0x935c",
+        "0x9394",
+        "0x93cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

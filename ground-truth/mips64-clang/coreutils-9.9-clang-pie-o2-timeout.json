@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-pie-o2-timeout",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x38ac",
+      "tableAddress": "0xa2a0",
+      "jumpBase": "0x24260",
+      "entrySize": 8,
+      "numEntries": 17,
+      "targets": [
+        "0x3858",
+        "0x38b4",
+        "0x38c0",
+        "0x38d4",
+        "0x38fc",
+        "0x4170"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x426c",
+      "tableAddress": "0xa328",
+      "jumpBase": "0x24260",
+      "entrySize": 8,
+      "numEntries": 16,
+      "targets": [
+        "0x4274",
+        "0x4284",
+        "0x4294",
+        "0x429c",
+        "0x42bc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6368",
+      "tableAddress": "0xafd8",
+      "jumpBase": "0x24260",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x6370",
+        "0x6414",
+        "0x64a8",
+        "0x64cc",
+        "0x64f0",
+        "0x6520",
+        "0x6544",
+        "0x6554",
+        "0x6580",
+        "0x6614"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x67a0",
+      "tableAddress": "0xb030",
+      "jumpBase": "0x24260",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x67a8",
+        "0x68a0",
+        "0x68cc",
+        "0x68dc",
+        "0x68e0",
+        "0x68f4",
+        "0x692c",
+        "0x6934",
+        "0x693c",
+        "0x6944",
+        "0x6948",
+        "0x695c",
+        "0x6a80",
+        "0x6ab4",
+        "0x6abc",
+        "0x6b6c",
+        "0x6cb0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x877c",
+      "tableAddress": "0xb4b8",
+      "jumpBase": "0x24260",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x8784",
+        "0x87a8",
+        "0x87d8",
+        "0x882c",
+        "0x8854",
+        "0x8880",
+        "0x88c4",
+        "0x88f8",
+        "0x8988",
+        "0x89cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

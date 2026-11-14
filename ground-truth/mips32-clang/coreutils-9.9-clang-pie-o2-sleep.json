@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-pie-o2-sleep",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1dd0",
+      "tableAddress": "0x7df0",
+      "jumpBase": "0x21080",
+      "entrySize": 4,
+      "numEntries": 16,
+      "targets": [
+        "0x1cec",
+        "0x1dd8",
+        "0x1de4",
+        "0x1df0",
+        "0x1df4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x39c8",
+      "tableAddress": "0x8278",
+      "jumpBase": "0x21080",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x39d0",
+        "0x3a88",
+        "0x3b20",
+        "0x3b44",
+        "0x3b68",
+        "0x3b98",
+        "0x3bbc",
+        "0x3bcc",
+        "0x3bf8",
+        "0x3c94"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3e34",
+      "tableAddress": "0x82a4",
+      "jumpBase": "0x21080",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x3e3c",
+        "0x3f30",
+        "0x3f5c",
+        "0x3f6c",
+        "0x3f70",
+        "0x3f84",
+        "0x3fbc",
+        "0x3fc4",
+        "0x3fcc",
+        "0x3fd4",
+        "0x3fd8",
+        "0x3fec",
+        "0x4110",
+        "0x4144",
+        "0x414c",
+        "0x41fc",
+        "0x431c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x45b0",
+      "tableAddress": "0x84a0",
+      "jumpBase": "0x21080",
+      "entrySize": 4,
+      "numEntries": 34,
+      "targets": [
+        "0x457c",
+        "0x493c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5c48",
+      "tableAddress": "0x85a8",
+      "jumpBase": "0x21080",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5c50",
+        "0x5c74",
+        "0x5cb0",
+        "0x5d14",
+        "0x5d40",
+        "0x5d74",
+        "0x5dc8",
+        "0x5e0c",
+        "0x5ebc",
+        "0x5f10"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

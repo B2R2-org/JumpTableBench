@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-nopie-os-comm",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120002f1c",
+      "tableAddress": "0x1200096f0",
+      "jumpBase": "0x1200222a0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x120002eec",
+        "0x120002f50",
+        "0x120002f5c",
+        "0x120002f68",
+        "0x120002f70",
+        "0x120002fe4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120005498",
+      "tableAddress": "0x120009990",
+      "jumpBase": "0x1200222a0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x1200054a8",
+        "0x1200054cc",
+        "0x120005504",
+        "0x12000560c",
+        "0x120005638",
+        "0x120005640",
+        "0x120005658",
+        "0x12000569c",
+        "0x1200056c0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120005a3c",
+      "tableAddress": "0x1200099e8",
+      "jumpBase": "0x1200222a0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x120005854",
+        "0x120005a44",
+        "0x120005a58",
+        "0x120005ae0",
+        "0x120005b0c",
+        "0x120005b14",
+        "0x120005b1c",
+        "0x120005d94",
+        "0x120005dc4",
+        "0x120005dcc",
+        "0x120005dd4",
+        "0x120005ddc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1200070c4",
+      "tableAddress": "0x120009e60",
+      "jumpBase": "0x1200222a0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1200070ec",
+        "0x120007108",
+        "0x120007124",
+        "0x12000714c",
+        "0x120007178",
+        "0x1200071a8",
+        "0x1200071dc",
+        "0x120007218",
+        "0x12000725c",
+        "0x1200072a8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

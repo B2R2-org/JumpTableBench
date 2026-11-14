@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-nopie-o2-sleep",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x401614",
+      "tableAddress": "0x4066a0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 16,
+      "targets": [
+        "0x40154c",
+        "0x40161c",
+        "0x401628",
+        "0x401634",
+        "0x401638"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x402ea8",
+      "tableAddress": "0x406b58",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x402eb0",
+        "0x402f50",
+        "0x402fe0",
+        "0x403000",
+        "0x403020",
+        "0x40304c",
+        "0x40306c",
+        "0x40307c",
+        "0x4030a4",
+        "0x403150"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4032c4",
+      "tableAddress": "0x406b84",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x4032cc",
+        "0x4033c0",
+        "0x4033ec",
+        "0x4033fc",
+        "0x403400",
+        "0x403414",
+        "0x40344c",
+        "0x403454",
+        "0x40345c",
+        "0x403464",
+        "0x403468",
+        "0x40347c",
+        "0x4035a0",
+        "0x4035d4",
+        "0x4035dc",
+        "0x40368c",
+        "0x4037bc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403c08",
+      "tableAddress": "0x406d80",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 34,
+      "targets": [
+        "0x403bdc",
+        "0x403d98"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404d90",
+      "tableAddress": "0x406eb4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x404d98",
+        "0x404db8",
+        "0x404df0",
+        "0x404e50",
+        "0x404e78",
+        "0x404ea8",
+        "0x404ef8",
+        "0x404f38",
+        "0x404fe0",
+        "0x405030"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

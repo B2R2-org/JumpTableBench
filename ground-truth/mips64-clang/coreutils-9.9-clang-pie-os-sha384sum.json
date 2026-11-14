@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-pie-os-sha384sum",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3bb8",
+      "tableAddress": "0xf560",
+      "jumpBase": "0x290b0",
+      "entrySize": 8,
+      "numEntries": 17,
+      "targets": [
+        "0x3bc0",
+        "0x3bec",
+        "0x3bf8",
+        "0x3c04",
+        "0x3c10",
+        "0x3c2c",
+        "0x3c48",
+        "0x3c54",
+        "0x4c50"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb6a8",
+      "tableAddress": "0x10358",
+      "jumpBase": "0x290b0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0xb6b0",
+        "0xb6f4",
+        "0xb780",
+        "0xb7a4",
+        "0xb7c8",
+        "0xb7f8",
+        "0xb81c",
+        "0xb82c",
+        "0xb858",
+        "0xb8ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xba78",
+      "tableAddress": "0x103b0",
+      "jumpBase": "0x290b0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0xba80",
+        "0xbb68",
+        "0xbb94",
+        "0xbba4",
+        "0xbba8",
+        "0xbbbc",
+        "0xbbe8",
+        "0xbbf0",
+        "0xbbf8",
+        "0xbc00",
+        "0xbc04",
+        "0xbc18",
+        "0xbd3c",
+        "0xbd70",
+        "0xbd78",
+        "0xbe28",
+        "0xbed0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xd55c",
+      "tableAddress": "0x10830",
+      "jumpBase": "0x290b0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xd564",
+        "0xd588",
+        "0xd5b8",
+        "0xd60c",
+        "0xd634",
+        "0xd660",
+        "0xd6a4",
+        "0xd6d8",
+        "0xd768",
+        "0xd7ac"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

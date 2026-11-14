@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-nopie-os-mktemp",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x403744",
+      "tableAddress": "0x4075b0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x40374c",
+        "0x40377c",
+        "0x403804",
+        "0x403824",
+        "0x403844",
+        "0x403870",
+        "0x403890",
+        "0x4038a0",
+        "0x4038c8",
+        "0x403974"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403ae8",
+      "tableAddress": "0x4075dc",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x403af0",
+        "0x403bd4",
+        "0x403c00",
+        "0x403c10",
+        "0x403c14",
+        "0x403c28",
+        "0x403c54",
+        "0x403c5c",
+        "0x403c64",
+        "0x403c6c",
+        "0x403c70",
+        "0x403c84",
+        "0x403da8",
+        "0x403ddc",
+        "0x403de4",
+        "0x403e94",
+        "0x403f28"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405700",
+      "tableAddress": "0x4078d4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x405708",
+        "0x405728",
+        "0x405760",
+        "0x4057c0",
+        "0x4057e8",
+        "0x405818",
+        "0x405868",
+        "0x4058a8",
+        "0x405950",
+        "0x4059a0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

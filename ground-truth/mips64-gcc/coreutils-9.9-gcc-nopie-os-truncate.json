@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-nopie-os-truncate",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120004a08",
+      "tableAddress": "0x120008d40",
+      "jumpBase": "0x120021700",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120004a18",
+        "0x120004a3c",
+        "0x120004a74",
+        "0x120004b7c",
+        "0x120004ba8",
+        "0x120004bb0",
+        "0x120004bc8",
+        "0x120004c0c",
+        "0x120004c30"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120004fac",
+      "tableAddress": "0x120008d98",
+      "jumpBase": "0x120021700",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x120004dc4",
+        "0x120004fb4",
+        "0x120004fc8",
+        "0x120005050",
+        "0x12000507c",
+        "0x120005084",
+        "0x12000508c",
+        "0x120005304",
+        "0x120005334",
+        "0x12000533c",
+        "0x120005344",
+        "0x12000534c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120006484",
+      "tableAddress": "0x120009210",
+      "jumpBase": "0x120021700",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1200064ac",
+        "0x1200064c8",
+        "0x1200064e4",
+        "0x12000650c",
+        "0x120006538",
+        "0x120006568",
+        "0x12000659c",
+        "0x1200065d8",
+        "0x12000661c",
+        "0x120006668"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120007280",
+      "tableAddress": "0x1200092b0",
+      "jumpBase": "0x120021700",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x12000717c",
+        "0x1200072a4",
+        "0x120007304",
+        "0x120007324",
+        "0x12000732c",
+        "0x120007348",
+        "0x120007350",
+        "0x120007358",
+        "0x120007360",
+        "0x120007368",
+        "0x120007370",
+        "0x120007378",
+        "0x120007380",
+        "0x1200073c4",
+        "0x1200073cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

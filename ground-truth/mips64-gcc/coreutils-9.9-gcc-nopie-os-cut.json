@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-nopie-os-cut",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120003044",
+      "tableAddress": "0x12000a230",
+      "jumpBase": "0x1200232f0",
+      "entrySize": 8,
+      "numEntries": 18,
+      "targets": [
+        "0x120002fb4",
+        "0x120003014",
+        "0x120003070",
+        "0x120003074",
+        "0x1200030a4",
+        "0x120003110"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120005e88",
+      "tableAddress": "0x12000a6c0",
+      "jumpBase": "0x1200232f0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120005e98",
+        "0x120005ebc",
+        "0x120005ef4",
+        "0x120005ffc",
+        "0x120006028",
+        "0x120006030",
+        "0x120006048",
+        "0x12000608c",
+        "0x1200060b0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000642c",
+      "tableAddress": "0x12000a718",
+      "jumpBase": "0x1200232f0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x120006244",
+        "0x120006434",
+        "0x120006448",
+        "0x1200064d0",
+        "0x1200064fc",
+        "0x120006504",
+        "0x12000650c",
+        "0x120006784",
+        "0x1200067b4",
+        "0x1200067bc",
+        "0x1200067c4",
+        "0x1200067cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120007944",
+      "tableAddress": "0x12000ab90",
+      "jumpBase": "0x1200232f0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x12000796c",
+        "0x120007988",
+        "0x1200079a4",
+        "0x1200079cc",
+        "0x1200079f8",
+        "0x120007a28",
+        "0x120007a5c",
+        "0x120007a98",
+        "0x120007adc",
+        "0x120007b28"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

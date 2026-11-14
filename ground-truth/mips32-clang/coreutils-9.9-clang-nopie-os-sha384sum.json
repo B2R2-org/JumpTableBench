@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-nopie-os-sha384sum",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4018a4",
+      "tableAddress": "0x415608",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 17,
+      "targets": [
+        "0x4018ac",
+        "0x4018dc",
+        "0x4018e8",
+        "0x4018f4",
+        "0x401900",
+        "0x401918",
+        "0x401930",
+        "0x40193c",
+        "0x402934"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x412384",
+      "tableAddress": "0x4164c0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x41238c",
+        "0x4123bc",
+        "0x412444",
+        "0x412464",
+        "0x412484",
+        "0x4124b0",
+        "0x4124d0",
+        "0x4124e0",
+        "0x412508",
+        "0x4125b4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x412728",
+      "tableAddress": "0x4164ec",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x412730",
+        "0x412814",
+        "0x412840",
+        "0x412850",
+        "0x412854",
+        "0x412868",
+        "0x412894",
+        "0x41289c",
+        "0x4128a4",
+        "0x4128ac",
+        "0x4128b0",
+        "0x4128c4",
+        "0x4129e8",
+        "0x412a1c",
+        "0x412a24",
+        "0x412ad4",
+        "0x412b68"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x413ed0",
+      "tableAddress": "0x416798",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x413ed8",
+        "0x413ef8",
+        "0x413f30",
+        "0x413f90",
+        "0x413fb8",
+        "0x413fe8",
+        "0x414038",
+        "0x414078",
+        "0x414120",
+        "0x414170"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

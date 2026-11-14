@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-nopie-os-dircolors",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120006478",
+      "tableAddress": "0x12000f608",
+      "jumpBase": "0x1200290b0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120006480",
+        "0x1200064c4",
+        "0x120006550",
+        "0x120006574",
+        "0x120006598",
+        "0x1200065c8",
+        "0x1200065ec",
+        "0x1200065fc",
+        "0x120006628",
+        "0x1200066bc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120006848",
+      "tableAddress": "0x12000f660",
+      "jumpBase": "0x1200290b0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x120006850",
+        "0x120006938",
+        "0x120006964",
+        "0x120006974",
+        "0x120006978",
+        "0x12000698c",
+        "0x1200069b8",
+        "0x1200069c0",
+        "0x1200069c8",
+        "0x1200069d0",
+        "0x1200069d4",
+        "0x1200069e8",
+        "0x120006b0c",
+        "0x120006b40",
+        "0x120006b48",
+        "0x120006bf8",
+        "0x120006ca0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1200082ec",
+      "tableAddress": "0x12000fad0",
+      "jumpBase": "0x1200290b0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1200082f4",
+        "0x120008318",
+        "0x120008348",
+        "0x12000839c",
+        "0x1200083c4",
+        "0x1200083f0",
+        "0x120008434",
+        "0x120008468",
+        "0x1200084f8",
+        "0x12000853c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120009990",
+      "tableAddress": "0x12000fe30",
+      "jumpBase": "0x1200290b0",
+      "entrySize": 8,
+      "numEntries": 95,
+      "targets": [
+        "0x120009998",
+        "0x120009f38"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

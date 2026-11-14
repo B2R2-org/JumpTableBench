@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-pie-o2-realpath",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3ce8",
+      "tableAddress": "0xd040",
+      "jumpBase": "0x270a0",
+      "entrySize": 8,
+      "numEntries": 61,
+      "targets": [
+        "0x3c94",
+        "0x3cf0",
+        "0x3cfc",
+        "0x3d0c",
+        "0x3d1c",
+        "0x3d24",
+        "0x3d38",
+        "0x3d44",
+        "0x3d50",
+        "0x3d60",
+        "0x430c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x91d8",
+      "tableAddress": "0xd9c8",
+      "jumpBase": "0x270a0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x91e0",
+        "0x9284",
+        "0x9318",
+        "0x933c",
+        "0x9360",
+        "0x9390",
+        "0x93b4",
+        "0x93c4",
+        "0x93f0",
+        "0x9484"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9610",
+      "tableAddress": "0xda20",
+      "jumpBase": "0x270a0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x9618",
+        "0x9710",
+        "0x973c",
+        "0x974c",
+        "0x9750",
+        "0x9764",
+        "0x979c",
+        "0x97a4",
+        "0x97ac",
+        "0x97b4",
+        "0x97b8",
+        "0x97cc",
+        "0x98f0",
+        "0x9924",
+        "0x992c",
+        "0x99dc",
+        "0x9b20"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb2bc",
+      "tableAddress": "0xde98",
+      "jumpBase": "0x270a0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xb2c4",
+        "0xb2e8",
+        "0xb318",
+        "0xb36c",
+        "0xb394",
+        "0xb3c0",
+        "0xb404",
+        "0xb438",
+        "0xb4c8",
+        "0xb50c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-nopie-os-comm",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x401864",
+      "tableAddress": "0x407248",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x40186c",
+        "0x4018b0",
+        "0x4018bc",
+        "0x4018c4",
+        "0x401910",
+        "0x401a58"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403e04",
+      "tableAddress": "0x407c04",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x403e0c",
+        "0x403e3c",
+        "0x403ec4",
+        "0x403ee4",
+        "0x403f04",
+        "0x403f30",
+        "0x403f50",
+        "0x403f60",
+        "0x403f88",
+        "0x404034"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4041a8",
+      "tableAddress": "0x407c30",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x4041b0",
+        "0x404294",
+        "0x4042c0",
+        "0x4042d0",
+        "0x4042d4",
+        "0x4042e8",
+        "0x404314",
+        "0x40431c",
+        "0x404324",
+        "0x40432c",
+        "0x404330",
+        "0x404344",
+        "0x404468",
+        "0x40449c",
+        "0x4044a4",
+        "0x404554",
+        "0x4045e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405a60",
+      "tableAddress": "0x407ed8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x405a68",
+        "0x405a88",
+        "0x405ac0",
+        "0x405b20",
+        "0x405b48",
+        "0x405b78",
+        "0x405bc8",
+        "0x405c08",
+        "0x405cb0",
+        "0x405d00"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

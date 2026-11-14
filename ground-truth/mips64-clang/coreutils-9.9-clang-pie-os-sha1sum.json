@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-pie-os-sha1sum",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3b58",
+      "tableAddress": "0xc560",
+      "jumpBase": "0x260b0",
+      "entrySize": 8,
+      "numEntries": 17,
+      "targets": [
+        "0x3b60",
+        "0x3b8c",
+        "0x3b98",
+        "0x3ba4",
+        "0x3bb0",
+        "0x3bcc",
+        "0x3be8",
+        "0x3bf4",
+        "0x4bf0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x86a8",
+      "tableAddress": "0xd318",
+      "jumpBase": "0x260b0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x86b0",
+        "0x86f4",
+        "0x8780",
+        "0x87a4",
+        "0x87c8",
+        "0x87f8",
+        "0x881c",
+        "0x882c",
+        "0x8858",
+        "0x88ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8a78",
+      "tableAddress": "0xd370",
+      "jumpBase": "0x260b0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x8a80",
+        "0x8b68",
+        "0x8b94",
+        "0x8ba4",
+        "0x8ba8",
+        "0x8bbc",
+        "0x8be8",
+        "0x8bf0",
+        "0x8bf8",
+        "0x8c00",
+        "0x8c04",
+        "0x8c18",
+        "0x8d3c",
+        "0x8d70",
+        "0x8d78",
+        "0x8e28",
+        "0x8ed0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa55c",
+      "tableAddress": "0xd7f0",
+      "jumpBase": "0x260b0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xa564",
+        "0xa588",
+        "0xa5b8",
+        "0xa60c",
+        "0xa634",
+        "0xa660",
+        "0xa6a4",
+        "0xa6d8",
+        "0xa768",
+        "0xa7ac"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

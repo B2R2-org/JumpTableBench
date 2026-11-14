@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-nopie-os-cat",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120002da0",
+      "tableAddress": "0x120008f80",
+      "jumpBase": "0x1200222f0",
+      "entrySize": 8,
+      "numEntries": 21,
+      "targets": [
+        "0x120002cdc",
+        "0x120002d70",
+        "0x120002dc8",
+        "0x120002dd4",
+        "0x120002de0",
+        "0x120002de4",
+        "0x120002e68",
+        "0x120002e78"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120005648",
+      "tableAddress": "0x120009270",
+      "jumpBase": "0x1200222f0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120005658",
+        "0x12000567c",
+        "0x1200056b4",
+        "0x1200057bc",
+        "0x1200057e8",
+        "0x1200057f0",
+        "0x120005808",
+        "0x12000584c",
+        "0x120005870"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120005bec",
+      "tableAddress": "0x1200092c8",
+      "jumpBase": "0x1200222f0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x120005a04",
+        "0x120005bf4",
+        "0x120005c08",
+        "0x120005c90",
+        "0x120005cbc",
+        "0x120005cc4",
+        "0x120005ccc",
+        "0x120005f44",
+        "0x120005f74",
+        "0x120005f7c",
+        "0x120005f84",
+        "0x120005f8c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120007194",
+      "tableAddress": "0x120009740",
+      "jumpBase": "0x1200222f0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1200071bc",
+        "0x1200071d8",
+        "0x1200071f4",
+        "0x12000721c",
+        "0x120007248",
+        "0x120007278",
+        "0x1200072ac",
+        "0x1200072e8",
+        "0x12000732c",
+        "0x120007378"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

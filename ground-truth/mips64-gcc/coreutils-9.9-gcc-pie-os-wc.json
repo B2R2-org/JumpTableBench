@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-pie-os-wc",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x8098",
+      "tableAddress": "0xc900",
+      "jumpBase": "0x25320",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x80a8",
+        "0x80cc",
+        "0x8104",
+        "0x820c",
+        "0x8238",
+        "0x8240",
+        "0x8258",
+        "0x829c",
+        "0x82c0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x863c",
+      "tableAddress": "0xc958",
+      "jumpBase": "0x25320",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x8454",
+        "0x8644",
+        "0x8658",
+        "0x86e0",
+        "0x870c",
+        "0x8714",
+        "0x871c",
+        "0x8994",
+        "0x89c4",
+        "0x89cc",
+        "0x89d4",
+        "0x89dc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9f04",
+      "tableAddress": "0xcdd0",
+      "jumpBase": "0x25320",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x9f2c",
+        "0x9f48",
+        "0x9f64",
+        "0x9f8c",
+        "0x9fb8",
+        "0x9fe8",
+        "0xa01c",
+        "0xa058",
+        "0xa09c",
+        "0xa0e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

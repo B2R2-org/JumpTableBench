@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips32-clang/coreutils-9.9-clang-nopie-os-paste",
+  "arch": "mips32",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4018ac",
+      "tableAddress": "0x406ca8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 9,
+      "targets": [
+        "0x4018b4",
+        "0x4018f8",
+        "0x401900",
+        "0x401908",
+        "0x401918"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403be4",
+      "tableAddress": "0x407328",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x403bec",
+        "0x403c1c",
+        "0x403ca4",
+        "0x403cc4",
+        "0x403ce4",
+        "0x403d10",
+        "0x403d30",
+        "0x403d40",
+        "0x403d68",
+        "0x403e14"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403f88",
+      "tableAddress": "0x407354",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x403f90",
+        "0x404074",
+        "0x4040a0",
+        "0x4040b0",
+        "0x4040b4",
+        "0x4040c8",
+        "0x4040f4",
+        "0x4040fc",
+        "0x404104",
+        "0x40410c",
+        "0x404110",
+        "0x404124",
+        "0x404248",
+        "0x40427c",
+        "0x404284",
+        "0x404334",
+        "0x4043c8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405710",
+      "tableAddress": "0x407600",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x405718",
+        "0x405738",
+        "0x405770",
+        "0x4057d0",
+        "0x4057f8",
+        "0x405828",
+        "0x405878",
+        "0x4058b8",
+        "0x405960",
+        "0x4059b0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

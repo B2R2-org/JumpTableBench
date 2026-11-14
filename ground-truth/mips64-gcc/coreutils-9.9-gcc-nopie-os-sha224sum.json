@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-gcc/coreutils-9.9-gcc-nopie-os-sha224sum",
+  "arch": "mips64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120003090",
+      "tableAddress": "0x12000d0d0",
+      "jumpBase": "0x120026330",
+      "entrySize": 8,
+      "numEntries": 17,
+      "targets": [
+        "0x120003060",
+        "0x120003098",
+        "0x1200030b4",
+        "0x1200030d4",
+        "0x1200030ec",
+        "0x1200030fc",
+        "0x12000311c",
+        "0x12000312c",
+        "0x1200031d0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120008ca8",
+      "tableAddress": "0x12000d400",
+      "jumpBase": "0x120026330",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120008cb8",
+        "0x120008cdc",
+        "0x120008d14",
+        "0x120008e1c",
+        "0x120008e48",
+        "0x120008e50",
+        "0x120008e68",
+        "0x120008eac",
+        "0x120008ed0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000924c",
+      "tableAddress": "0x12000d458",
+      "jumpBase": "0x120026330",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x120009064",
+        "0x120009254",
+        "0x120009268",
+        "0x1200092f0",
+        "0x12000931c",
+        "0x120009324",
+        "0x12000932c",
+        "0x1200095a4",
+        "0x1200095d4",
+        "0x1200095dc",
+        "0x1200095e4",
+        "0x1200095ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000a764",
+      "tableAddress": "0x12000d8d0",
+      "jumpBase": "0x120026330",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x12000a78c",
+        "0x12000a7a8",
+        "0x12000a7c4",
+        "0x12000a7ec",
+        "0x12000a818",
+        "0x12000a848",
+        "0x12000a87c",
+        "0x12000a8b8",
+        "0x12000a8fc",
+        "0x12000a948"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

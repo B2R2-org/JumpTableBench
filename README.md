@@ -7,8 +7,8 @@ A jump table is how compilers implement a dense `switch`: an indirect branch
 reads a target out of a table in the binary. Recovering those tables is what
 decides whether a reconstructed CFG is complete, and getting it wrong is silent.
 This repository pins down the right answer for real binaries per
-architecture (x86, x64, 32-bit ARM and AArch64) so that a regression shows
-up as a failing check rather than as a quietly worse CFG.
+architecture (x86, x64, 32-bit ARM, AArch64 and MIPS) so that a regression
+shows up as a failing check rather than as a quietly worse CFG.
 
 ## What is here
 
@@ -37,9 +37,9 @@ Every case is a stripped binary, built both as a PIE and as a non-PIE, named
 | -- | -- |
 | projects | GNU coreutils 9.9 and GNU binutils 2.45 |
 | compilers | gcc 16.2.0 and clang 23.0.0 |
-| architectures | `x86`, `x64`, ARMv7 as `armhf` (hard float) and `armel` (soft float), and `aarch64` |
-| binaries | 546 (`x86`), 548 (`x64`), 397 each (`armhf`, `armel`) and 548 (`aarch64`), of which 24, 24, 6 and 24 are from binutils |
-| tables | 10,458 (`x86`), 9,582 (`x64`), 5,279 each (`armhf`, `armel`) and 5,581 (`aarch64`) |
+| architectures | `x86`, `x64`, ARMv7 as `armhf` (hard float) and `armel` (soft float), `aarch64`, and big-endian MIPS32r2 (o32) and MIPS64r2 (n64) as `mips32` and `mips64` |
+| binaries | 546 (`x86`), 548 (`x64`), 397 each (`armhf`, `armel`), 548 (`aarch64`), 409 (`mips32`) and 542 (`mips64`), of which 24, 24, 6, 24, 18 and 18 are from binutils |
+| tables | 10,458 (`x86`), 9,582 (`x64`), 5,279 each (`armhf`, `armel`), 5,581 (`aarch64`), 9,287 (`mips32`) and 9,024 (`mips64`) |
 
 - We exclude 37 coreutils programs (e.g., ls, vdir, test, true, yes) whose jump tables are already covered by another included program, to avoid redundant evaluation. Two tables count as the same when their kind, entry size, entry count, and targets relative to the indirect branch all match; `scripts/find-redundant.py` lists any case that adds no distinct table.
 - We keep three binutils programs: `as-new`, `objdump` and `readelf`. The other seven link the same libbfd, so they add only about 10% of the distinct binutils tables but would take over 60% of the binutils scoring time.
@@ -72,3 +72,14 @@ right; these four already pass:
 - We leave out `-O1` and `-O3` because they mostly repeat `-O2`: 73-75% (gcc) and 88-95% (clang) of their tables have an `-O2` counterpart of the same kind, entry size, entry count, and target count in the same program. gcc builds no jump table at `-O0`, and its `-Oz` binaries are byte for byte its `-Os` ones.
 - clang at `-O0` and `-Oz` is not in yet. None of its `-O0` tables and only 41% of its `-Oz` ones have an `-Os` counterpart, but B2R2 still invents targets in the non-PIE `as-new` and `objdump` at `-O0`, and misses or invents some in `as-new`, `objdump` and the non-PIE `expr` at `-Oz`.
 - clang builds no `stdbuf`.
+
+### MIPS
+
+`mips32` and `mips64` take both compilers at `-O2` and `-Os`, as `x86` and
+`x64` do, binutils included. As with ARM, a cell joins only once B2R2 gets all
+of it right, which leaves two out for now:
+
+- gcc at `-Os` is not in yet for `mips32`, as B2R2 still misses a table in the PIE `sort`, and gcc at `-O2` takes coreutils only for `mips64`, as B2R2 still misses one in `readelf`.
+- We leave out `-O1` and `-O3` because they mostly repeat `-O2`: 83-90% (gcc) and 91-97% (clang) of their tables have an `-O2` counterpart of the same kind, entry size, entry count, and target count in the same program. gcc builds almost no jump table at `-O0` (none for `mips32`, 14 for `mips64`), and its `-Oz` binaries are byte for byte its `-Os` ones.
+- We leave out clang at `-O0` and `-Oz` to bound the scoring time: 71-74% of the `-O0` tables and 98% of the `-Oz` ones have an `-O2` or an `-Os` counterpart, respectively.
+- clang builds no `stdbuf`, and neither does gcc for the non-PIE `mips32` build.

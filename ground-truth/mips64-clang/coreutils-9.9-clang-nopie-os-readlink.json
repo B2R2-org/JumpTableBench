@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "mips64-clang/coreutils-9.9-clang-nopie-os-readlink",
+  "arch": "mips64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120002f44",
+      "tableAddress": "0x12000b5a0",
+      "jumpBase": "0x1200250a0",
+      "entrySize": 8,
+      "numEntries": 15,
+      "targets": [
+        "0x120002f4c",
+        "0x120002f70",
+        "0x120002f90",
+        "0x120002f98",
+        "0x120002fa0",
+        "0x120003208"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120007b48",
+      "tableAddress": "0x12000bf70",
+      "jumpBase": "0x1200250a0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x120007b50",
+        "0x120007b94",
+        "0x120007c20",
+        "0x120007c44",
+        "0x120007c68",
+        "0x120007c98",
+        "0x120007cbc",
+        "0x120007ccc",
+        "0x120007cf8",
+        "0x120007d8c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120007f18",
+      "tableAddress": "0x12000bfc8",
+      "jumpBase": "0x1200250a0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x120007f20",
+        "0x120008008",
+        "0x120008034",
+        "0x120008044",
+        "0x120008048",
+        "0x12000805c",
+        "0x120008088",
+        "0x120008090",
+        "0x120008098",
+        "0x1200080a0",
+        "0x1200080a4",
+        "0x1200080b8",
+        "0x1200081dc",
+        "0x120008210",
+        "0x120008218",
+        "0x1200082c8",
+        "0x120008370"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1200099bc",
+      "tableAddress": "0x12000c448",
+      "jumpBase": "0x1200250a0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1200099c4",
+        "0x1200099e8",
+        "0x120009a18",
+        "0x120009a6c",
+        "0x120009a94",
+        "0x120009ac0",
+        "0x120009b04",
+        "0x120009b38",
+        "0x120009bc8",
+        "0x120009c0c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
