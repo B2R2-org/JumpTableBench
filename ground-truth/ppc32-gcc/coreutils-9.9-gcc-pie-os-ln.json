@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "ppc32-gcc/coreutils-9.9-gcc-pie-os-ln",
+  "arch": "ppc32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x271c",
+      "tableAddress": "0xc430",
+      "jumpBase": "0xc430",
+      "entrySize": 4,
+      "numEntries": 21,
+      "targets": [
+        "0x26f4",
+        "0x2744",
+        "0x275c",
+        "0x2768",
+        "0x277c",
+        "0x2798",
+        "0x27b0",
+        "0x27bc",
+        "0x27c8",
+        "0x2858"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2740",
+      "tableAddress": "0xc484",
+      "jumpBase": "0xc484",
+      "entrySize": 4,
+      "numEntries": 15,
+      "targets": [
+        "0x26f4",
+        "0x275c",
+        "0x278c",
+        "0x27a8",
+        "0x2864",
+        "0x28c8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x79d4",
+      "tableAddress": "0xc7f0",
+      "jumpBase": "0xc7f0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x79e0",
+        "0x7a04",
+        "0x7a40",
+        "0x7ba4",
+        "0x7bc0",
+        "0x7be4",
+        "0x7c2c",
+        "0x7c54",
+        "0x7c7c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7fc0",
+      "tableAddress": "0xc81c",
+      "jumpBase": "0xc81c",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x7dc0",
+        "0x7fc4",
+        "0x7fd4",
+        "0x7fe8",
+        "0x8034",
+        "0x803c",
+        "0x8044",
+        "0x8234",
+        "0x8278",
+        "0x8280",
+        "0x8288",
+        "0x8290"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x97dc",
+      "tableAddress": "0xcbfc",
+      "jumpBase": "0xcbfc",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x97fc",
+        "0x9830",
+        "0x9868",
+        "0x98a4",
+        "0x98e4",
+        "0x9928",
+        "0x9958",
+        "0x9960",
+        "0x999c",
+        "0x99e0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "ppc32-gcc/coreutils-9.9-gcc-nopie-os-cut",
+  "arch": "ppc32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x10001894",
+      "tableAddress": "0x100077ac",
+      "jumpBase": "0x100077ac",
+      "entrySize": 4,
+      "numEntries": 18,
+      "targets": [
+        "0x10001718",
+        "0x10001870",
+        "0x100018c0",
+        "0x100018c4",
+        "0x100018f0",
+        "0x10001958"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10003ed8",
+      "tableAddress": "0x10007c24",
+      "jumpBase": "0x10007c24",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x10003ee4",
+        "0x10003f08",
+        "0x10003f44",
+        "0x100040a8",
+        "0x100040d0",
+        "0x10004100",
+        "0x10004158",
+        "0x10004180",
+        "0x1000419c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x100044e0",
+      "tableAddress": "0x10007c50",
+      "jumpBase": "0x10007c50",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x100042e8",
+        "0x100044e4",
+        "0x100044f4",
+        "0x10004508",
+        "0x10004554",
+        "0x1000455c",
+        "0x10004564",
+        "0x10004744",
+        "0x10004788",
+        "0x10004790",
+        "0x10004798",
+        "0x100047a0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10005418",
+      "tableAddress": "0x10008020",
+      "jumpBase": "0x10008020",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x1000543c",
+        "0x10005470",
+        "0x100054a8",
+        "0x100054e4",
+        "0x10005524",
+        "0x10005568",
+        "0x1000559c",
+        "0x100055a4",
+        "0x100055e4",
+        "0x1000562c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

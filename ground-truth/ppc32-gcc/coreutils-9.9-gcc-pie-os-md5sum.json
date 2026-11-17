@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "ppc32-gcc/coreutils-9.9-gcc-pie-os-md5sum",
+  "arch": "ppc32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2208",
+      "tableAddress": "0x8c68",
+      "jumpBase": "0x8c68",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x220c",
+        "0x2238",
+        "0x2250",
+        "0x22f0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5668",
+      "tableAddress": "0x8e94",
+      "jumpBase": "0x8e94",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x5674",
+        "0x5698",
+        "0x56d4",
+        "0x5838",
+        "0x5854",
+        "0x5878",
+        "0x58c0",
+        "0x58e8",
+        "0x5910"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5c54",
+      "tableAddress": "0x8ec0",
+      "jumpBase": "0x8ec0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x5a54",
+        "0x5c58",
+        "0x5c68",
+        "0x5c7c",
+        "0x5cc8",
+        "0x5cd0",
+        "0x5cd8",
+        "0x5ec8",
+        "0x5f0c",
+        "0x5f14",
+        "0x5f1c",
+        "0x5f24"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6d98",
+      "tableAddress": "0x9264",
+      "jumpBase": "0x9264",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x6db8",
+        "0x6dec",
+        "0x6e24",
+        "0x6e60",
+        "0x6ea0",
+        "0x6ee4",
+        "0x6f14",
+        "0x6f1c",
+        "0x6f58",
+        "0x6f9c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

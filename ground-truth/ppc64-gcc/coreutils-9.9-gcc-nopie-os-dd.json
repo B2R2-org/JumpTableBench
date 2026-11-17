@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "ppc64-gcc/coreutils-9.9-gcc-nopie-os-dd",
+  "arch": "ppc64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x10008508",
+      "tableAddress": "0x1000850c",
+      "jumpBase": "0x1000850c",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x10008544",
+        "0x10008568",
+        "0x100085a4",
+        "0x10008704",
+        "0x1000872c",
+        "0x10008768",
+        "0x100087b0",
+        "0x100087d0",
+        "0x100087e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10008b40",
+      "tableAddress": "0x10008b44",
+      "jumpBase": "0x10008b44",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x10008940",
+        "0x10008bd4",
+        "0x10008be8",
+        "0x10008c1c",
+        "0x10008c34",
+        "0x10008c3c",
+        "0x10008c44",
+        "0x10008e28",
+        "0x10008e6c",
+        "0x10008e74",
+        "0x10008e7c",
+        "0x10008e84"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10009d78",
+      "tableAddress": "0x10009d7c",
+      "jumpBase": "0x10009d7c",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x10009dc4",
+        "0x10009de0",
+        "0x10009de8",
+        "0x10009e0c",
+        "0x10009e34",
+        "0x10009e60",
+        "0x10009e90",
+        "0x10009ec8",
+        "0x10009f08",
+        "0x10009f50"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1000a844",
+      "tableAddress": "0x1000a848",
+      "jumpBase": "0x1000a848",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x1000a7c8",
+        "0x1000a9ac",
+        "0x1000a9d4",
+        "0x1000a9e8",
+        "0x1000aa20",
+        "0x1000aa40",
+        "0x1000aa54",
+        "0x1000aa9c",
+        "0x1000aaec",
+        "0x1000ab18",
+        "0x1000ab44",
+        "0x1000ab54",
+        "0x1000ab68",
+        "0x1000ab94",
+        "0x1000abc0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

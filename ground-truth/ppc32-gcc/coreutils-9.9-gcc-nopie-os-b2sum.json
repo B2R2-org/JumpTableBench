@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "ppc32-gcc/coreutils-9.9-gcc-nopie-os-b2sum",
+  "arch": "ppc32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x100017d4",
+      "tableAddress": "0x1000d240",
+      "jumpBase": "0x1000d240",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x1000182c",
+        "0x10001878",
+        "0x10001894",
+        "0x10001934"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10008ecc",
+      "tableAddress": "0x1000d588",
+      "jumpBase": "0x1000d588",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x10008ed8",
+        "0x10008efc",
+        "0x10008f38",
+        "0x1000909c",
+        "0x100090c4",
+        "0x100090f4",
+        "0x1000914c",
+        "0x10009174",
+        "0x10009190"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x100094d4",
+      "tableAddress": "0x1000d5b4",
+      "jumpBase": "0x1000d5b4",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x100092dc",
+        "0x100094d8",
+        "0x100094e8",
+        "0x100094fc",
+        "0x10009548",
+        "0x10009550",
+        "0x10009558",
+        "0x10009738",
+        "0x1000977c",
+        "0x10009784",
+        "0x1000978c",
+        "0x10009794"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1000a40c",
+      "tableAddress": "0x1000d984",
+      "jumpBase": "0x1000d984",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x1000a430",
+        "0x1000a464",
+        "0x1000a49c",
+        "0x1000a4d8",
+        "0x1000a518",
+        "0x1000a55c",
+        "0x1000a590",
+        "0x1000a598",
+        "0x1000a5d8",
+        "0x1000a620"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1000af58",
+      "tableAddress": "0x1000d9ec",
+      "jumpBase": "0x1000d9ec",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x1000aed4",
+        "0x1000affc",
+        "0x1000b084",
+        "0x1000b0dc",
+        "0x1000b154",
+        "0x1000b170",
+        "0x1000b178",
+        "0x1000b190",
+        "0x1000b210",
+        "0x1000b2ac",
+        "0x1000b310",
+        "0x1000b374",
+        "0x1000b428",
+        "0x1000b444",
+        "0x1000b4a8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
