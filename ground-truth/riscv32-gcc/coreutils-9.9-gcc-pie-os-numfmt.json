@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv32-gcc/coreutils-9.9-gcc-pie-os-numfmt",
+  "arch": "riscv32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1e10",
+      "tableAddress": "0xde8c",
+      "jumpBase": "0xde8c",
+      "entrySize": 4,
+      "numEntries": 14,
+      "targets": [
+        "0x1e6a",
+        "0x1e86",
+        "0x1ecc",
+        "0x1ee8",
+        "0x1f34",
+        "0x1f3a",
+        "0x1f86",
+        "0x1fea",
+        "0x1ff8",
+        "0x2006",
+        "0x200e",
+        "0x2016",
+        "0x2066",
+        "0x2074"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x270a",
+      "tableAddress": "0xde54",
+      "jumpBase": "0xde54",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x270c",
+        "0x27d8",
+        "0x27fe",
+        "0x2850",
+        "0x2864"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3bbe",
+      "tableAddress": "0xde68",
+      "jumpBase": "0xde68",
+      "entrySize": 4,
+      "numEntries": 9,
+      "targets": [
+        "0x3bc0",
+        "0x3bd8",
+        "0x3be2",
+        "0x3bec",
+        "0x3bf6",
+        "0x3c00",
+        "0x3c0a",
+        "0x3c14",
+        "0x3c2a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5e04",
+      "tableAddress": "0x10338",
+      "jumpBase": "0x10338",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x5e0c",
+        "0x5e1e",
+        "0x5e46",
+        "0x5f02",
+        "0x5f10",
+        "0x5f22",
+        "0x5f46",
+        "0x5f5c",
+        "0x5f74"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6196",
+      "tableAddress": "0x10364",
+      "jumpBase": "0x10364",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x606c",
+        "0x6198",
+        "0x61a2",
+        "0x61ac",
+        "0x61e2",
+        "0x61e6",
+        "0x61ea",
+        "0x63b4",
+        "0x63ba",
+        "0x63d6",
+        "0x63dc",
+        "0x63e2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6d52",
+      "tableAddress": "0x10424",
+      "jumpBase": "0x10424",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x6d68",
+        "0x6d84",
+        "0x6da2",
+        "0x6dc2",
+        "0x6de6",
+        "0x6e0e",
+        "0x6e30",
+        "0x6e3c",
+        "0x6e64",
+        "0x6e90"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x738c",
+      "tableAddress": "0x1047c",
+      "jumpBase": "0x1047c",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x72ca",
+        "0x739e",
+        "0x7412",
+        "0x7438",
+        "0x7440",
+        "0x7444",
+        "0x7448",
+        "0x744c",
+        "0x7450",
+        "0x7454",
+        "0x7458",
+        "0x745c",
+        "0x7484",
+        "0x7488",
+        "0x748c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7608",
+      "tableAddress": "0x10554",
+      "jumpBase": "0x10554",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x754a",
+        "0x761a",
+        "0x7684",
+        "0x7698",
+        "0x76b4",
+        "0x770c",
+        "0x7722",
+        "0x7736",
+        "0x776e",
+        "0x7836",
+        "0x786e",
+        "0x78a6",
+        "0x794a",
+        "0x795a",
+        "0x7992"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9c6c",
+      "tableAddress": "0x1062c",
+      "jumpBase": "0x1062c",
+      "entrySize": 4,
+      "numEntries": 6,
+      "targets": [
+        "0x9c1e",
+        "0x9dfe",
+        "0x9f22",
+        "0x9f32"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

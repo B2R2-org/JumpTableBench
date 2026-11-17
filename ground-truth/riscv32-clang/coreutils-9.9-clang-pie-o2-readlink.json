@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv32-clang/coreutils-9.9-clang-pie-o2-readlink",
+  "arch": "riscv32",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1924",
+      "tableAddress": "0x6084",
+      "jumpBase": "0x6084",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x18fe",
+        "0x1926",
+        "0x192c",
+        "0x1932",
+        "0x1936",
+        "0x193a",
+        "0x193e",
+        "0x1aa6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4232",
+      "tableAddress": "0x6d08",
+      "jumpBase": "0x6d08",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x4234",
+        "0x425c",
+        "0x426e",
+        "0x4280",
+        "0x4298",
+        "0x42aa",
+        "0x42b2",
+        "0x42ce",
+        "0x432a",
+        "0x43a6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x447a",
+      "tableAddress": "0x6d34",
+      "jumpBase": "0x6d34",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x447c",
+        "0x452e",
+        "0x4546",
+        "0x4550",
+        "0x4552",
+        "0x455e",
+        "0x4576",
+        "0x457c",
+        "0x4582",
+        "0x4588",
+        "0x458c",
+        "0x4594",
+        "0x45b6",
+        "0x45d2",
+        "0x45d8",
+        "0x463a",
+        "0x4688"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x52f4",
+      "tableAddress": "0x6f60",
+      "jumpBase": "0x6f60",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x52f6",
+        "0x5310",
+        "0x5332",
+        "0x5352",
+        "0x536e",
+        "0x538c",
+        "0x53ac",
+        "0x53d2",
+        "0x5416",
+        "0x543c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-nopie-o2-fold",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1326e",
+      "tableAddress": "0x15d60",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x13270",
+        "0x132cc",
+        "0x1330e",
+        "0x1331c",
+        "0x13322",
+        "0x13328",
+        "0x13330",
+        "0x13338",
+        "0x13352",
+        "0x133a8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13480",
+      "tableAddress": "0x15d8c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x13482",
+        "0x13536",
+        "0x1354e",
+        "0x13558",
+        "0x1355a",
+        "0x13566",
+        "0x1357e",
+        "0x13584",
+        "0x1358a",
+        "0x13590",
+        "0x13594",
+        "0x1359e",
+        "0x135c2",
+        "0x135de",
+        "0x135e4",
+        "0x13644",
+        "0x13696"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14306",
+      "tableAddress": "0x16010",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x14308",
+        "0x14324",
+        "0x14348",
+        "0x14368",
+        "0x14386",
+        "0x143a6",
+        "0x143c6",
+        "0x143ee",
+        "0x14434",
+        "0x1445c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14bb2",
+      "tableAddress": "0x16068",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x14bb4",
+        "0x14bc2",
+        "0x14bd0",
+        "0x14bde",
+        "0x14bf8",
+        "0x14c1a",
+        "0x14c26",
+        "0x14c48",
+        "0x14c56",
+        "0x14c60",
+        "0x14c82",
+        "0x14d12",
+        "0x14d42",
+        "0x14d50",
+        "0x14d62"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14dde",
+      "tableAddress": "0x16140",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 24,
+      "targets": [
+        "0x14dc0",
+        "0x14de0",
+        "0x14e08",
+        "0x14e1c",
+        "0x14e2c",
+        "0x14e3a",
+        "0x14e42"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

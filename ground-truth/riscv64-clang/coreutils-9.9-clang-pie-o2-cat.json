@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-pie-o2-cat",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2094",
+      "tableAddress": "0x5800",
+      "jumpBase": "0x5800",
+      "entrySize": 4,
+      "numEntries": 122,
+      "targets": [
+        "0x2072",
+        "0x2074",
+        "0x2078",
+        "0x2096",
+        "0x2098",
+        "0x209a",
+        "0x20a0",
+        "0x20a2",
+        "0x20a6",
+        "0x20ac",
+        "0x20b0",
+        "0x2b22",
+        "0x2b80",
+        "0x2b86"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3d30",
+      "tableAddress": "0x6448",
+      "jumpBase": "0x6448",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3d32",
+        "0x3d58",
+        "0x3d6a",
+        "0x3d7c",
+        "0x3d94",
+        "0x3da6",
+        "0x3dae",
+        "0x3dca",
+        "0x3e24",
+        "0x3ea0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3f74",
+      "tableAddress": "0x6474",
+      "jumpBase": "0x6474",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x3f76",
+        "0x4028",
+        "0x4040",
+        "0x404a",
+        "0x404c",
+        "0x4058",
+        "0x4070",
+        "0x4076",
+        "0x407c",
+        "0x4082",
+        "0x4086",
+        "0x408e",
+        "0x40b0",
+        "0x40cc",
+        "0x40d2",
+        "0x4134",
+        "0x4182"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4e50",
+      "tableAddress": "0x66a0",
+      "jumpBase": "0x66a0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4e52",
+        "0x4e70",
+        "0x4e96",
+        "0x4eba",
+        "0x4eda",
+        "0x4efc",
+        "0x4f1e",
+        "0x4f48",
+        "0x4f92",
+        "0x4fbc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

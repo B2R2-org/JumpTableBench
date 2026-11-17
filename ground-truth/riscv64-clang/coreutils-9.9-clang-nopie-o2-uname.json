@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-nopie-o2-uname",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x11876",
+      "tableAddress": "0x14218",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x1184e",
+        "0x11852",
+        "0x11878",
+        "0x1187e",
+        "0x11884",
+        "0x1188a",
+        "0x11890",
+        "0x11896",
+        "0x1189c",
+        "0x11b6e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x128be",
+      "tableAddress": "0x14f28",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x128c0",
+        "0x1291c",
+        "0x1295e",
+        "0x1296c",
+        "0x12972",
+        "0x12978",
+        "0x12980",
+        "0x12988",
+        "0x129a2",
+        "0x129f8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12ad0",
+      "tableAddress": "0x14f54",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x12ad2",
+        "0x12b86",
+        "0x12b9e",
+        "0x12ba8",
+        "0x12baa",
+        "0x12bb6",
+        "0x12bce",
+        "0x12bd4",
+        "0x12bda",
+        "0x12be0",
+        "0x12be4",
+        "0x12bee",
+        "0x12c12",
+        "0x12c2e",
+        "0x12c34",
+        "0x12c94",
+        "0x12ce6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1390c",
+      "tableAddress": "0x151d8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x1390e",
+        "0x1392a",
+        "0x1394e",
+        "0x1396e",
+        "0x1398c",
+        "0x139ac",
+        "0x139cc",
+        "0x139f4",
+        "0x13a3a",
+        "0x13a62"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

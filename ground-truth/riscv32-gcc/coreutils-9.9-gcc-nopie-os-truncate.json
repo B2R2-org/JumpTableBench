@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv32-gcc/coreutils-9.9-gcc-nopie-os-truncate",
+  "arch": "riscv32",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1270a",
+      "tableAddress": "0x1539c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x12712",
+        "0x12724",
+        "0x1274a",
+        "0x12802",
+        "0x12810",
+        "0x12822",
+        "0x12848",
+        "0x1285e",
+        "0x12874"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12a8a",
+      "tableAddress": "0x153c8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x1295a",
+        "0x12a8c",
+        "0x12a96",
+        "0x12aa0",
+        "0x12ad4",
+        "0x12ad8",
+        "0x12adc",
+        "0x12c9c",
+        "0x12ca2",
+        "0x12cbe",
+        "0x12cc4",
+        "0x12cca"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1351c",
+      "tableAddress": "0x154ac",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x13530",
+        "0x1354a",
+        "0x13566",
+        "0x13584",
+        "0x135a6",
+        "0x135cc",
+        "0x135ec",
+        "0x135f8",
+        "0x1361e",
+        "0x13648"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13c2a",
+      "tableAddress": "0x15504",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x13b6c",
+        "0x13c3c",
+        "0x13cb0",
+        "0x13cd6",
+        "0x13cde",
+        "0x13ce2",
+        "0x13ce6",
+        "0x13cea",
+        "0x13cee",
+        "0x13cf2",
+        "0x13cf6",
+        "0x13cfa",
+        "0x13d22",
+        "0x13d26",
+        "0x13d2a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-nopie-os-uname",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x118b2",
+      "tableAddress": "0x13c38",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x1188e",
+        "0x118b4",
+        "0x118ba",
+        "0x118c0",
+        "0x118c6",
+        "0x118cc",
+        "0x118d2",
+        "0x118d8",
+        "0x118de",
+        "0x11a30"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1261a",
+      "tableAddress": "0x14950",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x1261c",
+        "0x1263a",
+        "0x1267a",
+        "0x12688",
+        "0x12690",
+        "0x12696",
+        "0x1269e",
+        "0x126a6",
+        "0x126c0",
+        "0x126da"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x127b4",
+      "tableAddress": "0x1497c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x127b6",
+        "0x12850",
+        "0x12868",
+        "0x12872",
+        "0x12874",
+        "0x12880",
+        "0x12894",
+        "0x1289a",
+        "0x128a0",
+        "0x128a6",
+        "0x128aa",
+        "0x128b4",
+        "0x128d8",
+        "0x128f4",
+        "0x128fa",
+        "0x12966",
+        "0x129b6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13426",
+      "tableAddress": "0x14c00",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x13428",
+        "0x13444",
+        "0x13468",
+        "0x13488",
+        "0x134a6",
+        "0x134c6",
+        "0x134e6",
+        "0x1350e",
+        "0x13554",
+        "0x1357c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

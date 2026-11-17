@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-pie-o2-realpath",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2214",
+      "tableAddress": "0x6a28",
+      "jumpBase": "0x6a28",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x2216",
+        "0x2234",
+        "0x223c",
+        "0x2242",
+        "0x224c",
+        "0x2258",
+        "0x2260",
+        "0x226a",
+        "0x256a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4e92",
+      "tableAddress": "0x75b4",
+      "jumpBase": "0x75b4",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x4e94",
+        "0x4eba",
+        "0x4ecc",
+        "0x4ede",
+        "0x4ef6",
+        "0x4f08",
+        "0x4f10",
+        "0x4f2c",
+        "0x4f86",
+        "0x5002"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x50d6",
+      "tableAddress": "0x75e0",
+      "jumpBase": "0x75e0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x50d8",
+        "0x518a",
+        "0x51a2",
+        "0x51ac",
+        "0x51ae",
+        "0x51ba",
+        "0x51d2",
+        "0x51d8",
+        "0x51de",
+        "0x51e4",
+        "0x51e8",
+        "0x51f0",
+        "0x5212",
+        "0x522e",
+        "0x5234",
+        "0x5296",
+        "0x52e4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5f42",
+      "tableAddress": "0x780c",
+      "jumpBase": "0x780c",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5f44",
+        "0x5f62",
+        "0x5f88",
+        "0x5fac",
+        "0x5fcc",
+        "0x5fee",
+        "0x6010",
+        "0x603a",
+        "0x6084",
+        "0x60ae"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

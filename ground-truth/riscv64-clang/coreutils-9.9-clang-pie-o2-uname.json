@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-pie-o2-uname",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1ea2",
+      "tableAddress": "0x4a60",
+      "jumpBase": "0x4a60",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x1e76",
+        "0x1e7a",
+        "0x1ea4",
+        "0x1eaa",
+        "0x1eb0",
+        "0x1eb6",
+        "0x1ebc",
+        "0x1ec2",
+        "0x1ec8",
+        "0x222e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x306e",
+      "tableAddress": "0x54e0",
+      "jumpBase": "0x54e0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3070",
+        "0x3096",
+        "0x30a8",
+        "0x30ba",
+        "0x30d2",
+        "0x30e4",
+        "0x30ec",
+        "0x3108",
+        "0x3162",
+        "0x31de"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x32b2",
+      "tableAddress": "0x550c",
+      "jumpBase": "0x550c",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x32b4",
+        "0x3366",
+        "0x337e",
+        "0x3388",
+        "0x338a",
+        "0x3396",
+        "0x33ae",
+        "0x33b4",
+        "0x33ba",
+        "0x33c0",
+        "0x33c4",
+        "0x33cc",
+        "0x33ee",
+        "0x340a",
+        "0x3410",
+        "0x3472",
+        "0x34c0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x411e",
+      "tableAddress": "0x5738",
+      "jumpBase": "0x5738",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4120",
+        "0x413e",
+        "0x4164",
+        "0x4188",
+        "0x41a8",
+        "0x41ca",
+        "0x41ec",
+        "0x4216",
+        "0x4260",
+        "0x428a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-clang/coreutils-9.9-clang-pie-o2-ln",
+  "arch": "riscv64",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2938",
+      "tableAddress": "0x8b34",
+      "jumpBase": "0x8b34",
+      "entrySize": 4,
+      "numEntries": 122,
+      "targets": [
+        "0x2910",
+        "0x2916",
+        "0x293a",
+        "0x2942",
+        "0x296a",
+        "0x2974",
+        "0x297c",
+        "0x2988",
+        "0x2990",
+        "0x2998",
+        "0x29a4",
+        "0x29ac",
+        "0x29b4",
+        "0x29bc",
+        "0x2be4",
+        "0x2bea",
+        "0x2c42"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x66c0",
+      "tableAddress": "0xa274",
+      "jumpBase": "0xa274",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x66c2",
+        "0x66e8",
+        "0x66fa",
+        "0x670c",
+        "0x6724",
+        "0x6736",
+        "0x673e",
+        "0x675a",
+        "0x67b4",
+        "0x6830"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6904",
+      "tableAddress": "0xa2a0",
+      "jumpBase": "0xa2a0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x6906",
+        "0x69b8",
+        "0x69d0",
+        "0x69da",
+        "0x69dc",
+        "0x69e8",
+        "0x6a00",
+        "0x6a06",
+        "0x6a0c",
+        "0x6a12",
+        "0x6a16",
+        "0x6a1e",
+        "0x6a40",
+        "0x6a5c",
+        "0x6a62",
+        "0x6ac4",
+        "0x6b12"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7bf2",
+      "tableAddress": "0xa4e8",
+      "jumpBase": "0xa4e8",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x7bf4",
+        "0x7c12",
+        "0x7c38",
+        "0x7c5c",
+        "0x7c7c",
+        "0x7c9e",
+        "0x7cc0",
+        "0x7cea",
+        "0x7d34",
+        "0x7d5e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

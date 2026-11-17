@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv64-gcc/coreutils-9.9-gcc-nopie-os-shuf",
+  "arch": "riscv64",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x12348",
+      "tableAddress": "0x176e0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 14,
+      "targets": [
+        "0x1232e",
+        "0x12374",
+        "0x12404",
+        "0x12440",
+        "0x1249a",
+        "0x124a0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1387a",
+      "tableAddress": "0x178c8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x13882",
+        "0x13894",
+        "0x138ba",
+        "0x13976",
+        "0x1398c",
+        "0x13992",
+        "0x1399e",
+        "0x139c4",
+        "0x139d4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13bee",
+      "tableAddress": "0x178f4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x13aba",
+        "0x13bf0",
+        "0x13bfa",
+        "0x13c1a",
+        "0x13c2c",
+        "0x13c30",
+        "0x13c34",
+        "0x13df0",
+        "0x13df6",
+        "0x13e12",
+        "0x13e18",
+        "0x13e1e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1538c",
+      "tableAddress": "0x17a18",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x153a0",
+        "0x153ba",
+        "0x153d6",
+        "0x153f4",
+        "0x15416",
+        "0x1543c",
+        "0x1545c",
+        "0x15468",
+        "0x1548e",
+        "0x154b8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1595a",
+      "tableAddress": "0x17a70",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x158b6",
+        "0x15968",
+        "0x1599a",
+        "0x159a4",
+        "0x159a8",
+        "0x159c8",
+        "0x159da",
+        "0x159e8",
+        "0x15a00",
+        "0x15a46",
+        "0x15a5e",
+        "0x15a76",
+        "0x15a90",
+        "0x15a9c",
+        "0x15ab4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

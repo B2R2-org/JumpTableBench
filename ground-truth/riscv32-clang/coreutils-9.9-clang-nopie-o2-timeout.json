@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "riscv32-clang/coreutils-9.9-clang-nopie-o2-timeout",
+  "arch": "riscv32",
+  "compiler": "clang",
+  "optLevel": "O2",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x119a6",
+      "tableAddress": "0x14c4c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 17,
+      "targets": [
+        "0x11982",
+        "0x119a8",
+        "0x119ae",
+        "0x119bc",
+        "0x119ce",
+        "0x11e26"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13018",
+      "tableAddress": "0x15cb0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x1301a",
+        "0x13076",
+        "0x13082",
+        "0x13090",
+        "0x13096",
+        "0x1309c",
+        "0x130a4",
+        "0x130ac",
+        "0x130c6",
+        "0x13166"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1323c",
+      "tableAddress": "0x15cdc",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x1323e",
+        "0x132f2",
+        "0x1330a",
+        "0x13314",
+        "0x13316",
+        "0x13322",
+        "0x13336",
+        "0x1333c",
+        "0x13342",
+        "0x13348",
+        "0x1334c",
+        "0x13356",
+        "0x1337a",
+        "0x13396",
+        "0x1339c",
+        "0x13406",
+        "0x13488"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1423c",
+      "tableAddress": "0x15f34",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x1423e",
+        "0x14256",
+        "0x14276",
+        "0x14294",
+        "0x142ae",
+        "0x142ca",
+        "0x142e8",
+        "0x1430c",
+        "0x1434c",
+        "0x14370"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
