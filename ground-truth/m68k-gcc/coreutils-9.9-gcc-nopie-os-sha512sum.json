@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-nopie-os-sha512sum",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x80001c4c",
+      "tableAddress": "0x80001c50",
+      "jumpBase": "0x80001c50",
+      "entrySize": 2,
+      "numEntries": 17,
+      "targets": [
+        "0x80001c34",
+        "0x80001c72",
+        "0x80001c84",
+        "0x80001c9c",
+        "0x80001cac",
+        "0x80001cb8",
+        "0x80001cd0",
+        "0x80001cdc",
+        "0x80001d5c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80011dc4",
+      "tableAddress": "0x80011dc8",
+      "jumpBase": "0x80011dc8",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x80011de6",
+        "0x80011e04",
+        "0x80011e38",
+        "0x80011f00",
+        "0x80011f1a",
+        "0x80011f4e",
+        "0x80011f5e",
+        "0x80011f82",
+        "0x80011fa6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80012196",
+      "tableAddress": "0x8001219a",
+      "jumpBase": "0x8001219a",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x800120ce",
+        "0x800121e2",
+        "0x800121f6",
+        "0x80012204",
+        "0x80012280",
+        "0x80012286",
+        "0x8001228e",
+        "0x80012468",
+        "0x80012492",
+        "0x80012498",
+        "0x8001249e",
+        "0x800124a4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80012fc8",
+      "tableAddress": "0x80012fcc",
+      "jumpBase": "0x80012fcc",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x80012ffa",
+        "0x8001301a",
+        "0x80013040",
+        "0x8001306c",
+        "0x8001308c",
+        "0x80013092",
+        "0x800130b8",
+        "0x800130e2",
+        "0x80013112",
+        "0x80013146"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

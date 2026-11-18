@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-nopie-os-comm",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x80001be2",
+      "tableAddress": "0x80001be6",
+      "jumpBase": "0x80001be6",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x80001bca",
+        "0x80001c24",
+        "0x80001c2e",
+        "0x80001c3a",
+        "0x80001c46",
+        "0x80001c9c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x800033f8",
+      "tableAddress": "0x800033fc",
+      "jumpBase": "0x800033fc",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x8000341a",
+        "0x80003438",
+        "0x8000346c",
+        "0x80003534",
+        "0x8000354e",
+        "0x80003582",
+        "0x80003592",
+        "0x800035b6",
+        "0x800035da"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x800037ca",
+      "tableAddress": "0x800037ce",
+      "jumpBase": "0x800037ce",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x80003702",
+        "0x80003816",
+        "0x8000382a",
+        "0x80003838",
+        "0x800038b4",
+        "0x800038ba",
+        "0x800038c2",
+        "0x80003a9c",
+        "0x80003ac6",
+        "0x80003acc",
+        "0x80003ad2",
+        "0x80003ad8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80004698",
+      "tableAddress": "0x8000469c",
+      "jumpBase": "0x8000469c",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x800046ca",
+        "0x800046ea",
+        "0x80004710",
+        "0x8000473c",
+        "0x8000475c",
+        "0x80004762",
+        "0x80004788",
+        "0x800047b2",
+        "0x800047e2",
+        "0x80004816"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

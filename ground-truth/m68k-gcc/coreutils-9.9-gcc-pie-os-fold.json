@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-pie-os-fold",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x3df0",
+      "tableAddress": "0x3df4",
+      "jumpBase": "0x3df4",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x3e12",
+        "0x3e34",
+        "0x3e70",
+        "0x3f58",
+        "0x3f74",
+        "0x3fae",
+        "0x3fbe",
+        "0x3fe6",
+        "0x4010"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4218",
+      "tableAddress": "0x421c",
+      "jumpBase": "0x421c",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x4148",
+        "0x4264",
+        "0x4278",
+        "0x4286",
+        "0x4302",
+        "0x4308",
+        "0x4310",
+        "0x4526",
+        "0x4550",
+        "0x4556",
+        "0x455c",
+        "0x4562"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x51fe",
+      "tableAddress": "0x5202",
+      "jumpBase": "0x5202",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x5236",
+        "0x5258",
+        "0x5280",
+        "0x52ae",
+        "0x52d4",
+        "0x52da",
+        "0x5306",
+        "0x5336",
+        "0x536c",
+        "0x53a6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5b42",
+      "tableAddress": "0x5b46",
+      "jumpBase": "0x5b46",
+      "entrySize": 2,
+      "numEntries": 54,
+      "targets": [
+        "0x5bc4",
+        "0x5c16",
+        "0x5c2c",
+        "0x5c4e",
+        "0x5d10",
+        "0x5d3a",
+        "0x5d50",
+        "0x5db8",
+        "0x5e40",
+        "0x5ea6",
+        "0x5f0e",
+        "0x5fec",
+        "0x5ffe",
+        "0x6066",
+        "0x60cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-nopie-os-sha384sum",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x80001c48",
+      "tableAddress": "0x80001c4c",
+      "jumpBase": "0x80001c4c",
+      "entrySize": 2,
+      "numEntries": 17,
+      "targets": [
+        "0x80001c30",
+        "0x80001c6e",
+        "0x80001c80",
+        "0x80001c98",
+        "0x80001ca8",
+        "0x80001cb4",
+        "0x80001ccc",
+        "0x80001cd8",
+        "0x80001d58"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80011d7c",
+      "tableAddress": "0x80011d80",
+      "jumpBase": "0x80011d80",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x80011d9e",
+        "0x80011dbc",
+        "0x80011df0",
+        "0x80011eb8",
+        "0x80011ed2",
+        "0x80011f06",
+        "0x80011f16",
+        "0x80011f3a",
+        "0x80011f5e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8001214e",
+      "tableAddress": "0x80012152",
+      "jumpBase": "0x80012152",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x80012086",
+        "0x8001219a",
+        "0x800121ae",
+        "0x800121bc",
+        "0x80012238",
+        "0x8001223e",
+        "0x80012246",
+        "0x80012420",
+        "0x8001244a",
+        "0x80012450",
+        "0x80012456",
+        "0x8001245c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80012f80",
+      "tableAddress": "0x80012f84",
+      "jumpBase": "0x80012f84",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x80012fb2",
+        "0x80012fd2",
+        "0x80012ff8",
+        "0x80013024",
+        "0x80013044",
+        "0x8001304a",
+        "0x80013070",
+        "0x8001309a",
+        "0x800130ca",
+        "0x800130fe"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

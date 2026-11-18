@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-nopie-os-md5sum",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x80001c48",
+      "tableAddress": "0x80001c4c",
+      "jumpBase": "0x80001c4c",
+      "entrySize": 2,
+      "numEntries": 17,
+      "targets": [
+        "0x80001c30",
+        "0x80001c6e",
+        "0x80001c80",
+        "0x80001c98",
+        "0x80001ca8",
+        "0x80001cb4",
+        "0x80001ccc",
+        "0x80001cd8",
+        "0x80001d58"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80004898",
+      "tableAddress": "0x8000489c",
+      "jumpBase": "0x8000489c",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x800048ba",
+        "0x800048d8",
+        "0x8000490c",
+        "0x800049d4",
+        "0x800049ee",
+        "0x80004a22",
+        "0x80004a32",
+        "0x80004a56",
+        "0x80004a7a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80004c6a",
+      "tableAddress": "0x80004c6e",
+      "jumpBase": "0x80004c6e",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x80004ba2",
+        "0x80004cb6",
+        "0x80004cca",
+        "0x80004cd8",
+        "0x80004d54",
+        "0x80004d5a",
+        "0x80004d62",
+        "0x80004f3c",
+        "0x80004f66",
+        "0x80004f6c",
+        "0x80004f72",
+        "0x80004f78"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80005a9c",
+      "tableAddress": "0x80005aa0",
+      "jumpBase": "0x80005aa0",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x80005ace",
+        "0x80005aee",
+        "0x80005b14",
+        "0x80005b40",
+        "0x80005b60",
+        "0x80005b66",
+        "0x80005b8c",
+        "0x80005bb6",
+        "0x80005be6",
+        "0x80005c1a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

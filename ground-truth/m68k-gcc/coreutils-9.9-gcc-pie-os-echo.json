@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-pie-os-echo",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1ee0",
+      "tableAddress": "0x1ee4",
+      "jumpBase": "0x1ee4",
+      "entrySize": 2,
+      "numEntries": 29,
+      "targets": [
+        "0x1da8",
+        "0x1eb4",
+        "0x1f1e",
+        "0x1f20",
+        "0x1f36",
+        "0x1f3a",
+        "0x1f3e",
+        "0x1f42",
+        "0x1f46",
+        "0x1f4a",
+        "0x1f4e",
+        "0x1fe4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2178",
+      "tableAddress": "0x217c",
+      "jumpBase": "0x217c",
+      "entrySize": 2,
+      "numEntries": 5,
+      "targets": [
+        "0x2128",
+        "0x2138",
+        "0x213e",
+        "0x2144",
+        "0x214a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x282c",
+      "tableAddress": "0x2830",
+      "jumpBase": "0x2830",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x284e",
+        "0x2870",
+        "0x28ac",
+        "0x2994",
+        "0x29b0",
+        "0x29ea",
+        "0x29fa",
+        "0x2a22",
+        "0x2a4c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2c54",
+      "tableAddress": "0x2c58",
+      "jumpBase": "0x2c58",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x2b84",
+        "0x2ca0",
+        "0x2cb4",
+        "0x2cc2",
+        "0x2d3e",
+        "0x2d44",
+        "0x2d4c",
+        "0x2f62",
+        "0x2f8c",
+        "0x2f92",
+        "0x2f98",
+        "0x2f9e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3c3a",
+      "tableAddress": "0x3c3e",
+      "jumpBase": "0x3c3e",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x3c72",
+        "0x3c94",
+        "0x3cbc",
+        "0x3cea",
+        "0x3d10",
+        "0x3d16",
+        "0x3d42",
+        "0x3d72",
+        "0x3da8",
+        "0x3de2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "m68k-gcc/coreutils-9.9-gcc-nopie-os-cut",
+  "arch": "m68k",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x80001d8a",
+      "tableAddress": "0x80001d8e",
+      "jumpBase": "0x80001d8e",
+      "entrySize": 2,
+      "numEntries": 18,
+      "targets": [
+        "0x80001d1e",
+        "0x80001d72",
+        "0x80001dd4",
+        "0x80001dd6",
+        "0x80001dfe",
+        "0x80001e4a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80003d80",
+      "tableAddress": "0x80003d84",
+      "jumpBase": "0x80003d84",
+      "entrySize": 2,
+      "numEntries": 11,
+      "targets": [
+        "0x80003da2",
+        "0x80003dc0",
+        "0x80003df4",
+        "0x80003ebc",
+        "0x80003ed6",
+        "0x80003f0a",
+        "0x80003f1a",
+        "0x80003f3e",
+        "0x80003f62"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80004152",
+      "tableAddress": "0x80004156",
+      "jumpBase": "0x80004156",
+      "entrySize": 2,
+      "numEntries": 36,
+      "targets": [
+        "0x8000408a",
+        "0x8000419e",
+        "0x800041b2",
+        "0x800041c0",
+        "0x8000423c",
+        "0x80004242",
+        "0x8000424a",
+        "0x80004424",
+        "0x8000444e",
+        "0x80004454",
+        "0x8000445a",
+        "0x80004460"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x80004f88",
+      "tableAddress": "0x80004f8c",
+      "jumpBase": "0x80004f8c",
+      "entrySize": 2,
+      "numEntries": 10,
+      "targets": [
+        "0x80004fba",
+        "0x80004fda",
+        "0x80005000",
+        "0x8000502c",
+        "0x8000504c",
+        "0x80005052",
+        "0x80005078",
+        "0x800050a2",
+        "0x800050d2",
+        "0x80005106"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
