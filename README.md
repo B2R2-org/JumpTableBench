@@ -117,10 +117,12 @@ scoring time:
 
 ### S390
 
-`s390x` takes both compilers at `-O2` and `-Os`, as `x86` and `x64` do, and
-`s390` takes gcc at the same levels, as clang has no 31-bit target; binutils
-is included in both. B2R2 already gets every cell of both right, so, as with
-Intel, the levels left out only bound the scoring time:
+`s390x` takes both compilers, and `s390` takes gcc only: clang cannot build
+31-bit S/390 code, because its SystemZ backend supports only the 64-bit
+z/Architecture. Both take `-O2` and `-Os`, binutils included.
+
+B2R2 already gets every jump table right at every optimization level of
+both, so we leave levels out only to keep the scoring time short:
 
 - We leave out `-O1` and `-O3` because they mostly repeat `-O2`: 70-89% (gcc) and 90-96% (clang) of their tables have an `-O2` counterpart of the same kind, entry size, entry count, and target count in the same program. gcc builds no jump table at `-O0`, and its `-Oz` binaries are byte for byte its `-Os` ones.
 - We leave out clang at `-O0` and `-Oz`: 70% of the `-O0` tables and 98% of the `-Oz` ones have an `-O2` or an `-Os` counterpart, respectively.
