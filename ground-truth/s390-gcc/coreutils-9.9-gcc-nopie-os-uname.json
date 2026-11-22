@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-nopie-os-uname",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x4018e2",
+      "tableAddress": "0x405828",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x4018c4",
+        "0x4018e4",
+        "0x4018ee",
+        "0x4018f6",
+        "0x4018fe",
+        "0x401906",
+        "0x40190e",
+        "0x401916",
+        "0x40191e",
+        "0x401930"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x402bf6",
+      "tableAddress": "0x4059e0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x402c08",
+        "0x402c30",
+        "0x402c72",
+        "0x402d9e",
+        "0x402dc2",
+        "0x402e04",
+        "0x402e3c",
+        "0x402e6c",
+        "0x402ea2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40312c",
+      "tableAddress": "0x405a0c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x40302c",
+        "0x4030e6",
+        "0x40312e",
+        "0x403144",
+        "0x4031a6",
+        "0x40342a",
+        "0x40345e",
+        "0x403466",
+        "0x40346e",
+        "0x403476",
+        "0x4034a4",
+        "0x4034aa"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4031a4",
+      "tableAddress": "0x405a9c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x4030e6",
+        "0x40347e",
+        "0x4034a4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40417a",
+      "tableAddress": "0x405b28",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x404194",
+        "0x4041ae",
+        "0x4041c8",
+        "0x4041d2",
+        "0x4041f8",
+        "0x404226",
+        "0x40425c",
+        "0x40429a",
+        "0x4042e0",
+        "0x40432e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-timeout",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x30e2",
+      "tableAddress": "0x8938",
+      "jumpBase": "0x8938",
+      "entrySize": 8,
+      "numEntries": 12,
+      "targets": [
+        "0x30bc",
+        "0x30f4",
+        "0x311a",
+        "0x3128",
+        "0x3156"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x527e",
+      "tableAddress": "0x8c70",
+      "jumpBase": "0x8c70",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x5290",
+        "0x52be",
+        "0x530e",
+        "0x5480",
+        "0x54bc",
+        "0x550c",
+        "0x554a",
+        "0x556e",
+        "0x55ee"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5842",
+      "tableAddress": "0x8cc8",
+      "jumpBase": "0x8cc8",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x57ac",
+        "0x57cc",
+        "0x5846",
+        "0x585c",
+        "0x58ba",
+        "0x5ba6",
+        "0x5be0",
+        "0x5be8",
+        "0x5bf0",
+        "0x5bf8",
+        "0x5c2c",
+        "0x5c3a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x58b6",
+      "tableAddress": "0x8de8",
+      "jumpBase": "0x8de8",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x57ac",
+        "0x5c00",
+        "0x5c2c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6ed8",
+      "tableAddress": "0x9160",
+      "jumpBase": "0x9160",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x6ef8",
+        "0x6f18",
+        "0x6f38",
+        "0x6f46",
+        "0x6f76",
+        "0x6fb2",
+        "0x6ffa",
+        "0x704e",
+        "0x70ae",
+        "0x711a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

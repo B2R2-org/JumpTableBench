@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-nopie-os-id",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x10042d0",
+      "tableAddress": "0x1008250",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x10042e6",
+        "0x1004314",
+        "0x100435e",
+        "0x10044ca",
+        "0x1004506",
+        "0x1004550",
+        "0x100458e",
+        "0x10045b2",
+        "0x1004638"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x100489c",
+      "tableAddress": "0x10082a8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x10047fe",
+        "0x1004822",
+        "0x100489e",
+        "0x10048b4",
+        "0x1004914",
+        "0x1004b98",
+        "0x1004bd2",
+        "0x1004bda",
+        "0x1004be2",
+        "0x1004bea",
+        "0x1004c1e",
+        "0x1004c26"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1004912",
+      "tableAddress": "0x10083c8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x10047fe",
+        "0x1004bf2",
+        "0x1004c1e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1005fda",
+      "tableAddress": "0x10087e8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1005ff8",
+        "0x1006018",
+        "0x1006038",
+        "0x1006046",
+        "0x1006076",
+        "0x10060b2",
+        "0x10060fa",
+        "0x100614e",
+        "0x10061ae",
+        "0x100621a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1006bf4",
+      "tableAddress": "0x1008888",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0x1006b0e",
+        "0x1006c06",
+        "0x1006c60",
+        "0x1006c7c",
+        "0x1006c84",
+        "0x1006ce6",
+        "0x1006d0a",
+        "0x1006d20",
+        "0x1006d76",
+        "0x1006e04",
+        "0x1006e3e",
+        "0x1006e78",
+        "0x1006ece",
+        "0x1006ee6",
+        "0x1006f20"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

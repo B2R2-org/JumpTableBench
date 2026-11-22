@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-paste",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2104",
+      "tableAddress": "0x6e48",
+      "jumpBase": "0x6e48",
+      "entrySize": 4,
+      "numEntries": 9,
+      "targets": [
+        "0x20b6",
+        "0x20be",
+        "0x2108",
+        "0x2110",
+        "0x2120"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3d48",
+      "tableAddress": "0x6e80",
+      "jumpBase": "0x6e80",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x3d58",
+        "0x3d80",
+        "0x3dc6",
+        "0x3ef4",
+        "0x3f18",
+        "0x3f5e",
+        "0x3f96",
+        "0x3fc2",
+        "0x3ff4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4268",
+      "tableAddress": "0x6eac",
+      "jumpBase": "0x6eac",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x417c",
+        "0x422a",
+        "0x426c",
+        "0x4282",
+        "0x42e2",
+        "0x45a0",
+        "0x45d4",
+        "0x45dc",
+        "0x45e4",
+        "0x45ec",
+        "0x461a",
+        "0x4622"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x42de",
+      "tableAddress": "0x6f3c",
+      "jumpBase": "0x6f3c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x422a",
+        "0x45f4",
+        "0x461a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x53aa",
+      "tableAddress": "0x6f90",
+      "jumpBase": "0x6f90",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x53c6",
+        "0x53dc",
+        "0x53e6",
+        "0x5404",
+        "0x542a",
+        "0x5458",
+        "0x548e",
+        "0x54cc",
+        "0x5512",
+        "0x5560"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

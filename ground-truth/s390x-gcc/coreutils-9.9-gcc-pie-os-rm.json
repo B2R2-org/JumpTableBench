@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-rm",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2ed0",
+      "tableAddress": "0xd338",
+      "jumpBase": "0xd338",
+      "entrySize": 8,
+      "numEntries": 4,
+      "targets": [
+        "0x2f88",
+        "0x2f90",
+        "0x2fda",
+        "0x303a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x96fe",
+      "tableAddress": "0xdaf8",
+      "jumpBase": "0xdaf8",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x9710",
+        "0x973e",
+        "0x978e",
+        "0x9900",
+        "0x993c",
+        "0x998c",
+        "0x99ca",
+        "0x99ee",
+        "0x9a6e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9cc2",
+      "tableAddress": "0xdb50",
+      "jumpBase": "0xdb50",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x9c2c",
+        "0x9c4c",
+        "0x9cc6",
+        "0x9cdc",
+        "0x9d3a",
+        "0xa026",
+        "0xa060",
+        "0xa068",
+        "0xa070",
+        "0xa078",
+        "0xa0ac",
+        "0xa0ba"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9d36",
+      "tableAddress": "0xdc70",
+      "jumpBase": "0xdc70",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x9c2c",
+        "0xa080",
+        "0xa0ac"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb198",
+      "tableAddress": "0xdfc0",
+      "jumpBase": "0xdfc0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xb1b8",
+        "0xb1d8",
+        "0xb1f8",
+        "0xb206",
+        "0xb236",
+        "0xb272",
+        "0xb2ba",
+        "0xb30e",
+        "0xb36e",
+        "0xb3da"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-dd",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x8040",
+      "tableAddress": "0xeb70",
+      "jumpBase": "0xeb70",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x8050",
+        "0x8078",
+        "0x80be",
+        "0x81ec",
+        "0x8210",
+        "0x8256",
+        "0x828e",
+        "0x82ba",
+        "0x82ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8560",
+      "tableAddress": "0xeb9c",
+      "jumpBase": "0xeb9c",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x8474",
+        "0x8522",
+        "0x8564",
+        "0x857a",
+        "0x85da",
+        "0x8898",
+        "0x88cc",
+        "0x88d4",
+        "0x88dc",
+        "0x88e4",
+        "0x8912",
+        "0x891a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x85d6",
+      "tableAddress": "0xec2c",
+      "jumpBase": "0xec2c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x8522",
+        "0x88ec",
+        "0x8912"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x96a2",
+      "tableAddress": "0xec80",
+      "jumpBase": "0xec80",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x96be",
+        "0x96d4",
+        "0x96de",
+        "0x96fc",
+        "0x9722",
+        "0x9750",
+        "0x9786",
+        "0x97c4",
+        "0x980a",
+        "0x9858"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa084",
+      "tableAddress": "0xece8",
+      "jumpBase": "0xece8",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x9f88",
+        "0xa098",
+        "0xa132",
+        "0xa192",
+        "0xa2a2",
+        "0xa2c6",
+        "0xa2ce",
+        "0xa2e2",
+        "0xa3a6",
+        "0xa5ca",
+        "0xa670",
+        "0xa716",
+        "0xa8aa",
+        "0xa8be",
+        "0xa964"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

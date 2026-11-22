@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-rm",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2268",
+      "tableAddress": "0xc318",
+      "jumpBase": "0xc318",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x230e",
+        "0x2316",
+        "0x235a",
+        "0x23aa"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7ce0",
+      "tableAddress": "0xc490",
+      "jumpBase": "0xc490",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x7cf0",
+        "0x7d18",
+        "0x7d5e",
+        "0x7e8c",
+        "0x7eb0",
+        "0x7ef6",
+        "0x7f2e",
+        "0x7f5a",
+        "0x7f8c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8200",
+      "tableAddress": "0xc4bc",
+      "jumpBase": "0xc4bc",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x8114",
+        "0x81c2",
+        "0x8204",
+        "0x821a",
+        "0x827a",
+        "0x8538",
+        "0x856c",
+        "0x8574",
+        "0x857c",
+        "0x8584",
+        "0x85b2",
+        "0x85ba"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8276",
+      "tableAddress": "0xc54c",
+      "jumpBase": "0xc54c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x81c2",
+        "0x858c",
+        "0x85b2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9402",
+      "tableAddress": "0xc5a0",
+      "jumpBase": "0xc5a0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x941e",
+        "0x9434",
+        "0x943e",
+        "0x945c",
+        "0x9482",
+        "0x94b0",
+        "0x94e6",
+        "0x9524",
+        "0x956a",
+        "0x95b8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

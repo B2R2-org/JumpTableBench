@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-nopie-os-fold",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x403bce",
+      "tableAddress": "0x407670",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x403be0",
+        "0x403c08",
+        "0x403c4a",
+        "0x403d76",
+        "0x403d9a",
+        "0x403ddc",
+        "0x403e14",
+        "0x403e44",
+        "0x403e7a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404104",
+      "tableAddress": "0x40769c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x404004",
+        "0x4040be",
+        "0x404106",
+        "0x40411c",
+        "0x40417e",
+        "0x404402",
+        "0x404436",
+        "0x40443e",
+        "0x404446",
+        "0x40444e",
+        "0x40447c",
+        "0x404482"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40417c",
+      "tableAddress": "0x40772c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x4040be",
+        "0x404456",
+        "0x40447c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405152",
+      "tableAddress": "0x4077b8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x40516c",
+        "0x405186",
+        "0x4051a0",
+        "0x4051aa",
+        "0x4051d0",
+        "0x4051fe",
+        "0x405234",
+        "0x405272",
+        "0x4052b8",
+        "0x405306"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405c5a",
+      "tableAddress": "0x407818",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x405b58",
+        "0x405c70",
+        "0x405cf8",
+        "0x405d82",
+        "0x405e8a",
+        "0x405eb4",
+        "0x405ebc",
+        "0x405ed4",
+        "0x405f52",
+        "0x406070",
+        "0x4060ee",
+        "0x40616c",
+        "0x4062a6",
+        "0x4062be",
+        "0x40633c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

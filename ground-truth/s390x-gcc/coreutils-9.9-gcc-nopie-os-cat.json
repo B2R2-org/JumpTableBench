@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-nopie-os-cat",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x10025c2",
+      "tableAddress": "0x10075b8",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 21,
+      "targets": [
+        "0x1002512",
+        "0x100259c",
+        "0x10025dc",
+        "0x10025e4",
+        "0x10025e8",
+        "0x1002670",
+        "0x100267c",
+        "0x1002680"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1004c18",
+      "tableAddress": "0x1008028",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x1004c2e",
+        "0x1004c5c",
+        "0x1004ca6",
+        "0x1004e12",
+        "0x1004e4e",
+        "0x1004e98",
+        "0x1004ed6",
+        "0x1004efa",
+        "0x1004f80"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10051e4",
+      "tableAddress": "0x1008080",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x1005146",
+        "0x100516a",
+        "0x10051e6",
+        "0x10051fc",
+        "0x100525c",
+        "0x10054e0",
+        "0x100551a",
+        "0x1005522",
+        "0x100552a",
+        "0x1005532",
+        "0x1005566",
+        "0x100556e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x100525a",
+      "tableAddress": "0x10081a0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x1005146",
+        "0x100553a",
+        "0x1005566"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1006552",
+      "tableAddress": "0x1008570",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1006570",
+        "0x1006590",
+        "0x10065b0",
+        "0x10065be",
+        "0x10065ee",
+        "0x100662a",
+        "0x1006672",
+        "0x10066c6",
+        "0x1006726",
+        "0x1006792"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

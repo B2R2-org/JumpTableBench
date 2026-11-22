@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-sha1sum",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2bf8",
+      "tableAddress": "0xa958",
+      "jumpBase": "0xa958",
+      "entrySize": 8,
+      "numEntries": 4,
+      "targets": [
+        "0x2bfc",
+        "0x2c20",
+        "0x2c36",
+        "0x2d06"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6e76",
+      "tableAddress": "0xac10",
+      "jumpBase": "0xac10",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x6e88",
+        "0x6eb6",
+        "0x6f06",
+        "0x7078",
+        "0x70b4",
+        "0x7104",
+        "0x7142",
+        "0x7166",
+        "0x71e6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x743a",
+      "tableAddress": "0xac68",
+      "jumpBase": "0xac68",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x73a4",
+        "0x73c4",
+        "0x743e",
+        "0x7454",
+        "0x74b2",
+        "0x779e",
+        "0x77d8",
+        "0x77e0",
+        "0x77e8",
+        "0x77f0",
+        "0x7824",
+        "0x7832"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x74ae",
+      "tableAddress": "0xad88",
+      "jumpBase": "0xad88",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x73a4",
+        "0x77f8",
+        "0x7824"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8858",
+      "tableAddress": "0xb0f0",
+      "jumpBase": "0xb0f0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x8878",
+        "0x8898",
+        "0x88b8",
+        "0x88c6",
+        "0x88f6",
+        "0x8932",
+        "0x897a",
+        "0x89ce",
+        "0x8a2e",
+        "0x8a9a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

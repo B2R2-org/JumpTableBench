@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-clang/coreutils-9.9-clang-pie-os-comm",
+  "arch": "s390x",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x26a2",
+      "tableAddress": "0x7890",
+      "jumpBase": "0x7890",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x26a4",
+        "0x26d4",
+        "0x272e",
+        "0x2736"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x47fe",
+      "tableAddress": "0x8198",
+      "jumpBase": "0x8198",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x4800",
+        "0x4838",
+        "0x48a4",
+        "0x48bc",
+        "0x48c4",
+        "0x48cc",
+        "0x48e4",
+        "0x4904",
+        "0x490a",
+        "0x4968"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4b04",
+      "tableAddress": "0x81c4",
+      "jumpBase": "0x81c4",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x4b06",
+        "0x4be4",
+        "0x4c04",
+        "0x4c16",
+        "0x4c1a",
+        "0x4c2a",
+        "0x4c52",
+        "0x4c5a",
+        "0x4c62",
+        "0x4c6a",
+        "0x4c6e",
+        "0x4c7e",
+        "0x4d6e",
+        "0x4d9c",
+        "0x4da4",
+        "0x4e46",
+        "0x5084"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5e72",
+      "tableAddress": "0x844c",
+      "jumpBase": "0x844c",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5e74",
+        "0x5e94",
+        "0x5ec6",
+        "0x5f2e",
+        "0x5f48",
+        "0x5f68",
+        "0x5fb8",
+        "0x5ff6",
+        "0x60a8",
+        "0x6110"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6278",
+      "tableAddress": "0x8474",
+      "jumpBase": "0x8474",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x627a",
+        "0x629a",
+        "0x62cc",
+        "0x6334",
+        "0x634e",
+        "0x636e",
+        "0x63be",
+        "0x63fc",
+        "0x64ae",
+        "0x6516"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

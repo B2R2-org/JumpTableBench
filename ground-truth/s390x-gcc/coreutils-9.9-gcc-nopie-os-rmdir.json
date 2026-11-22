@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-nopie-os-rmdir",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1003d48",
+      "tableAddress": "0x1007038",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x1003d5e",
+        "0x1003d8c",
+        "0x1003dd6",
+        "0x1003f42",
+        "0x1003f7e",
+        "0x1003fc8",
+        "0x1004006",
+        "0x100402a",
+        "0x10040b0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1004314",
+      "tableAddress": "0x1007090",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x1004276",
+        "0x100429a",
+        "0x1004316",
+        "0x100432c",
+        "0x100438c",
+        "0x1004610",
+        "0x100464a",
+        "0x1004652",
+        "0x100465a",
+        "0x1004662",
+        "0x1004696",
+        "0x100469e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x100438a",
+      "tableAddress": "0x10071b0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x1004276",
+        "0x100466a",
+        "0x1004696"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1005612",
+      "tableAddress": "0x1007580",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1005630",
+        "0x1005650",
+        "0x1005670",
+        "0x100567e",
+        "0x10056ae",
+        "0x10056ea",
+        "0x1005732",
+        "0x1005786",
+        "0x10057e6",
+        "0x1005852"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

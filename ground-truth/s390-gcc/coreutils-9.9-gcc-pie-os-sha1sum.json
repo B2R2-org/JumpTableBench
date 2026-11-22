@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-sha1sum",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2088",
+      "tableAddress": "0x97b8",
+      "jumpBase": "0x97b8",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x208c",
+        "0x20b0",
+        "0x20c6",
+        "0x217a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5e50",
+      "tableAddress": "0x9870",
+      "jumpBase": "0x9870",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x5e60",
+        "0x5e88",
+        "0x5ece",
+        "0x5ffc",
+        "0x6020",
+        "0x6066",
+        "0x609e",
+        "0x60ca",
+        "0x60fc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6370",
+      "tableAddress": "0x989c",
+      "jumpBase": "0x989c",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x6284",
+        "0x6332",
+        "0x6374",
+        "0x638a",
+        "0x63ea",
+        "0x66a8",
+        "0x66dc",
+        "0x66e4",
+        "0x66ec",
+        "0x66f4",
+        "0x6722",
+        "0x672a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x63e6",
+      "tableAddress": "0x992c",
+      "jumpBase": "0x992c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x6332",
+        "0x66fc",
+        "0x6722"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x74da",
+      "tableAddress": "0x9980",
+      "jumpBase": "0x9980",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x74f6",
+        "0x750c",
+        "0x7516",
+        "0x7534",
+        "0x755a",
+        "0x7588",
+        "0x75be",
+        "0x75fc",
+        "0x7642",
+        "0x7690"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

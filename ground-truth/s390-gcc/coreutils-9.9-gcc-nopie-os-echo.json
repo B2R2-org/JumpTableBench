@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-nopie-os-echo",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x401892",
+      "tableAddress": "0x4045c4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 29,
+      "targets": [
+        "0x4016ee",
+        "0x401868",
+        "0x401894",
+        "0x4018aa",
+        "0x4018b2",
+        "0x4018ba",
+        "0x4018c2",
+        "0x4018ca",
+        "0x4018d2",
+        "0x4018da",
+        "0x401936",
+        "0x4019a2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x401bf6",
+      "tableAddress": "0x40459c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x401bf8",
+        "0x401c20",
+        "0x401c28",
+        "0x401c30",
+        "0x401c38"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x401c1e",
+      "tableAddress": "0x4045b0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x401c6a",
+        "0x401c70",
+        "0x401c76",
+        "0x401c7c",
+        "0x401c82"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4023ce",
+      "tableAddress": "0x405030",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x4023e0",
+        "0x402408",
+        "0x40244a",
+        "0x402576",
+        "0x40259a",
+        "0x4025dc",
+        "0x402614",
+        "0x402644",
+        "0x40267a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x402904",
+      "tableAddress": "0x40505c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x402804",
+        "0x4028be",
+        "0x402906",
+        "0x40291c",
+        "0x40297e",
+        "0x402c02",
+        "0x402c36",
+        "0x402c3e",
+        "0x402c46",
+        "0x402c4e",
+        "0x402c7c",
+        "0x402c82"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40297c",
+      "tableAddress": "0x4050ec",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x4028be",
+        "0x402c56",
+        "0x402c7c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403952",
+      "tableAddress": "0x405178",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x40396c",
+        "0x403986",
+        "0x4039a0",
+        "0x4039aa",
+        "0x4039d0",
+        "0x4039fe",
+        "0x403a34",
+        "0x403a72",
+        "0x403ab8",
+        "0x403b06"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

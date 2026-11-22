@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-clang/coreutils-9.9-clang-pie-os-sha1sum",
+  "arch": "s390x",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x276e",
+      "tableAddress": "0x9530",
+      "jumpBase": "0x9530",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x2770",
+        "0x27a8",
+        "0x27b2",
+        "0x27d6",
+        "0x27e4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x667e",
+      "tableAddress": "0xa2ac",
+      "jumpBase": "0xa2ac",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x6680",
+        "0x66b8",
+        "0x6724",
+        "0x673c",
+        "0x6744",
+        "0x674c",
+        "0x6764",
+        "0x6784",
+        "0x678a",
+        "0x67e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x6984",
+      "tableAddress": "0xa2d8",
+      "jumpBase": "0xa2d8",
+      "entrySize": 4,
+      "numEntries": 127,
+      "targets": [
+        "0x6986",
+        "0x6a64",
+        "0x6a84",
+        "0x6a96",
+        "0x6a9a",
+        "0x6aaa",
+        "0x6ad2",
+        "0x6ada",
+        "0x6ae2",
+        "0x6aea",
+        "0x6aee",
+        "0x6afe",
+        "0x6bee",
+        "0x6c1c",
+        "0x6c24",
+        "0x6cc6",
+        "0x6f04"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7bea",
+      "tableAddress": "0xa560",
+      "jumpBase": "0xa560",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x7bec",
+        "0x7c0c",
+        "0x7c3e",
+        "0x7ca6",
+        "0x7cc0",
+        "0x7ce0",
+        "0x7d30",
+        "0x7d6e",
+        "0x7e20",
+        "0x7e88"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7ff0",
+      "tableAddress": "0xa588",
+      "jumpBase": "0xa588",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x7ff2",
+        "0x8012",
+        "0x8044",
+        "0x80ac",
+        "0x80c6",
+        "0x80e6",
+        "0x8136",
+        "0x8174",
+        "0x8226",
+        "0x828e"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

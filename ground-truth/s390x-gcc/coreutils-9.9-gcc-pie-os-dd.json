@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-dd",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x8d36",
+      "tableAddress": "0xdb18",
+      "jumpBase": "0xdb18",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x8d48",
+        "0x8d76",
+        "0x8dc6",
+        "0x8f38",
+        "0x8f74",
+        "0x8fc4",
+        "0x9002",
+        "0x9026",
+        "0x90a6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x92fa",
+      "tableAddress": "0xdb70",
+      "jumpBase": "0xdb70",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x9264",
+        "0x9284",
+        "0x92fe",
+        "0x9314",
+        "0x9372",
+        "0x965e",
+        "0x9698",
+        "0x96a0",
+        "0x96a8",
+        "0x96b0",
+        "0x96e4",
+        "0x96f2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x936e",
+      "tableAddress": "0xdc90",
+      "jumpBase": "0xdc90",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x9264",
+        "0x96b8",
+        "0x96e4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa708",
+      "tableAddress": "0xe008",
+      "jumpBase": "0xe008",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xa728",
+        "0xa748",
+        "0xa768",
+        "0xa776",
+        "0xa7a6",
+        "0xa7e2",
+        "0xa82a",
+        "0xa87e",
+        "0xa8de",
+        "0xa94a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb2e4",
+      "tableAddress": "0xe0a8",
+      "jumpBase": "0xe0a8",
+      "entrySize": 8,
+      "numEntries": 54,
+      "targets": [
+        "0xb202",
+        "0xb2f8",
+        "0xb348",
+        "0xb360",
+        "0xb368",
+        "0xb3c8",
+        "0xb3e4",
+        "0xb3f4",
+        "0xb440",
+        "0xb4d0",
+        "0xb500",
+        "0xb530",
+        "0xb580",
+        "0xb592",
+        "0xb5c2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

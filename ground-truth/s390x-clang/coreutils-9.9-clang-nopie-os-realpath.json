@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-clang/coreutils-9.9-clang-nopie-os-realpath",
+  "arch": "s390x",
+  "compiler": "clang",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1006460",
+      "tableAddress": "0x1009998",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x1006462",
+        "0x100649c",
+        "0x1006502",
+        "0x100651a",
+        "0x1006522",
+        "0x100652a",
+        "0x1006542",
+        "0x1006562",
+        "0x1006568",
+        "0x10065c6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1006768",
+      "tableAddress": "0x10099f0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 127,
+      "targets": [
+        "0x100676a",
+        "0x1006842",
+        "0x1006862",
+        "0x1006874",
+        "0x1006878",
+        "0x1006888",
+        "0x10068b0",
+        "0x10068b8",
+        "0x10068c0",
+        "0x10068c8",
+        "0x10068cc",
+        "0x10068dc",
+        "0x10069cc",
+        "0x10069fa",
+        "0x1006a02",
+        "0x1006aa4",
+        "0x1006ce2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10079b2",
+      "tableAddress": "0x1009ed0",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x10079b4",
+        "0x10079d4",
+        "0x1007a06",
+        "0x1007a6e",
+        "0x1007a88",
+        "0x1007aa8",
+        "0x1007af8",
+        "0x1007b36",
+        "0x1007be8",
+        "0x1007c50"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1007db8",
+      "tableAddress": "0x1009f20",
+      "jumpBase": "0x0",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x1007dba",
+        "0x1007dda",
+        "0x1007e0c",
+        "0x1007e74",
+        "0x1007e8e",
+        "0x1007eae",
+        "0x1007efe",
+        "0x1007f3c",
+        "0x1007fee",
+        "0x1008056"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

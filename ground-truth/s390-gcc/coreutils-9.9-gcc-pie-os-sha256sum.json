@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-sha256sum",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x21a0",
+      "tableAddress": "0xac6c",
+      "jumpBase": "0xac6c",
+      "entrySize": 4,
+      "numEntries": 4,
+      "targets": [
+        "0x21a4",
+        "0x21c8",
+        "0x21de",
+        "0x2292"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7308",
+      "tableAddress": "0xae68",
+      "jumpBase": "0xae68",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x7318",
+        "0x7340",
+        "0x7386",
+        "0x74b4",
+        "0x74d8",
+        "0x751e",
+        "0x7556",
+        "0x7582",
+        "0x75b4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7828",
+      "tableAddress": "0xae94",
+      "jumpBase": "0xae94",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x773c",
+        "0x77ea",
+        "0x782c",
+        "0x7842",
+        "0x78a2",
+        "0x7b60",
+        "0x7b94",
+        "0x7b9c",
+        "0x7ba4",
+        "0x7bac",
+        "0x7bda",
+        "0x7be2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x789e",
+      "tableAddress": "0xaf24",
+      "jumpBase": "0xaf24",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x77ea",
+        "0x7bb4",
+        "0x7bda"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8992",
+      "tableAddress": "0xaf78",
+      "jumpBase": "0xaf78",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x89ae",
+        "0x89c4",
+        "0x89ce",
+        "0x89ec",
+        "0x8a12",
+        "0x8a40",
+        "0x8a76",
+        "0x8ab4",
+        "0x8afa",
+        "0x8b48"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

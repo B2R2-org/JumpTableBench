@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-pie-os-timeout",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x248c",
+      "tableAddress": "0x79e4",
+      "jumpBase": "0x79e4",
+      "entrySize": 4,
+      "numEntries": 12,
+      "targets": [
+        "0x246e",
+        "0x249e",
+        "0x24c0",
+        "0x24ce",
+        "0x24f8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x42c8",
+      "tableAddress": "0x7ae0",
+      "jumpBase": "0x7ae0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x42d8",
+        "0x4300",
+        "0x4346",
+        "0x4474",
+        "0x4498",
+        "0x44de",
+        "0x4516",
+        "0x4542",
+        "0x4574"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x47e8",
+      "tableAddress": "0x7b0c",
+      "jumpBase": "0x7b0c",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x46fc",
+        "0x47aa",
+        "0x47ec",
+        "0x4802",
+        "0x4862",
+        "0x4b20",
+        "0x4b54",
+        "0x4b5c",
+        "0x4b64",
+        "0x4b6c",
+        "0x4b9a",
+        "0x4ba2"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x485e",
+      "tableAddress": "0x7b9c",
+      "jumpBase": "0x7b9c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x47aa",
+        "0x4b74",
+        "0x4b9a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x5b72",
+      "tableAddress": "0x7bf0",
+      "jumpBase": "0x7bf0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x5b8e",
+        "0x5ba4",
+        "0x5bae",
+        "0x5bcc",
+        "0x5bf2",
+        "0x5c20",
+        "0x5c56",
+        "0x5c94",
+        "0x5cda",
+        "0x5d28"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-nopie-os-comm",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x401de6",
+      "tableAddress": "0x407088",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x401e12",
+        "0x401e32",
+        "0x401eb4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x403bc6",
+      "tableAddress": "0x407168",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x403bd8",
+        "0x403c00",
+        "0x403c42",
+        "0x403d6e",
+        "0x403d92",
+        "0x403dd4",
+        "0x403e0c",
+        "0x403e3c",
+        "0x403e72"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4040fc",
+      "tableAddress": "0x407194",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x403ffc",
+        "0x4040b6",
+        "0x4040fe",
+        "0x404114",
+        "0x404176",
+        "0x4043fa",
+        "0x40442e",
+        "0x404436",
+        "0x40443e",
+        "0x404446",
+        "0x404474",
+        "0x40447a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x404174",
+      "tableAddress": "0x407224",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x4040b6",
+        "0x40444e",
+        "0x404474"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x405212",
+      "tableAddress": "0x4072b0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x40522c",
+        "0x405246",
+        "0x405260",
+        "0x40526a",
+        "0x405290",
+        "0x4052be",
+        "0x4052f4",
+        "0x405332",
+        "0x405378",
+        "0x4053c6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

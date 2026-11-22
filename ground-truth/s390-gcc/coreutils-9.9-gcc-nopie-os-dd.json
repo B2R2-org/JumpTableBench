@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390-gcc/coreutils-9.9-gcc-nopie-os-dd",
+  "arch": "s390",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x407b7e",
+      "tableAddress": "0x40e2e8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x407b90",
+        "0x407bb8",
+        "0x407bfa",
+        "0x407d26",
+        "0x407d4a",
+        "0x407d8c",
+        "0x407dc4",
+        "0x407df4",
+        "0x407e2a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4080b4",
+      "tableAddress": "0x40e314",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x407fb4",
+        "0x40806e",
+        "0x4080b6",
+        "0x4080cc",
+        "0x40812e",
+        "0x4083b2",
+        "0x4083e6",
+        "0x4083ee",
+        "0x4083f6",
+        "0x4083fe",
+        "0x40842c",
+        "0x408432"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x40812c",
+      "tableAddress": "0x40e3a4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x40806e",
+        "0x408406",
+        "0x40842c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x409102",
+      "tableAddress": "0x40e430",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x40911c",
+        "0x409136",
+        "0x409150",
+        "0x40915a",
+        "0x409180",
+        "0x4091ae",
+        "0x4091e4",
+        "0x409222",
+        "0x409268",
+        "0x4092b6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x409a9a",
+      "tableAddress": "0x40e490",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x409998",
+        "0x409ab0",
+        "0x409b38",
+        "0x409bc2",
+        "0x409cca",
+        "0x409cf4",
+        "0x409cfc",
+        "0x409d14",
+        "0x409d92",
+        "0x409eb0",
+        "0x409f2e",
+        "0x409fac",
+        "0x40a0e6",
+        "0x40a0fe",
+        "0x40a17c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

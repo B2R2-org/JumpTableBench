@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-sha512sum",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2d78",
+      "tableAddress": "0xdd28",
+      "jumpBase": "0xdd28",
+      "entrySize": 8,
+      "numEntries": 4,
+      "targets": [
+        "0x2d7c",
+        "0x2da0",
+        "0x2db6",
+        "0x2e86"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa246",
+      "tableAddress": "0xe358",
+      "jumpBase": "0xe358",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0xa258",
+        "0xa286",
+        "0xa2d6",
+        "0xa448",
+        "0xa484",
+        "0xa4d4",
+        "0xa512",
+        "0xa536",
+        "0xa5b6"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa80a",
+      "tableAddress": "0xe3b0",
+      "jumpBase": "0xe3b0",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0xa774",
+        "0xa794",
+        "0xa80e",
+        "0xa824",
+        "0xa882",
+        "0xab6e",
+        "0xaba8",
+        "0xabb0",
+        "0xabb8",
+        "0xabc0",
+        "0xabf4",
+        "0xac02"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa87e",
+      "tableAddress": "0xe4d0",
+      "jumpBase": "0xe4d0",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0xa774",
+        "0xabc8",
+        "0xabf4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xbc28",
+      "tableAddress": "0xe838",
+      "jumpBase": "0xe838",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0xbc48",
+        "0xbc68",
+        "0xbc88",
+        "0xbc96",
+        "0xbcc6",
+        "0xbd02",
+        "0xbd4a",
+        "0xbd9e",
+        "0xbdfe",
+        "0xbe6a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

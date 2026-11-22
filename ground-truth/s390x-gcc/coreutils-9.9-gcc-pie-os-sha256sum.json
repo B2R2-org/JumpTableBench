@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "s390x-gcc/coreutils-9.9-gcc-pie-os-sha256sum",
+  "arch": "s390x",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2d78",
+      "tableAddress": "0xbe48",
+      "jumpBase": "0xbe48",
+      "entrySize": 8,
+      "numEntries": 4,
+      "targets": [
+        "0x2d7c",
+        "0x2da0",
+        "0x2db6",
+        "0x2e86"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x836e",
+      "tableAddress": "0xc238",
+      "jumpBase": "0xc238",
+      "entrySize": 8,
+      "numEntries": 11,
+      "targets": [
+        "0x8380",
+        "0x83ae",
+        "0x83fe",
+        "0x8570",
+        "0x85ac",
+        "0x85fc",
+        "0x863a",
+        "0x865e",
+        "0x86de"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8932",
+      "tableAddress": "0xc290",
+      "jumpBase": "0xc290",
+      "entrySize": 8,
+      "numEntries": 36,
+      "targets": [
+        "0x889c",
+        "0x88bc",
+        "0x8936",
+        "0x894c",
+        "0x89aa",
+        "0x8c96",
+        "0x8cd0",
+        "0x8cd8",
+        "0x8ce0",
+        "0x8ce8",
+        "0x8d1c",
+        "0x8d2a"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x89a6",
+      "tableAddress": "0xc3b0",
+      "jumpBase": "0xc3b0",
+      "entrySize": 8,
+      "numEntries": 3,
+      "targets": [
+        "0x889c",
+        "0x8cf0",
+        "0x8d1c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9d50",
+      "tableAddress": "0xc718",
+      "jumpBase": "0xc718",
+      "entrySize": 8,
+      "numEntries": 10,
+      "targets": [
+        "0x9d70",
+        "0x9d90",
+        "0x9db0",
+        "0x9dbe",
+        "0x9dee",
+        "0x9e2a",
+        "0x9e72",
+        "0x9ec6",
+        "0x9f26",
+        "0x9f92"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
