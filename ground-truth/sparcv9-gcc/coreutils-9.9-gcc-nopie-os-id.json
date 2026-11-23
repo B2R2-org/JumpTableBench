@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "sparcv9-gcc/coreutils-9.9-gcc-nopie-os-id",
+  "arch": "sparcv9",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x10385c",
+      "tableAddress": "0x103710",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x10386c",
+        "0x103890",
+        "0x1038cc",
+        "0x103aa0",
+        "0x103acc",
+        "0x103ad8",
+        "0x103af0",
+        "0x103b3c",
+        "0x103b5c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x103e00",
+      "tableAddress": "0x103680",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x103c74",
+        "0x103e08",
+        "0x103e24",
+        "0x103e98",
+        "0x103ec0",
+        "0x103ec8",
+        "0x103ed0",
+        "0x10417c",
+        "0x104184",
+        "0x1041b0",
+        "0x1041b8",
+        "0x1041c0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1050a8",
+      "tableAddress": "0x104fe8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x1050d4",
+        "0x1050e8",
+        "0x105100",
+        "0x10511c",
+        "0x10514c",
+        "0x105184",
+        "0x1051c4",
+        "0x10520c",
+        "0x10525c",
+        "0x1052ac"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x105bf0",
+      "tableAddress": "0x105968",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x105b1c",
+        "0x105c10",
+        "0x105c70",
+        "0x105c84",
+        "0x105cb4",
+        "0x105d10",
+        "0x105d2c",
+        "0x105d38",
+        "0x105db0",
+        "0x105e44",
+        "0x105ea4",
+        "0x105f04",
+        "0x105fe0",
+        "0x105fec",
+        "0x10604c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

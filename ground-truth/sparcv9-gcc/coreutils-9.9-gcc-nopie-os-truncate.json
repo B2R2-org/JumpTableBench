@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "sparcv9-gcc/coreutils-9.9-gcc-nopie-os-truncate",
+  "arch": "sparcv9",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x1035cc",
+      "tableAddress": "0x103480",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x1035dc",
+        "0x103600",
+        "0x10363c",
+        "0x103810",
+        "0x10383c",
+        "0x103848",
+        "0x103860",
+        "0x1038ac",
+        "0x1038cc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x103b70",
+      "tableAddress": "0x1033f0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x1039e4",
+        "0x103b78",
+        "0x103b94",
+        "0x103c08",
+        "0x103c30",
+        "0x103c38",
+        "0x103c40",
+        "0x103eec",
+        "0x103ef4",
+        "0x103f20",
+        "0x103f28",
+        "0x103f30"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x104ac8",
+      "tableAddress": "0x104a08",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x104af4",
+        "0x104b08",
+        "0x104b20",
+        "0x104b3c",
+        "0x104b6c",
+        "0x104ba4",
+        "0x104be4",
+        "0x104c2c",
+        "0x104c7c",
+        "0x104ccc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x10574c",
+      "tableAddress": "0x105468",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x105670",
+        "0x10576c",
+        "0x1057d4",
+        "0x1057f0",
+        "0x1057f8",
+        "0x105810",
+        "0x105818",
+        "0x105820",
+        "0x105828",
+        "0x105830",
+        "0x105838",
+        "0x105840",
+        "0x105848",
+        "0x105880",
+        "0x105888"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

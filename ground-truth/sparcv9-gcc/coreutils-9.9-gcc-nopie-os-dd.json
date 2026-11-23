@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "sparcv9-gcc/coreutils-9.9-gcc-nopie-os-dd",
+  "arch": "sparcv9",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x107a84",
+      "tableAddress": "0x107938",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x107a94",
+        "0x107ab8",
+        "0x107af4",
+        "0x107cc8",
+        "0x107cf4",
+        "0x107d00",
+        "0x107d18",
+        "0x107d64",
+        "0x107d84"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x108028",
+      "tableAddress": "0x1078a8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x107e9c",
+        "0x108030",
+        "0x10804c",
+        "0x1080c0",
+        "0x1080e8",
+        "0x1080f0",
+        "0x1080f8",
+        "0x1083a4",
+        "0x1083ac",
+        "0x1083d8",
+        "0x1083e0",
+        "0x1083e8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x108f80",
+      "tableAddress": "0x108ec0",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x108fac",
+        "0x108fc0",
+        "0x108fd8",
+        "0x108ff4",
+        "0x109024",
+        "0x10905c",
+        "0x10909c",
+        "0x1090e4",
+        "0x109134",
+        "0x109184"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x109a80",
+      "tableAddress": "0x1097f8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x1099ac",
+        "0x109aa0",
+        "0x109b00",
+        "0x109b14",
+        "0x109b44",
+        "0x109ba0",
+        "0x109bbc",
+        "0x109bc8",
+        "0x109c40",
+        "0x109cd4",
+        "0x109d34",
+        "0x109d94",
+        "0x109e70",
+        "0x109e7c",
+        "0x109edc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

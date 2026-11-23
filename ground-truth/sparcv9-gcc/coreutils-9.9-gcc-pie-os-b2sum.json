@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "sparcv9-gcc/coreutils-9.9-gcc-pie-os-b2sum",
+  "arch": "sparcv9",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2424",
+      "tableAddress": "0x2228",
+      "jumpBase": "0x2228",
+      "entrySize": 4,
+      "numEntries": 25,
+      "targets": [
+        "0x2404",
+        "0x242c",
+        "0x2448",
+        "0x249c",
+        "0x24d4",
+        "0x24fc",
+        "0x2514",
+        "0x2544",
+        "0x2554",
+        "0x25ec"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x7d84",
+      "tableAddress": "0x7c08",
+      "jumpBase": "0x7c08",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x7d94",
+        "0x7db8",
+        "0x7e00",
+        "0x7fe4",
+        "0x8018",
+        "0x8024",
+        "0x803c",
+        "0x8090",
+        "0x80b0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x8360",
+      "tableAddress": "0x7b78",
+      "jumpBase": "0x7b78",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x81d4",
+        "0x8368",
+        "0x8384",
+        "0x83f8",
+        "0x8420",
+        "0x8428",
+        "0x8430",
+        "0x86dc",
+        "0x86e4",
+        "0x8710",
+        "0x8718",
+        "0x8720"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x93dc",
+      "tableAddress": "0x92f8",
+      "jumpBase": "0x92f8",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x940c",
+        "0x9424",
+        "0x9440",
+        "0x9460",
+        "0x9494",
+        "0x94d0",
+        "0x9514",
+        "0x9560",
+        "0x95b4",
+        "0x9608"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa078",
+      "tableAddress": "0x9de0",
+      "jumpBase": "0x9de0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x9fa0",
+        "0xa098",
+        "0xa0f8",
+        "0xa10c",
+        "0xa13c",
+        "0xa198",
+        "0xa1b4",
+        "0xa1c0",
+        "0xa238",
+        "0xa2cc",
+        "0xa32c",
+        "0xa38c",
+        "0xa468",
+        "0xa474",
+        "0xa4d4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
