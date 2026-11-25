@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "hppa-gcc/coreutils-9.9-gcc-pie-os-dd",
+  "arch": "hppa",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0xa754",
+      "tableAddress": "0xa758",
+      "jumpBase": "0xa758",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0xa78c",
+        "0xa7b0",
+        "0xa7ec",
+        "0xa9d4",
+        "0xa9f0",
+        "0xaa10",
+        "0xaa5c",
+        "0xaa88",
+        "0xaab0"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xad04",
+      "tableAddress": "0xad08",
+      "jumpBase": "0xad08",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0xabe0",
+        "0xacc0",
+        "0xad98",
+        "0xadb0",
+        "0xae48",
+        "0xb0b0",
+        "0xb0b8",
+        "0xb0dc",
+        "0xb0e4",
+        "0xb0ec",
+        "0xb118",
+        "0xb120"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xae38",
+      "tableAddress": "0xae3c",
+      "jumpBase": "0xae3c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0xacc0",
+        "0xb0f4",
+        "0xb118"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xc114",
+      "tableAddress": "0xc118",
+      "jumpBase": "0xc118",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0xc164",
+        "0xc17c",
+        "0xc198",
+        "0xc1c0",
+        "0xc1f0",
+        "0xc228",
+        "0xc268",
+        "0xc2b0",
+        "0xc300",
+        "0xc358"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xcd9c",
+      "tableAddress": "0xcda0",
+      "jumpBase": "0xcda0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0xcca8",
+        "0xce90",
+        "0xcf84",
+        "0xd024",
+        "0xd0f4",
+        "0xd108",
+        "0xd110",
+        "0xd128",
+        "0xd1d4",
+        "0xd2e8",
+        "0xd394",
+        "0xd440",
+        "0xd5b8",
+        "0xd5cc",
+        "0xd680"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

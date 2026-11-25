@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "hppa-gcc/coreutils-9.9-gcc-pie-os-rm",
+  "arch": "hppa",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2b48",
+      "tableAddress": "0x2b4c",
+      "jumpBase": "0x2b4c",
+      "entrySize": 4,
+      "numEntries": 19,
+      "targets": [
+        "0x2b20",
+        "0x2ba4",
+        "0x2c08",
+        "0x2c88",
+        "0x2c94",
+        "0x2cd0",
+        "0x2d34",
+        "0x2d40"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x9cb4",
+      "tableAddress": "0x9cb8",
+      "jumpBase": "0x9cb8",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x9cec",
+        "0x9d10",
+        "0x9d4c",
+        "0x9f34",
+        "0x9f50",
+        "0x9f70",
+        "0x9fbc",
+        "0x9fe8",
+        "0xa010"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa264",
+      "tableAddress": "0xa268",
+      "jumpBase": "0xa268",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0xa140",
+        "0xa220",
+        "0xa2f8",
+        "0xa310",
+        "0xa3a8",
+        "0xa610",
+        "0xa618",
+        "0xa63c",
+        "0xa644",
+        "0xa64c",
+        "0xa678",
+        "0xa680"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xa398",
+      "tableAddress": "0xa39c",
+      "jumpBase": "0xa39c",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0xa220",
+        "0xa654",
+        "0xa678"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0xb780",
+      "tableAddress": "0xb784",
+      "jumpBase": "0xb784",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0xb7d0",
+        "0xb7e8",
+        "0xb804",
+        "0xb82c",
+        "0xb85c",
+        "0xb894",
+        "0xb8d4",
+        "0xb91c",
+        "0xb96c",
+        "0xb9c4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

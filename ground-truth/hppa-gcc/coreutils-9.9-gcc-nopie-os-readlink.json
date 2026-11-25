@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "hppa-gcc/coreutils-9.9-gcc-nopie-os-readlink",
+  "arch": "hppa",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x11b18",
+      "tableAddress": "0x19b30",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x11af4",
+        "0x11b1c",
+        "0x11b24",
+        "0x11b34",
+        "0x11b40",
+        "0x11b50",
+        "0x11ba0",
+        "0x11ba8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x15338",
+      "tableAddress": "0x19c90",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x15344",
+        "0x15368",
+        "0x153a0",
+        "0x1557c",
+        "0x15598",
+        "0x155b8",
+        "0x15600",
+        "0x1562c",
+        "0x15650"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x15880",
+      "tableAddress": "0x19cbc",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x15768",
+        "0x15844",
+        "0x15884",
+        "0x1589c",
+        "0x15920",
+        "0x15b8c",
+        "0x15b94",
+        "0x15bb8",
+        "0x15bc0",
+        "0x15bc8",
+        "0x15bf4",
+        "0x15bfc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1591c",
+      "tableAddress": "0x19d4c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x15844",
+        "0x15bd0",
+        "0x15bf4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x16aa8",
+      "tableAddress": "0x19db4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x16acc",
+        "0x16ae4",
+        "0x16afc",
+        "0x16b24",
+        "0x16b54",
+        "0x16b8c",
+        "0x16bcc",
+        "0x16c14",
+        "0x16c64",
+        "0x16cbc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

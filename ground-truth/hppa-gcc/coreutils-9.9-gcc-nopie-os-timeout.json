@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "hppa-gcc/coreutils-9.9-gcc-nopie-os-timeout",
+  "arch": "hppa",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x11f54",
+      "tableAddress": "0x18310",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 12,
+      "targets": [
+        "0x11f34",
+        "0x11f68",
+        "0x11f88",
+        "0x11f98",
+        "0x11fbc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13ea4",
+      "tableAddress": "0x18428",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x13eb0",
+        "0x13ed4",
+        "0x13f0c",
+        "0x140e8",
+        "0x14104",
+        "0x14124",
+        "0x1416c",
+        "0x14198",
+        "0x141bc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x143ec",
+      "tableAddress": "0x18454",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x142d4",
+        "0x143b0",
+        "0x143f0",
+        "0x14408",
+        "0x1448c",
+        "0x146f8",
+        "0x14700",
+        "0x14724",
+        "0x1472c",
+        "0x14734",
+        "0x14760",
+        "0x14768"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x14488",
+      "tableAddress": "0x184e4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x143b0",
+        "0x1473c",
+        "0x14760"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x158a8",
+      "tableAddress": "0x1854c",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x158cc",
+        "0x158e4",
+        "0x158fc",
+        "0x15924",
+        "0x15954",
+        "0x1598c",
+        "0x159cc",
+        "0x15a14",
+        "0x15a64",
+        "0x15abc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

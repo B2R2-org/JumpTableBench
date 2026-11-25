@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "hppa-gcc/coreutils-9.9-gcc-nopie-os-id",
+  "arch": "hppa",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x13654",
+      "tableAddress": "0x18ea8",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x13660",
+        "0x13684",
+        "0x136bc",
+        "0x13898",
+        "0x138b4",
+        "0x138d4",
+        "0x1391c",
+        "0x13948",
+        "0x1396c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13b9c",
+      "tableAddress": "0x18ed4",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x13a84",
+        "0x13b60",
+        "0x13ba0",
+        "0x13bb8",
+        "0x13c3c",
+        "0x13ea8",
+        "0x13eb0",
+        "0x13ed4",
+        "0x13edc",
+        "0x13ee4",
+        "0x13f10",
+        "0x13f18"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x13c38",
+      "tableAddress": "0x18f64",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 3,
+      "targets": [
+        "0x13b60",
+        "0x13eec",
+        "0x13f10"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x151a8",
+      "tableAddress": "0x18fcc",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x151cc",
+        "0x151e4",
+        "0x151fc",
+        "0x15224",
+        "0x15254",
+        "0x1528c",
+        "0x152cc",
+        "0x15314",
+        "0x15364",
+        "0x153bc"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x15cb8",
+      "tableAddress": "0x19024",
+      "jumpBase": "0x0",
+      "entrySize": 4,
+      "numEntries": 54,
+      "targets": [
+        "0x15be0",
+        "0x15cd4",
+        "0x15d38",
+        "0x15d68",
+        "0x15da4",
+        "0x15db4",
+        "0x15dc4",
+        "0x15e1c",
+        "0x15e80",
+        "0x15ec4",
+        "0x15f08",
+        "0x15f84",
+        "0x15f94",
+        "0x15fd8",
+        "0x1601c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
