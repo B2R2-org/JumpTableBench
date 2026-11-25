@@ -8,8 +8,8 @@ reads a target out of a table in the binary. Recovering those tables is what
 decides whether a reconstructed CFG is complete, and getting it wrong is silent.
 This repository pins down the right answer for real binaries per
 architecture (x86, x64, 32-bit ARM, AArch64, MIPS, RISC-V, PowerPC, m68k,
-S390 and SPARC) so that a regression shows up as a failing check rather than
-as a quietly worse CFG.
+S390, SPARC and Alpha) so that a regression shows up as a failing check rather
+than as a quietly worse CFG.
 
 ## What is here
 
@@ -38,9 +38,9 @@ Every case is a stripped binary, built both as a PIE and as a non-PIE, named
 | -- | -- |
 | projects | GNU coreutils 9.9 and GNU binutils 2.45 |
 | compilers | gcc 16.2.0 and clang 23.0.0 |
-| architectures | `x86`, `x64`, ARMv7 as `armhf` (hard float) and `armel` (soft float), `aarch64`, big-endian MIPS32r2 (o32) and MIPS64r2 (n64) as `mips32` and `mips64`, RV32GC (ilp32d) and RV64GC (lp64d) as `riscv32` and `riscv64`, big-endian 32-bit PowerPC (SysV, hard float) and 64-bit PowerPC (ELFv1) as `ppc32` and `ppc64`, the Motorola 68020 as `m68k`, big-endian 31-bit S/390 and 64-bit z/Architecture as `s390` and `s390x`, and 64-bit SPARC V9 as `sparcv9` |
-| binaries | 546 (`x86`), 548 (`x64`), 397 each (`armhf`, `armel`), 548 (`aarch64`), 409 (`mips32`), 548 (`mips64`), 546 each (`riscv32`, `riscv64`), 548 each (`ppc32`, `ppc64`), 276 (`m68k`), 276 (`s390`), 548 (`s390x`) and 276 (`sparcv9`), of which 24, 24, 6, 24, 18, 24, 24, 24, 12, 12, 24 and 12 are from binutils |
-| tables | 10,458 (`x86`), 9,582 (`x64`), 5,279 each (`armhf`, `armel`), 5,581 (`aarch64`), 9,287 (`mips32`), 10,280 (`mips64`), 8,964 (`riscv32`), 8,273 (`riscv64`), 4,948 (`ppc32`), 4,528 (`ppc64`), 4,736 (`m68k`), 5,835 (`s390`), 11,861 (`s390x`) and 4,006 (`sparcv9`) |
+| architectures | `x86`, `x64`, ARMv7 as `armhf` (hard float) and `armel` (soft float), `aarch64`, big-endian MIPS32r2 (o32) and MIPS64r2 (n64) as `mips32` and `mips64`, RV32GC (ilp32d) and RV64GC (lp64d) as `riscv32` and `riscv64`, big-endian 32-bit PowerPC (SysV, hard float) and 64-bit PowerPC (ELFv1) as `ppc32` and `ppc64`, the Motorola 68020 as `m68k`, big-endian 31-bit S/390 and 64-bit z/Architecture as `s390` and `s390x`, 64-bit SPARC V9 as `sparcv9`, and Alpha as `alpha` |
+| binaries | 546 (`x86`), 548 (`x64`), 397 each (`armhf`, `armel`), 548 (`aarch64`), 409 (`mips32`), 548 (`mips64`), 546 each (`riscv32`, `riscv64`), 548 each (`ppc32`, `ppc64`), 276 (`m68k`), 276 (`s390`), 548 (`s390x`), 276 (`sparcv9`) and 276 (`alpha`), of which 24, 24, 6, 24, 18, 24, 24, 24, 12, 12, 24, 12 and 12 are from binutils |
+| tables | 10,458 (`x86`), 9,582 (`x64`), 5,279 each (`armhf`, `armel`), 5,581 (`aarch64`), 9,287 (`mips32`), 10,280 (`mips64`), 8,964 (`riscv32`), 8,273 (`riscv64`), 4,948 (`ppc32`), 4,528 (`ppc64`), 4,736 (`m68k`), 5,835 (`s390`), 11,861 (`s390x`), 4,006 (`sparcv9`) and 4,066 (`alpha`) |
 
 - We exclude 37 coreutils programs (e.g., ls, vdir, test, true, yes) whose jump tables are already covered by another included program, to avoid redundant evaluation. Two tables count as the same when their kind, entry size, entry count, and targets relative to the indirect branch all match; `scripts/find-redundant.py` lists any case that adds no distinct table.
 - We keep three binutils programs: `as-new`, `objdump` and `readelf`. The other seven link the same libbfd, so they add only about 10% of the distinct binutils tables but would take over 60% of the binutils scoring time.
@@ -141,4 +141,13 @@ already gets every jump table right at every optimization level, so we leave
 levels out only to keep the scoring time short:
 
 - We leave out `-O1` and `-O3` because they mostly repeat `-O2`: 81-90% of their tables have an `-O2` counterpart. gcc builds no jump table at `-O0`, and its `-Oz` binaries are byte for byte its `-Os` ones.
+- gcc builds `stdbuf` for both the PIE and the non-PIE build.
+
+### Alpha
+
+`alpha` takes gcc only, at `-O2` and `-Os`, binutils included: clang has no
+Alpha backend. B2R2 already gets every jump table right at every optimization
+level, so we leave levels out only to keep the scoring time short:
+
+- We leave out `-O1` and `-O3` because they mostly repeat `-O2`: 82-88% of their tables have an `-O2` counterpart. gcc builds no jump table at `-O0`, and its `-Oz` binaries are byte for byte its `-Os` ones.
 - gcc builds `stdbuf` for both the PIE and the non-PIE build.

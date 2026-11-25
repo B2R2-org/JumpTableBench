@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "alpha-gcc/coreutils-9.9-gcc-nopie-os-dircolors",
+  "arch": "alpha",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120005be4",
+      "tableAddress": "0x12000e3e8",
+      "jumpBase": "0x12002a058",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x120005bf0",
+        "0x120005c14",
+        "0x120005c6c",
+        "0x120005e60",
+        "0x120005e8c",
+        "0x120005e94",
+        "0x120005eac",
+        "0x120005f0c",
+        "0x120005f2c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000627c",
+      "tableAddress": "0x12000e414",
+      "jumpBase": "0x12002a058",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x1200060a4",
+        "0x120006280",
+        "0x120006294",
+        "0x1200062f8",
+        "0x120006310",
+        "0x120006314",
+        "0x12000631c",
+        "0x120006754",
+        "0x12000675c",
+        "0x12000677c",
+        "0x120006784",
+        "0x12000678c"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x1200078d4",
+      "tableAddress": "0x12000e814",
+      "jumpBase": "0x12002a058",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x120007900",
+        "0x120007924",
+        "0x12000793c",
+        "0x120007968",
+        "0x120007998",
+        "0x1200079d0",
+        "0x120007a10",
+        "0x120007a58",
+        "0x120007aa8",
+        "0x120007b00"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

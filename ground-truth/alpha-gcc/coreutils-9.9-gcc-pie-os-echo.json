@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "alpha-gcc/coreutils-9.9-gcc-pie-os-echo",
+  "arch": "alpha",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x2264",
+      "tableAddress": "0x5d6c",
+      "jumpBase": "0x200c8",
+      "entrySize": 4,
+      "numEntries": 29,
+      "targets": [
+        "0x2054",
+        "0x2228",
+        "0x2268",
+        "0x226c",
+        "0x2288",
+        "0x2290",
+        "0x2298",
+        "0x22a0",
+        "0x22a8",
+        "0x22b0",
+        "0x22b8",
+        "0x23b4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x25f0",
+      "tableAddress": "0x5d58",
+      "jumpBase": "0x200c8",
+      "entrySize": 4,
+      "numEntries": 5,
+      "targets": [
+        "0x2594",
+        "0x259c",
+        "0x25a4",
+        "0x25ac",
+        "0x25b4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x2e9c",
+      "tableAddress": "0x6488",
+      "jumpBase": "0x200c8",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x2ea8",
+        "0x2ecc",
+        "0x2f24",
+        "0x3118",
+        "0x3144",
+        "0x314c",
+        "0x3164",
+        "0x31c4",
+        "0x31e4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x3534",
+      "tableAddress": "0x64b4",
+      "jumpBase": "0x200c8",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x335c",
+        "0x3538",
+        "0x354c",
+        "0x35b0",
+        "0x35c8",
+        "0x35cc",
+        "0x35d4",
+        "0x3a0c",
+        "0x3a14",
+        "0x3a34",
+        "0x3a3c",
+        "0x3a44"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x4b8c",
+      "tableAddress": "0x685c",
+      "jumpBase": "0x200c8",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x4bb8",
+        "0x4bdc",
+        "0x4bf4",
+        "0x4c20",
+        "0x4c50",
+        "0x4c88",
+        "0x4cc8",
+        "0x4d10",
+        "0x4d60",
+        "0x4db8"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}

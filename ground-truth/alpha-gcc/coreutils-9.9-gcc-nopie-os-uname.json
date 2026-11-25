@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schema/jumptable.schema.json",
+  "id": "alpha-gcc/coreutils-9.9-gcc-nopie-os-uname",
+  "arch": "alpha",
+  "compiler": "gcc",
+  "optLevel": "Os",
+  "imageBase": "0x0",
+  "jumpTables": [
+    {
+      "insAddr": "0x120001f70",
+      "tableAddress": "0x120006cf8",
+      "jumpBase": "0x120022058",
+      "entrySize": 4,
+      "numEntries": 22,
+      "targets": [
+        "0x120001eb8",
+        "0x120001f74",
+        "0x120001f7c",
+        "0x120001f84",
+        "0x120001f8c",
+        "0x120001f94",
+        "0x120001f9c",
+        "0x120001fa4",
+        "0x120001fac",
+        "0x120001fb4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000385c",
+      "tableAddress": "0x120007138",
+      "jumpBase": "0x120022058",
+      "entrySize": 4,
+      "numEntries": 11,
+      "targets": [
+        "0x120003868",
+        "0x12000388c",
+        "0x1200038e4",
+        "0x120003ad8",
+        "0x120003b04",
+        "0x120003b0c",
+        "0x120003b24",
+        "0x120003b84",
+        "0x120003ba4"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x120003ef4",
+      "tableAddress": "0x120007164",
+      "jumpBase": "0x120022058",
+      "entrySize": 4,
+      "numEntries": 36,
+      "targets": [
+        "0x120003d1c",
+        "0x120003ef8",
+        "0x120003f0c",
+        "0x120003f70",
+        "0x120003f88",
+        "0x120003f8c",
+        "0x120003f94",
+        "0x1200043cc",
+        "0x1200043d4",
+        "0x1200043f4",
+        "0x1200043fc",
+        "0x120004404"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    },
+    {
+      "insAddr": "0x12000554c",
+      "tableAddress": "0x120007564",
+      "jumpBase": "0x120022058",
+      "entrySize": 4,
+      "numEntries": 10,
+      "targets": [
+        "0x120005578",
+        "0x12000559c",
+        "0x1200055b4",
+        "0x1200055e0",
+        "0x120005610",
+        "0x120005648",
+        "0x120005688",
+        "0x1200056d0",
+        "0x120005720",
+        "0x120005778"
+      ],
+      "kind": "switch",
+      "confidence": "exact"
+    }
+  ]
+}
